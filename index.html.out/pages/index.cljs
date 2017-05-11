@@ -21,7 +21,7 @@
     {:name "Raleway"
      :fallback "sans-serif"}])
   (h/link
-   :href "/app.css"
+   :href "app.css"
    :rel "stylesheet"
    :type "text/css"))
  (h/body
@@ -36,7 +36,7 @@
           :border-width "4px"
           :border-style "dotted"
           :border-color (first gradient-stops)
-          :border-image-source "url('/border-dots.svg')"
+          :border-image-source "url('border-dots.svg')"
           :border-image-slice "33% 33%"
           :border-image-repeat "round"
           :background-clip "padding-box"
