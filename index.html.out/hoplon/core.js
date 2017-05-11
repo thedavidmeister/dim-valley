@@ -94,7 +94,7 @@ var more = seq__8890__$1;
 var vec__8892 = clojure.string.split.call(null,f,/\./,(2));
 var f1 = cljs.core.nth.call(null,vec__8892,(0),null);
 var f2 = cljs.core.nth.call(null,vec__8892,(1),null);
-return clojure.string.join.call(null,"/",cljs.core.reverse.call(null,cljs.core.conj.call(null,more,clojure.string.join.call(null,".",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [[cljs.core.str(f1),cljs.core.str("."),cljs.core.str("d95c1218d99f4fc78dc92c0dd34a636a")].join(''),f2], null)))));
+return clojure.string.join.call(null,"/",cljs.core.reverse.call(null,cljs.core.conj.call(null,more,clojure.string.join.call(null,".",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [[cljs.core.str(f1),cljs.core.str("."),cljs.core.str("07a449fac68e488cab2bf6a2f190fec5")].join(''),f2], null)))));
 });
 /**
  * Public helper.

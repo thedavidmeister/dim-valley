@@ -48,21 +48,43 @@
       :css (merge
             {:margin "2.67rem 0"}
             (fonts.hoplon/font-map->css-map fonts.config/playfair))
-      (h/h1 "dim valley pty. ltd."
+      (h/h1 "Amelia Schmidt"
        :css {:margin 0
              :font-size "4rem"})
-      (h/span "modern business services."
+      (h/span "I believe the modern business consciously develops and evolves their unique model of doing business such that, over time, the needs of the business and customer quite naturally become one and the same."
        :css {:font-size "1rem"}))
 
      (h/img
       :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"
       :css {:width "75vw"
             :margin-left "-5vw"})
-     (h/h2 "Amelia Schmidt")
-     (h/blockquote "\"I believe the modern business consciously develops and evolves their model of doing business such that the needs of the business and customer very naturally become one and the same.")
 
-     (h/p "I am currently available for user experience (UX) research contracts, preparing and presenting educational courses, front-end engineering, and other public speaking/panel engagements.")
-     (h/p "I am passionate about the next generation of coders being women. I recently volunteered time and provided professional services for both " (h/a :href "https://codelikeagirl.org/" :target "_blank" "Code like a girl") " and " (h/a :href "https://girlsintech.org/" :target "_blank" "Girls in Tech") ".")
+     (h/h2 "User experience research")
 
-     (h/h2 "David Meister")
-     (h/blockquote "\"I believe the modern business is networked, data driven and highly automated"))))))
+     (h/ul
+      "I can provide the following UX services:"
+      (h/li "Design Sprint, Lean and Design Thinking workshops and planning facilitator")
+      (h/li "User testing at all phases of the product lifecycle")
+      (h/li "User interface prototyping and wireframing")
+      (h/li "User experience research data synthesis"))
+
+     (h/h2 "User interface engineering")
+
+     (h/ul
+      "I can provide the following front-end engineering services:"
+      (h/li "Advanced HTML/CSS implementations of preprocessors, frameworks, and other abstractions")
+      (h/li "Custom JavaScript leveraging popular frameworks such as React, Angular, jQuery, etc.")
+      (h/li "Custom Clojure(Script) using the Hoplon UI framework (this site is built on Hoplon)"))
+
+     (h/h2 "Modern business education")
+
+     (h/ul
+      "I can prepare and present educational courses on the following topics:"
+      (h/li "Agile project management")
+      (h/li "Design thinking")
+      (h/li "HTML, CSS and JavaScript")
+      (h/li "Web computer science fundamentals"))
+
+     (h/h2 "Public speaking, panel discussions, social change")
+
+     (h/p "I am passionate about the next generation of coders being women."))))))
