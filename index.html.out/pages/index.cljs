@@ -42,15 +42,22 @@
           :background-clip "padding-box"
           :border-right "none"}
     (h/div
-     :css (fonts.hoplon/font-map->css-map fonts.config/playfair)
-     (h/h1 "Dim valley pty. ltd."
-      :css {:margin-bottom 0})
-     "Modern business services.")
+     {:css {:width "70vw"}}
 
-    (layout.spacer/vertical-spacer)
+     (h/div
+      :css (fonts.hoplon/font-map->css-map fonts.config/playfair)
+      (h/h1 "Dim valley pty. ltd."
+       :css {:margin-bottom 0})
+      "Modern business services.")
 
-    (h/h2 "Amelia Schmidt")
-    (h/blockquote "\"I believe the modern business puts customer needs at the heart of their business model")
+     (layout.spacer/vertical-spacer)
 
-    (h/h2 "David Meister")
-    (h/blockquote "\"I believe the modern business is networked, data driven and highly automated")))))
+     (h/img :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large" :css {:width "100%"})
+     (h/blockquote "\"I believe the modern business consciously develops and adopts a model of doing business such that the needs of the business and customer very naturally become one and the same.")
+     (h/h2 "Amelia Schmidt")
+
+     (h/p "I am currently available for user experience (UX) research contracts, preparing and presenting educational courses, front-end engineering, and other public speaking/panel engagements.")
+     (h/p "I am passionate about the next generation of coders being women. I recently volunteered time and provided professional services for both " (h/a :href "https://codelikeagirl.org/" :target "_blank" "Code like a girl") " and " (h/a :href "https://girlsintech.org/" :target "_blank" "Girls in Tech") ".")
+
+     (h/h2 "David Meister")
+     (h/blockquote "\"I believe the modern business is networked, data driven and highly automated"))))))
