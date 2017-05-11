@@ -31,7 +31,7 @@
   (layout.middle-right/middle-right
    (h/div
     :css {
-          :padding (clojure.string/join " " [layout.config/spacer-height 0 layout.config/spacer-height layout.config/spacer-width])
+          :padding (clojure.string/join " " [0 0 layout.config/spacer-height layout.config/spacer-width])
           :background-color "white"
           :border-width "4px"
           :border-style "dotted"
@@ -45,16 +45,21 @@
      {:css {:width "70vw"}}
 
      (h/div
-      :css (fonts.hoplon/font-map->css-map fonts.config/playfair)
-      (h/h1 "Dim valley pty. ltd."
-       :css {:margin-bottom 0})
-      "Modern business services.")
+      :css (merge
+            {:margin "2.67rem 0"}
+            (fonts.hoplon/font-map->css-map fonts.config/playfair))
+      (h/h1 "dim valley pty. ltd."
+       :css {:margin 0
+             :font-size "4rem"})
+      (h/span "Modern business services."
+       :css {:font-size "1rem"}))
 
-     (layout.spacer/vertical-spacer)
-
-     (h/img :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large" :css {:width "100%"})
-     (h/blockquote "\"I believe the modern business consciously develops and adopts a model of doing business such that the needs of the business and customer very naturally become one and the same.")
+     (h/img
+      :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"
+      :css {:width "100%"
+            :margin-left "-5vw"})
      (h/h2 "Amelia Schmidt")
+     (h/blockquote "\"I believe the modern business consciously develops and evolves their model of doing business such that the needs of the business and customer very naturally become one and the same.")
 
      (h/p "I am currently available for user experience (UX) research contracts, preparing and presenting educational courses, front-end engineering, and other public speaking/panel engagements.")
      (h/p "I am passionate about the next generation of coders being women. I recently volunteered time and provided professional services for both " (h/a :href "https://codelikeagirl.org/" :target "_blank" "Code like a girl") " and " (h/a :href "https://girlsintech.org/" :target "_blank" "Girls in Tech") ".")
