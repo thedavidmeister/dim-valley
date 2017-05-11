@@ -2,13 +2,15 @@
  (:require
   colours.ui-gradients
   [hoplon.core :as h]
+  [javelin.core :as j]
   hoplon.jquery
   fonts.config
   fonts.hoplon
   fonts.google-fonts
   layout.config
   layout.spacer
-  layout.middle-right))
+  layout.middle-right
+  menu.flower))
 
 (def gradient-name "Day Tripper")
 (def gradient-stops (colours.ui-gradients/stops gradient-name))
@@ -28,6 +30,16 @@
   :css {:background (str "linear-gradient(to left, " (clojure.string/join ", " gradient-stops) ")")
         :min-height "100vh"}
 
+  (let [diameter 200]
+   (h/div
+    :css (j/cell= {:position "fixed"
+                   :bottom (str "calc(5vh + " (/ diameter 2) "px)")
+                   :left (str "calc(5vw + " (/ diameter 2) "px")
+                   :overflow "visible"})
+    (menu.flower/menu
+     ["A" "B" "C" "D" "E" "F"]
+     diameter)))
+
   (layout.middle-right/middle-right
    (h/div
     :css {
@@ -42,7 +54,7 @@
           :background-clip "padding-box"
           :border-right "none"}
     (h/div
-     {:css {:width "60vw"}}
+     {:css {:width "cacl(60vw - 4px)"}}
 
      (h/div
       :css (merge
@@ -51,12 +63,12 @@
       (h/h1 "Amelia Schmidt"
        :css {:margin 0
              :font-size "4rem"})
-      (h/span "I believe the modern business consciously develops and evolves their unique model of doing business such that, over time, the needs of the business and customer quite naturally become one and the same."
+      (h/span "I believe the modern business consciously develops and evolves its unique model and way of doing business such that, over time, the needs of the business and customer quite naturally become one and the same."
        :css {:font-size "1rem"}))
 
      (h/img
       :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"
-      :css {:width "75vw"
+      :css {:width "calc(75vw - 4px)"
             :margin-left "-5vw"})
 
      (h/h2 "User experience research")

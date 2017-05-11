@@ -4,23 +4,23 @@ goog.require('cljs.core');
 goog.require('layout.config');
 goog.require('hoplon.core');
 layout.spacer.vertical_spacer = (function layout$spacer$vertical_spacer(var_args){
-var args9389 = [];
-var len__7950__auto___9392 = arguments.length;
-var i__7951__auto___9393 = (0);
+var args9485 = [];
+var len__7950__auto___9488 = arguments.length;
+var i__7951__auto___9489 = (0);
 while(true){
-if((i__7951__auto___9393 < len__7950__auto___9392)){
-args9389.push((arguments[i__7951__auto___9393]));
+if((i__7951__auto___9489 < len__7950__auto___9488)){
+args9485.push((arguments[i__7951__auto___9489]));
 
-var G__9394 = (i__7951__auto___9393 + (1));
-i__7951__auto___9393 = G__9394;
+var G__9490 = (i__7951__auto___9489 + (1));
+i__7951__auto___9489 = G__9490;
 continue;
 } else {
 }
 break;
 }
 
-var G__9391 = args9389.length;
-switch (G__9391) {
+var G__9487 = args9485.length;
+switch (G__9487) {
 case 0:
 return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
 
@@ -30,7 +30,7 @@ return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$1((arguments[(0
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args9389.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args9485.length)].join('')));
 
 }
 });
