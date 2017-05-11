@@ -4,7 +4,7 @@ goog.require('cljs.core');
 goog.require('hoplon.core');
 goog.require('layout.config');
 layout.middle_right.spacer_td = (function layout$middle_right$spacer_td(){
-return hoplon.core.td.call(null,new cljs.core.Keyword(null,"css","css",1135045163),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"width","width",-384071477),layout.config.spacer_width,new cljs.core.Keyword(null,"height","height",1025178622),layout.config.spacer_height], null));
+return hoplon.core.td.call(null,new cljs.core.Keyword(null,"css","css",1135045163),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"width","width",-384071477),"25vw",new cljs.core.Keyword(null,"height","height",1025178622),"10vh"], null));
 });
 layout.middle_right.spacer_tr = (function layout$middle_right$spacer_tr(){
 return hoplon.core.tr.call(null,layout.middle_right.spacer_td.call(null),hoplon.core.td.call(null));

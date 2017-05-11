@@ -42,7 +42,7 @@
           :background-clip "padding-box"
           :border-right "none"}
     (h/div
-     {:css {:width "70vw"}}
+     {:css {:width "60vw"}}
 
      (h/div
       :css (merge
@@ -56,7 +56,7 @@
 
      (h/img
       :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"
-      :css {:width "100%"
+      :css {:width "75vw"
             :margin-left "-5vw"})
      (h/h2 "Amelia Schmidt")
      (h/blockquote "\"I believe the modern business consciously develops and evolves their model of doing business such that the needs of the business and customer very naturally become one and the same.")

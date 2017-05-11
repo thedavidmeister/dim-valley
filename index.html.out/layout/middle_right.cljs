@@ -5,8 +5,8 @@
 
 (defn spacer-td []
  (h/td
-  :css {:width layout.config/spacer-width
-        :height layout.config/spacer-height}))
+  :css {:width "25vw"
+        :height "10vh"}))
 
 (defn spacer-tr [] (h/tr (spacer-td) (h/td)))
 (defn content-tr [content] (h/tr (h/td) (h/td content)))
