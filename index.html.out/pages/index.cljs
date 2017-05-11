@@ -51,7 +51,7 @@
       (h/h1 "dim valley pty. ltd."
        :css {:margin 0
              :font-size "4rem"})
-      (h/span "Modern business services."
+      (h/span "modern business services."
        :css {:font-size "1rem"}))
 
      (h/img
