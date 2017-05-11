@@ -1,10 +1,12 @@
-(ns layouts.middle-right
- (:require [hoplon.core :as h]))
+(ns layout.middle-right
+ (:require
+  [hoplon.core :as h]
+  layout.config))
 
 (defn spacer-td []
  (h/td
-  :css {:width "5vw"
-        :height "5vh"}))
+  :css {:width layout.config/spacer-width
+        :height layout.config/spacer-height}))
 
 (defn spacer-tr [] (h/tr (spacer-td) (h/td)))
 (defn content-tr [content] (h/tr (h/td) (h/td content)))
