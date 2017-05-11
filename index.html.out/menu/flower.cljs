@@ -1,9 +1,14 @@
 (ns menu.flower
  (:require
   [hoplon.core :as h]
-  [javelin.core :as j]))
+  [javelin.core :as j]
+  fonts.hoplon
+  fonts.config
+  colours.ui-gradients))
 
 ; Hoplonified from https://codepen.io/jordanlachance/pen/yOJdRr
+
+(def easing "cubic-bezier(0.175, 0.885, 0.32, 1.275)")
 
 (defn polar->cartesian
  [radius radians]
@@ -12,35 +17,92 @@
 
 (defn n->px [n] (str n "px"))
 
+(defn outer-wrapper
+ [offset outer-radius item-radius & children]
+ (prn outer-radius)
+ (h/div
+  :css (j/cell= {:position "fixed"
+                 :left (n->px outer-radius)
+                 :bottom (n->px outer-radius)
+                 :overflow "visible"})
+  children))
+
 (defn open-button
- [open? radius]
- (let [open? (or open? (j/cell false))]
+ [open? radius transition-length]
+ (let [open? (or open? (j/cell false))
+       transition-length (/ transition-length 2)]
   (h/div
    :click #(swap! open? not)
    :css (j/cell= {; We give a couple px buffer to avoid antialiasing artefacts
                   ; when the circles are stacked in the z-axis.
-                  :width (+ radius 2)
-                  :height (+ radius 2)
-                  :background-color "white"
+                  :width (* radius 2)
+                  :height (* radius 2)
                   :border-radius (n->px radius)
                   :position "absolute"
-                  :left "-1px"
-                  :top "-2px"
+                  :left (n->px (- radius))
+                  :bottom (n->px (- radius))
                   :z-index 1
-                  :cursor "pointer"}))))
+                  :cursor "pointer"})
+
+   (let [width (j/cell= (/ radius 2))
+         ; sin(PI/4) = rotated-offset / width
+         ; rotated-offset = (width x sin(PI /4))
+         rotated-offset (j/cell= (/ (* width
+                                       (.sin js/Math (/ (.-PI js/Math) 4)))
+                                    2))
+         height (j/cell= (/ radius 12))
+         ; rotated-offset (j/cell= (* 2 width))
+         left (j/cell= (+ radius (- (/ width 2))))
+         top (j/cell= (+ radius (- (/ height 2))))
+         color (j/cell= (last (colours.ui-gradients/stops)))
+         default-css (j/cell= {:width (n->px width)
+                               :height (n->px height)
+                               :left (n->px left)
+                               :background-color color
+                               :position "absolute"
+                               :transition (str "transform " transition-length "s ease, "
+                                                "background-color " transition-length "s ease")})]
+    [
+     ; top line
+     (h/div
+      :css (j/cell= (merge
+                     default-css
+                     {:top (n->px (- top (* 2 height)))
+                      :transform (str
+                                      "translate3d(0px, " (if open? rotated-offset 0) "px, 0px)"
+                                      "rotate(" (if open? "45deg" "0deg") ") ")}
+                     (when open? {:background-color "white"}))))
+
+     ; center line
+     (h/div
+      :css (j/cell= (merge
+                     default-css
+                     {
+                      :top (n->px top)
+                      :transform (str "scale(" (if open? 0 1) ")")})))
+
+     ; bottom line
+     (h/div
+      :css (j/cell= (merge
+                     default-css
+                     {:top (n->px (+ top (* 2 height)))
+                      :transform (str
+                                      "translate3d(0px, -" (if open? rotated-offset 0) "px, 0px)"
+                                      "rotate(" (if open? "-45deg" "0deg") ") ")}
+                     (when open? {:background-color "white"}))))]))))
 
 (defn menu
- [items width]
+ [items radius]
  (let [open? (j/cell false)
-       ; Total width of the element = 2x menu item radius + 2x menu item offset.
-       ; Ratio = menu item radius / menu item offset.
-       ; Width / 2 = radius + offset
-       ; Width / 2 = (ratio x offset) + offset
-       ; Width / 2 = (1 + ratio) x offset
-       ; offset = Width / (2 x (1 + ratio))
-       ratio 0.5
-       offset (j/cell= (/ width (* 2 (+ 1 ratio))))
-       radius (j/cell= (* ratio offset))
+       ; Outer radius of the element = item radius + item offset.
+       ; Ratio = item radius / item offset.
+       ; Outer radius = radius + offset
+       ; Outer radius = (ratio x offset) + offset
+       ; Outer radius = (1 + ratio) x offset
+       ; offset = Outer radius / (1 + ratio)
+       ratio 0.4
+       offset (j/cell= (/ radius (+ 1 ratio)))
+       item-radius (j/cell= (* ratio offset))
 
        radians-per-item (j/cell= (/ (* 2 (.-PI js/Math)) (count items)))
        i-xy-item (j/cell=
@@ -50,28 +112,65 @@
                      (polar->cartesian offset (* i radians-per-item))
                      item])
                    items))
-       total-transition-length 0.6
+       total-transition-length 0.4
        base-transition-length (j/cell= (/ total-transition-length (count items)))]
-  (h/div
-   :css {:position "relative"
-         :z-index 1}
-   (open-button open? radius)
+  (outer-wrapper
+   0
+   radius
+   item-radius
+
+   (h/div
+    :css {:position "relative"
+          :z-index 1}
+    (open-button open? item-radius total-transition-length))
    (h/div
     :css {:z-index 0}
     (h/for-tpl [[i [x y] item] i-xy-item]
-     (h/div
-      :css (j/cell= (merge
-                     {:position "absolute"
-                      :left 0
-                      :top 0
-                      :background-color "white"
-                      :width radius
-                      :height radius
-                      :border-radius (n->px radius)
-                      :transition (let [transition-delay (if open?
-                                                          (* i base-transition-length)
-                                                          0)]
-                                   (str "transform " total-transition-length "s ease " transition-delay "s"))
-                      :cursor "pointer"}
-                     {:transform (if open? (str "translate(" x "px, " y "px)")
-                                           "translate(0, 0)")}))))))))
+     (let [transition-delay (j/cell= (if open?
+                                      (* i base-transition-length)
+                                      0))
+           url (j/cell= (:url item))
+           text (j/cell= (:text item))]
+      (h/div
+       (h/when-tpl text
+        (h/table
+         :css {:position "absolute"
+               :width "100%"
+               :height "100%"}
+         (h/tr
+          (h/td
+           :valign "center"
+           :css (merge
+                 {:text-align "center"}
+                 (fonts.hoplon/font-map->css-map fonts.config/playfair))
+           text))))
+
+       (h/div
+        :css (j/cell= {
+                       :position "absolute"
+                       :background-color "white"
+                       :top 0
+                       :left 0
+                       :bottom 0
+                       :right 0
+                       :transition (str "opacity " total-transition-length "s " easing " " transition-delay "s")
+                       :opacity (if open? 0 1)}))
+       :css (j/cell= (merge
+                      {
+                       :position "absolute"
+                       :overflow "hidden"
+                       :left (n->px (- item-radius))
+                       :bottom (n->px (- item-radius))
+                       :background-image (when url (str "url('" url "')"))
+                       :background-size "contain"
+                       :background-repeat "no-repeat"
+                       :background-position "center"
+                       :background-color "white"
+                       :width (* 2 item-radius)
+                       :height (* 2 item-radius)
+                       :border-radius (n->px item-radius)
+                       :border "4px solid"
+                       :transition (str "transform " total-transition-length "s " easing " " transition-delay "s")
+                       :cursor "pointer"}
+                      {:transform (if open? (str "translate(" x "px, " y "px)")
+                                            "translate(0, 0)")})))))))))
