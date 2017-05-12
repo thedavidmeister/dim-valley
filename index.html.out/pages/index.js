@@ -21,14 +21,14 @@ hoplon.core.html.call(null,hoplon.core.head.call(null,hoplon.core.link.call(null
 var current_route = (function (){var c = javelin.core.cell.call(null,null);
 var route_in_routes_QMARK_ = ((function (c,routes){
 return (function (r,rs){
-return cljs.core.filter.call(null,((function (c,routes){
+return cljs.core.some_QMARK_.call(null,cljs.core.first.call(null,cljs.core.filter.call(null,((function (c,routes){
 return (function (p1__10017_SHARP_){
 return cljs.core._EQ_.call(null,r,p1__10017_SHARP_);
 });})(c,routes))
-,rs);
+,rs)));
 });})(c,routes))
 ;
-var c__8223__auto__ = javelin.core.formula.call(null,((function (c,route_in_routes_QMARK_,routes){
+var c__8225__auto__ = javelin.core.formula.call(null,((function (c,route_in_routes_QMARK_,routes){
 return (function (G__10022,G__10019,G__10021,G__10020){
 if(cljs.core.truth_(G__10019.call(null,G__10020,G__10021))){
 return G__10020;
@@ -37,21 +37,21 @@ return G__10022.call(null,G__10021);
 }
 });})(c,route_in_routes_QMARK_,routes))
 ).call(null,cljs.core.first,route_in_routes_QMARK_,routes,c);
-c__8223__auto__.update = ((function (c__8223__auto__,c,route_in_routes_QMARK_,routes){
+c__8225__auto__.update = ((function (c__8225__auto__,c,route_in_routes_QMARK_,routes){
 return (function (p1__10018_SHARP_){
 return cljs.core.reset_BANG_.call(null,c,p1__10018_SHARP_);
-});})(c__8223__auto__,c,route_in_routes_QMARK_,routes))
+});})(c__8225__auto__,c,route_in_routes_QMARK_,routes))
 ;
 
-return c__8223__auto__;
+return c__8225__auto__;
 })();
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [menu.flower.menu.call(null,current_route,routes,(200)),layout.middle_right.middle_right.call(null,hoplon.core.loop_tpl_STAR_.call(null,routes,((function (routes,current_route){
-return (function (item__8756__auto__){
+return (function (item__8758__auto__){
 var vec__10023 = javelin.core.cell_map.call(null,cljs.core.identity,javelin.core.formula.call(null,((function (routes,current_route){
 return (function (route){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [route], null);
 });})(routes,current_route))
-).call(null,item__8756__auto__));
+).call(null,item__8758__auto__));
 var route = cljs.core.nth.call(null,vec__10023,(0),null);
 return hoplon.core.div.call(null,new cljs.core.Keyword(null,"toggle","toggle",1291842030),javelin.core.formula.call(null,((function (vec__10023,route,routes,current_route){
 return (function (G__10026,G__10028,G__10027){

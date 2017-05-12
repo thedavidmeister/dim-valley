@@ -39,7 +39,7 @@
                 {:url "dave.png" :f pages.dave/content}
                 {:url "milly.png" :f pages.milly/content}]
         current-route (let [c (j/cell nil)
-                            route-in-routes? (fn [r rs] (filter #(= r %) rs))]
+                            route-in-routes? (fn [r rs] (some? (first (filter #(= r %) rs))))]
                        (j/cell=
                         (if (route-in-routes? c routes)
                          c
