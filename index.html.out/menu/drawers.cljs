@@ -2,12 +2,12 @@
  (:require
   [hoplon.core :as h]
   [javelin.core :as j]
-  menu.config))
+  menu.config
+  animation.easings))
 
 (defn drawers [& children]
  (h/div
   :css {:width "100%"
-        ; :overflow-x "hidden"
         :z-index 0
         :position "relative"}
   children))
@@ -17,14 +17,11 @@
   (j/with-let
    [el (h/div
         :css (j/cell= {
-                       :transition (str "transform " transition-length "s ease " (if open? transition-length 0) "s")
+                       :transition (str "transform " transition-length "s " (:ease-out-quart animation.easings/easings) " " (if open? transition-length 0) "s")
                        :transform (str "translateX(" (if open? "0px" offset) ")")
-                       ; :transition-delay (str (if open? transition-length 0) "s")
                        :z-index (if open? 1 0)
                        :position (if open? "relative" "absolute")
                        :width "100%"
-                       ; :height "100%"
-                       ; :min-height "100vh"
                        :top 0
                        :left 0})
         (h/div

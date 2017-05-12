@@ -1,7 +1,8 @@
 (ns layout.content-block
  (:require
   [hoplon.core :as h]
-  layout.config))
+  layout.config
+  colours.ui-gradients))
 
 (defn content-outer [& children]
  (h/div

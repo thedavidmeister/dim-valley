@@ -3,16 +3,17 @@ goog.provide('layout.content_block');
 goog.require('cljs.core');
 goog.require('hoplon.core');
 goog.require('layout.config');
+goog.require('colours.ui_gradients');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
 var args__7957__auto__ = [];
-var len__7950__auto___9273 = arguments.length;
-var i__7951__auto___9274 = (0);
+var len__7950__auto___9663 = arguments.length;
+var i__7951__auto___9664 = (0);
 while(true){
-if((i__7951__auto___9274 < len__7950__auto___9273)){
-args__7957__auto__.push((arguments[i__7951__auto___9274]));
+if((i__7951__auto___9664 < len__7950__auto___9663)){
+args__7957__auto__.push((arguments[i__7951__auto___9664]));
 
-var G__9275 = (i__7951__auto___9274 + (1));
-i__7951__auto___9274 = G__9275;
+var G__9665 = (i__7951__auto___9664 + (1));
+i__7951__auto___9664 = G__9665;
 continue;
 } else {
 }
@@ -29,20 +30,20 @@ return hoplon.core.div.call(null,new cljs.core.Keyword(null,"css","css",11350451
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_outer.cljs$lang$applyTo = (function (seq9272){
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq9272));
+layout.content_block.content_outer.cljs$lang$applyTo = (function (seq9662){
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq9662));
 });
 
 layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
 var args__7957__auto__ = [];
-var len__7950__auto___9277 = arguments.length;
-var i__7951__auto___9278 = (0);
+var len__7950__auto___9667 = arguments.length;
+var i__7951__auto___9668 = (0);
 while(true){
-if((i__7951__auto___9278 < len__7950__auto___9277)){
-args__7957__auto__.push((arguments[i__7951__auto___9278]));
+if((i__7951__auto___9668 < len__7950__auto___9667)){
+args__7957__auto__.push((arguments[i__7951__auto___9668]));
 
-var G__9279 = (i__7951__auto___9278 + (1));
-i__7951__auto___9278 = G__9279;
+var G__9669 = (i__7951__auto___9668 + (1));
+i__7951__auto___9668 = G__9669;
 continue;
 } else {
 }
@@ -59,8 +60,8 @@ return hoplon.core.div.call(null,new cljs.core.Keyword(null,"css","css",11350451
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_inner.cljs$lang$applyTo = (function (seq9276){
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq9276));
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq9666){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq9666));
 });
 
 

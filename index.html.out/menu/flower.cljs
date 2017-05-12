@@ -7,9 +7,9 @@
   colours.ui-gradients
   menu.config))
 
-; Hoplonified from https://codepen.io/jordanlachance/pen/yOJdRr
+; Loosely based on https://codepen.io/jordanlachance/pen/yOJdRr but heavily
+; reworked and Hoplonified :)
 
-(def easing "cubic-bezier(0.175, 0.885, 0.32, 1.275)")
 (def big-scale 1.3)
 
 (defn polar->cartesian
@@ -27,7 +27,7 @@
                   :left (n->px outer-radius)
                   :bottom (n->px outer-radius)
                   :overflow "visible"
-                  :transition (str "transform " transition-length "s " easing)
+                  :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")
                   :z-index 3})
    children)))
@@ -53,7 +53,7 @@
                   :bottom (n->px (- radius))
                   :z-index 1
                   :cursor "pointer"
-                  :transition (str "transform " transition-length "s " easing)
+                  :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
    (let [width (j/cell= (/ radius 2))
@@ -151,7 +151,7 @@
       (h/div
        :css (j/cell= (merge
                       {
-                       :transition (str "transform " total-transition-length "s " easing " " transition-delay "s")}
+                       :transition (str "transform " total-transition-length "s " menu.config/easing " " transition-delay "s")}
                       {:transform (if open? (str "translate(" x "px, " y "px)")
                                             "translate(0, 0)")}))
 
@@ -161,7 +161,7 @@
         :click #(j/dosync
                  (reset! current-item @item)
                  (reset! open? false))
-        :css (j/cell= {:transition (str "transform " (/ total-transition-length 2) "s " easing)
+        :css (j/cell= {:transition (str "transform " (/ total-transition-length 2) "s " menu.config/easing)
                        :transform (str "scale(" (if (and mouseover? open?) big-scale 1) ")")
                        :width (* 2 item-radius)
                        :height (* 2 item-radius)
@@ -200,5 +200,5 @@
                         :left 0
                         :bottom 0
                         :right 0
-                        :transition (str "opacity " total-transition-length "s " easing " " transition-delay "s")
+                        :transition (str "opacity " total-transition-length "s " menu.config/easing " " transition-delay "s")
                         :opacity (if open? 0 1)}))))))))))
