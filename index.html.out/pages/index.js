@@ -22,45 +22,45 @@ var current_route = (function (){var c = javelin.core.cell.call(null,null);
 var route_in_routes_QMARK_ = ((function (c,routes){
 return (function (r,rs){
 return cljs.core.some_QMARK_.call(null,cljs.core.first.call(null,cljs.core.filter.call(null,((function (c,routes){
-return (function (p1__10017_SHARP_){
-return cljs.core._EQ_.call(null,r,p1__10017_SHARP_);
+return (function (p1__10030_SHARP_){
+return cljs.core._EQ_.call(null,r,p1__10030_SHARP_);
 });})(c,routes))
 ,rs)));
 });})(c,routes))
 ;
-var c__8225__auto__ = javelin.core.formula.call(null,((function (c,route_in_routes_QMARK_,routes){
-return (function (G__10022,G__10019,G__10021,G__10020){
-if(cljs.core.truth_(G__10019.call(null,G__10020,G__10021))){
-return G__10020;
+var c__8227__auto__ = javelin.core.formula.call(null,((function (c,route_in_routes_QMARK_,routes){
+return (function (G__10035,G__10032,G__10034,G__10033){
+if(cljs.core.truth_(G__10032.call(null,G__10033,G__10034))){
+return G__10033;
 } else {
-return G__10022.call(null,G__10021);
+return G__10035.call(null,G__10034);
 }
 });})(c,route_in_routes_QMARK_,routes))
 ).call(null,cljs.core.first,route_in_routes_QMARK_,routes,c);
-c__8225__auto__.update = ((function (c__8225__auto__,c,route_in_routes_QMARK_,routes){
-return (function (p1__10018_SHARP_){
-return cljs.core.reset_BANG_.call(null,c,p1__10018_SHARP_);
-});})(c__8225__auto__,c,route_in_routes_QMARK_,routes))
+c__8227__auto__.update = ((function (c__8227__auto__,c,route_in_routes_QMARK_,routes){
+return (function (p1__10031_SHARP_){
+return cljs.core.reset_BANG_.call(null,c,p1__10031_SHARP_);
+});})(c__8227__auto__,c,route_in_routes_QMARK_,routes))
 ;
 
-return c__8225__auto__;
+return c__8227__auto__;
 })();
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [menu.flower.menu.call(null,current_route,routes,(200)),layout.middle_right.middle_right.call(null,hoplon.core.loop_tpl_STAR_.call(null,routes,((function (routes,current_route){
-return (function (item__8758__auto__){
-var vec__10023 = javelin.core.cell_map.call(null,cljs.core.identity,javelin.core.formula.call(null,((function (routes,current_route){
+return (function (item__8760__auto__){
+var vec__10036 = javelin.core.cell_map.call(null,cljs.core.identity,javelin.core.formula.call(null,((function (routes,current_route){
 return (function (route){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [route], null);
 });})(routes,current_route))
-).call(null,item__8758__auto__));
-var route = cljs.core.nth.call(null,vec__10023,(0),null);
-return hoplon.core.div.call(null,new cljs.core.Keyword(null,"toggle","toggle",1291842030),javelin.core.formula.call(null,((function (vec__10023,route,routes,current_route){
-return (function (G__10026,G__10028,G__10027){
-return G__10026.call(null,G__10027,G__10028);
-});})(vec__10023,route,routes,current_route))
-).call(null,cljs.core._EQ_,current_route,route),layout.content_block.content_outer.call(null,hoplon.core.div.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"css","css",1135045163),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),"cacl(60vw - 4px)"], null)], null),hoplon.core.div.call(null,javelin.core.formula.call(null,((function (vec__10023,route,routes,current_route){
-return (function (G__10029){
-return new cljs.core.Keyword(null,"f","f",-1597136552).cljs$core$IFn$_invoke$arity$1(G__10029).call(null);
-});})(vec__10023,route,routes,current_route))
+).call(null,item__8760__auto__));
+var route = cljs.core.nth.call(null,vec__10036,(0),null);
+return hoplon.core.div.call(null,new cljs.core.Keyword(null,"toggle","toggle",1291842030),javelin.core.formula.call(null,((function (vec__10036,route,routes,current_route){
+return (function (G__10039,G__10041,G__10040){
+return G__10039.call(null,G__10040,G__10041);
+});})(vec__10036,route,routes,current_route))
+).call(null,cljs.core._EQ_,current_route,route),layout.content_block.content_outer.call(null,hoplon.core.div.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"css","css",1135045163),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),"cacl(60vw - 4px)"], null)], null),hoplon.core.div.call(null,javelin.core.formula.call(null,((function (vec__10036,route,routes,current_route){
+return (function (G__10042){
+return new cljs.core.Keyword(null,"f","f",-1597136552).cljs$core$IFn$_invoke$arity$1(G__10042).call(null);
+});})(vec__10036,route,routes,current_route))
 ).call(null,route)))));
 });})(routes,current_route))
 ))], null);

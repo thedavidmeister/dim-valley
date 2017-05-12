@@ -9,6 +9,7 @@
 ; Hoplonified from https://codepen.io/jordanlachance/pen/yOJdRr
 
 (def easing "cubic-bezier(0.175, 0.885, 0.32, 1.275)")
+(def big-scale 1.3)
 
 (defn polar->cartesian
  [radius radians]
@@ -26,7 +27,7 @@
                   :bottom (n->px outer-radius)
                   :overflow "visible"
                   :transition (str "transform " transition-length "s " easing)
-                  :transform (str "scale(" (if (and button-hover? (not open?)) 1.1 1) ")")})
+                  :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")})
    children)))
 
 (defn open-button
@@ -49,7 +50,9 @@
                   :left (n->px (- radius))
                   :bottom (n->px (- radius))
                   :z-index 1
-                  :cursor "pointer"})
+                  :cursor "pointer"
+                  :transition (str "transform " transition-length "s " easing)
+                  :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
    (let [width (j/cell= (/ radius 2))
          ; sin(PI/4) = rotated-offset / width
@@ -157,7 +160,7 @@
                  (reset! current-item @item)
                  (reset! open? false))
         :css (j/cell= {:transition (str "transform " (/ total-transition-length 2) "s " easing)
-                       :transform (str "scale(" (if (and mouseover? open?) 1.1 1) ")")
+                       :transform (str "scale(" (if (and mouseover? open?) big-scale 1) ")")
                        :width (* 2 item-radius)
                        :height (* 2 item-radius)
                        :border-radius (n->px item-radius)
