@@ -11,6 +11,7 @@
   layout.spacer
   layout.middle-right
   menu.flower
+  menu.drawers
   pages.milly
   pages.dim-valley
   pages.legal
@@ -31,7 +32,9 @@
  (h/body
   :css {:background (str "linear-gradient(to left, " (clojure.string/join ", " (colours.ui-gradients/stops)) ")")
         :color (last (colours.ui-gradients/stops))
-        :min-height "100vh"}
+        :min-height "100vh"
+        :width "100vw"
+        :overflow-x "hidden"}
 
   (let [routes [{:text "dim valley pty. ltd." :f pages.dim-valley/content}
                 {:text "legal" :f pages.legal/content}
@@ -52,10 +55,13 @@
      200)
 
     (layout.middle-right/middle-right
-     (h/for-tpl [route routes]
-      (h/div
-       :toggle (j/cell= (= route current-route))
-       (layout.content-block/content-outer
-        (h/div
-         {:css {:width "cacl(60vw - 4px)"}}
-         (h/div (j/cell= ((:f route)))))))))])))
+     (menu.drawers/drawers
+      (h/for-tpl [route routes]
+       (menu.drawers/drawer
+        (j/cell= (= route current-route))
+        "calc(75vw + 4px)"
+
+        (layout.content-block/content-outer
+         (h/div
+          {:css {:width "cacl(60vw - 4px)"}}
+          (h/div (j/cell= ((:f route))))))))))])))

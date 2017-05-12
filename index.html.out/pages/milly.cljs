@@ -1,20 +1,14 @@
 (ns pages.milly
  (:require
   [hoplon.core :as h]
-  layout.content-block))
+  layout.content-block
+  layout.header-block))
 
 (defn content []
  [
-  (layout.content-block/content-inner
-   (h/div
-    :css (merge
-          {:padding "2.67rem 0"}
-          (fonts.hoplon/font-map->css-map fonts.config/playfair))
-    (h/h1 "Amelia Schmidt"
-     :css {:margin 0
-           :font-size "4rem"})
-    (h/span "I believe the modern business consciously develops and evolves its unique model and way of doing business such that, over time, the needs of the business and customer quite naturally become one and the same."
-     :css {:font-size "1rem"})))
+  (layout.header-block/header
+   "Amelia Schmidt"
+   "I believe the modern business consciously develops and evolves its unique model and way of doing business such that, over time, the needs of the business and customer quite naturally become one and the same.")
 
   (h/img
    :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"

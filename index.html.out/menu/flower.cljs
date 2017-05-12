@@ -4,7 +4,8 @@
   [javelin.core :as j]
   fonts.hoplon
   fonts.config
-  colours.ui-gradients))
+  colours.ui-gradients
+  menu.config))
 
 ; Hoplonified from https://codepen.io/jordanlachance/pen/yOJdRr
 
@@ -27,7 +28,8 @@
                   :bottom (n->px outer-radius)
                   :overflow "visible"
                   :transition (str "transform " transition-length "s " easing)
-                  :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")})
+                  :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")
+                  :z-index 3})
    children)))
 
 (defn open-button
@@ -124,7 +126,7 @@
                      (polar->cartesian offset (* i radians-per-item))
                      item])
                    items))
-       total-transition-length 0.4
+       total-transition-length menu.config/transition-length
        base-transition-length (j/cell= (/ total-transition-length (count items)))]
   (outer-wrapper
    radius

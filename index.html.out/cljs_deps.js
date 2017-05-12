@@ -9,6 +9,7 @@ goog.addDependency("../hoplon/core.js", ['hoplon.core'], ['javelin.core', 'goog.
 goog.addDependency("../layout/config.js", ['layout.config'], ['cljs.core']);
 goog.addDependency("../layout/content_block.js", ['layout.content_block'], ['cljs.core', 'hoplon.core', 'layout.config']);
 goog.addDependency("../pages/github.js", ['pages.github'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
+goog.addDependency("../menu/config.js", ['menu.config'], ['cljs.core']);
 goog.addDependency("../colours/config.js", ['colours.config'], ['cljs.core']);
 goog.addDependency("../camel_snake_kebab/internals/string_separator.js", ['camel_snake_kebab.internals.string_separator'], ['cljs.core']);
 goog.addDependency("../camel_snake_kebab/internals/misc.js", ['camel_snake_kebab.internals.misc'], ['camel_snake_kebab.internals.string_separator', 'cljs.core', 'clojure.string']);
@@ -16,8 +17,9 @@ goog.addDependency("../camel_snake_kebab/internals/alter_name.js", ['camel_snake
 goog.addDependency("../camel_snake_kebab/core.js", ['camel_snake_kebab.core'], ['cljs.core', 'camel_snake_kebab.internals.misc', 'clojure.string', 'camel_snake_kebab.internals.alter_name']);
 goog.addDependency("../colours/ui_gradients.js", ['colours.ui_gradients'], ['colours.config', 'cljs.core', 'camel_snake_kebab.core']);
 goog.addDependency("../fonts/hoplon.js", ['fonts.hoplon'], ['fonts.config', 'cljs.core']);
-goog.addDependency("../menu/flower.js", ['menu.flower'], ['fonts.config', 'javelin.core', 'cljs.core', 'hoplon.core', 'colours.ui_gradients', 'fonts.hoplon']);
-goog.addDependency("../pages/dim_valley.js", ['pages.dim_valley'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
+goog.addDependency("../menu/flower.js", ['menu.flower'], ['fonts.config', 'javelin.core', 'cljs.core', 'menu.config', 'hoplon.core', 'colours.ui_gradients', 'fonts.hoplon']);
+goog.addDependency("../layout/header_block.js", ['layout.header_block'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
+goog.addDependency("../pages/dim_valley.js", ['pages.dim_valley'], ['layout.header_block', 'cljs.core', 'hoplon.core', 'layout.content_block']);
 goog.addDependency("../fonts/google_fonts.js", ['fonts.google_fonts'], ['cljs.core', 'hoplon.core']);
 goog.addDependency("../jquery.inc.js", ['cljsjs.jquery'], []);
 goog.addDependency("../hoplon/jquery.js", ['hoplon.jquery'], ['cljsjs.jquery', 'cljs.core', 'hoplon.core']);
@@ -25,6 +27,7 @@ goog.addDependency("../layout/middle_right.js", ['layout.middle_right'], ['cljs.
 goog.addDependency("../pages/dave.js", ['pages.dave'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
 goog.addDependency("../layout/spacer.js", ['layout.spacer'], ['cljs.core', 'hoplon.core', 'layout.config']);
 goog.addDependency("../pages/legal.js", ['pages.legal'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
-goog.addDependency("../pages/milly.js", ['pages.milly'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
-goog.addDependency("../pages/index.js", ['pages.index'], ['fonts.config', 'pages.github', 'menu.flower', 'javelin.core', 'pages.dim_valley', 'fonts.google_fonts', 'hoplon.jquery', 'layout.middle_right', 'cljs.core', 'pages.dave', 'hoplon.core', 'layout.spacer', 'pages.legal', 'colours.ui_gradients', 'layout.config', 'pages.milly', 'fonts.hoplon']);
+goog.addDependency("../pages/milly.js", ['pages.milly'], ['layout.header_block', 'cljs.core', 'hoplon.core', 'layout.content_block']);
+goog.addDependency("../menu/drawers.js", ['menu.drawers'], ['javelin.core', 'cljs.core', 'menu.config', 'hoplon.core']);
+goog.addDependency("../pages/index.js", ['pages.index'], ['fonts.config', 'pages.github', 'menu.flower', 'javelin.core', 'pages.dim_valley', 'fonts.google_fonts', 'hoplon.jquery', 'layout.middle_right', 'cljs.core', 'pages.dave', 'hoplon.core', 'layout.spacer', 'pages.legal', 'colours.ui_gradients', 'layout.config', 'pages.milly', 'fonts.hoplon', 'menu.drawers']);
 goog.addDependency("../boot/cljs/main3349.js", ['boot.cljs.main3349'], ['pages.index', 'cljs.core']);
