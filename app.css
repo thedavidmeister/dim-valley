@@ -13,6 +13,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
 
-canvas {
-  float: left;
+img {
+  display: block;
+}
+
+.clearfix:after, .clearfix:before {
+  content: "";
+  display: table;
+  clear: both;
 }
