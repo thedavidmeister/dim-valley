@@ -5,7 +5,8 @@
   fonts.hoplon
   fonts.config
   colours.ui-gradients
-  menu.config))
+  menu.config
+  unit.conversion))
 
 ; Loosely based on https://codepen.io/jordanlachance/pen/yOJdRr but heavily
 ; reworked and Hoplonified :)
@@ -17,15 +18,13 @@
  [(* radius (.cos js/Math radians))
   (* radius (.sin js/Math radians))])
 
-(defn n->px [n] (str n "px"))
-
 (defn outer-wrapper
  [outer-radius open? button-hover? transition-length & children]
  (let [transition-length (/ transition-length 2)]
   (h/div
    :css (j/cell= {:position "fixed"
-                  :left (n->px outer-radius)
-                  :bottom (n->px outer-radius)
+                  :left (u/n->px outer-radius)
+                  :bottom (u/n->px outer-radius)
                   :overflow "visible"
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")
@@ -47,10 +46,10 @@
                   ; when the circles are stacked in the z-axis.
                   :width (* radius 2)
                   :height (* radius 2)
-                  :border-radius (n->px radius)
+                  :border-radius (u/n->px radius)
                   :position "absolute"
-                  :left (n->px (- radius))
-                  :bottom (n->px (- radius))
+                  :left (u/n->px (- radius))
+                  :bottom (u/n->px (- radius))
                   :z-index 1
                   :cursor "pointer"
                   :transition (str "transform " transition-length "s " menu.config/easing)
@@ -67,9 +66,9 @@
          left (j/cell= (+ radius (- (/ width 2))))
          top (j/cell= (+ radius (- (/ height 2))))
          color (j/cell= (last (colours.ui-gradients/stops)))
-         default-css (j/cell= {:width (n->px width)
-                               :height (n->px height)
-                               :left (n->px left)
+         default-css (j/cell= {:width (u/n->px width)
+                               :height (u/n->px height)
+                               :left (u/n->px left)
                                :background-color color
                                :position "absolute"
                                :transition (str "transform " transition-length "s ease, "
@@ -79,7 +78,7 @@
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (n->px (- top (* 2 height)))
+                     {:top (u/n->px (- top (* 2 height)))
                       :transform (str
                                       "translate3d(0px, " (if open? rotated-offset 0) "px, 0px)"
                                       "rotate(" (if open? "45deg" "0deg") ") ")}
@@ -90,14 +89,14 @@
       :css (j/cell= (merge
                      default-css
                      {
-                      :top (n->px top)
+                      :top (u/n->px top)
                       :transform (str "scale(" (if open? 0 1) ")")})))
 
      ; bottom line
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (n->px (+ top (* 2 height)))
+                     {:top (u/n->px (+ top (* 2 height)))
                       :transform (str
                                       "translate3d(0px, -" (if open? rotated-offset 0) "px, 0px)"
                                       "rotate(" (if open? "-45deg" "0deg") ") ")}
@@ -165,7 +164,7 @@
                        :transform (str "scale(" (if (and mouseover? open?) big-scale 1) ")")
                        :width (* 2 item-radius)
                        :height (* 2 item-radius)
-                       :border-radius (n->px item-radius)
+                       :border-radius (u/n->px item-radius)
                        :border "4px solid"
                        :background-image (when url (str "url('" url "')"))
                        :background-size "contain"
@@ -174,8 +173,8 @@
                        :background-color "white"
                        :position "absolute"
                        :overflow "hidden"
-                       :left (n->px (- item-radius))
-                       :bottom (n->px (- item-radius))
+                       :left (u/n->px (- item-radius))
+                       :bottom (u/n->px (- item-radius))
                        :cursor "pointer"})
 
 
