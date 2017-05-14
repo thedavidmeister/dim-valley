@@ -5,8 +5,7 @@
   [javelin.core :as j]
   hoplon.jquery
   fonts.config
-  fonts.hoplon
-  fonts.google-fonts
+  wheel.hoplon.google-fonts.dom
   layout.config
   layout.spacer
   layout.middle-right
@@ -16,22 +15,17 @@
   pages.dim-valley
   pages.legal
   pages.github
-  pages.dave))
+  pages.dave
+  styles.core
+  mapbox.dom))
 
 (h/html
  (h/head
-  (h/link
-   :href "https://necolas.github.io/normalize.css/latest/normalize.css"
-   :rel "stylesheet"
-   :type "text/css")
-  (fonts.google-fonts/fonts fonts.config/fonts)
-  (h/link
-   :href "app.css"
-   :rel "stylesheet"
-   :type "text/css"))
+  (wheel.hoplon.google-fonts.dom/link fonts.config/fonts)
+  (styles.core/style)
+  (mapbox.dom/stylesheet))
  (h/body
   :css {:background (str "linear-gradient(to left, " (clojure.string/join ", " (colours.ui-gradients/stops)) ")")
-        :color (last (colours.ui-gradients/stops))
         :min-height "100vh"
         :width "100vw"
         :overflow-x "hidden"}

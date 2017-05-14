@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.9.293 {}
+// Compiled by ClojureScript 1.9.542 {}
 goog.provide('camel_snake_kebab.internals.alter_name');
 goog.require('cljs.core');
 
@@ -14,14 +14,14 @@ camel_snake_kebab.internals.alter_name.alter_name = (function camel_snake_kebab$
 if((!((this$ == null))) && (!((this$.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2 == null)))){
 return this$.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2(this$,f);
 } else {
-var x__7505__auto__ = (((this$ == null))?null:this$);
-var m__7506__auto__ = (camel_snake_kebab.internals.alter_name.alter_name[goog.typeOf(x__7505__auto__)]);
-if(!((m__7506__auto__ == null))){
-return m__7506__auto__.call(null,this$,f);
+var x__7861__auto__ = (((this$ == null))?null:this$);
+var m__7862__auto__ = (camel_snake_kebab.internals.alter_name.alter_name[goog.typeOf(x__7861__auto__)]);
+if(!((m__7862__auto__ == null))){
+return m__7862__auto__.call(null,this$,f);
 } else {
-var m__7506__auto____$1 = (camel_snake_kebab.internals.alter_name.alter_name["_"]);
-if(!((m__7506__auto____$1 == null))){
-return m__7506__auto____$1.call(null,this$,f);
+var m__7862__auto____$1 = (camel_snake_kebab.internals.alter_name.alter_name["_"]);
+if(!((m__7862__auto____$1 == null))){
+return m__7862__auto____$1.call(null,this$,f);
 } else {
 throw cljs.core.missing_protocol.call(null,"AlterName.alter-name",this$);
 }
