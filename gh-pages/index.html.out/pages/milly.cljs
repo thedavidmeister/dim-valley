@@ -8,11 +8,13 @@
  [
   (layout.header-block/header
    "Amelia Schmidt (Milly)"
-    [(h/h3 "I believe modern businesses should consciously develop and evolve their unique model in a way that, over time, the needs of the business and customer naturally become one and the same.")
-     (h/a (h/img :src "linkedin.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://www.linkedin.com/in/ameliaschmidt/")
-     (h/a (h/img :src "github.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://github.com/meelijane/")
-     (h/a (h/img :src "medium.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://medium.com/@meeli/")
-     (h/a (h/img :src "twitter.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://twitter.com/meelijane/")])
+   "I believe modern businesses should consciously develop and evolve their unique model in a way that, over time, the needs of the business and customer naturally become one and the same.")
+
+  (layout.content-block/content-inner
+   (h/a (h/img :src "linkedin.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://www.linkedin.com/in/ameliaschmidt/")
+   (h/a (h/img :src "github.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://github.com/meelijane/")
+   (h/a (h/img :src "medium.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://medium.com/@meeli/")
+   (h/a (h/img :src "twitter.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://twitter.com/meelijane/"))
 
   (h/img
    :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"
