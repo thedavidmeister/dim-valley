@@ -2,21 +2,17 @@
  (:require
   [hoplon.core :as h]
   [javelin.core :as j]
-  fonts.hoplon
   fonts.config
   colours.ui-gradients
   menu.config
-  unit.conversion))
+  [unit.conversion :as u]
+  wheel.math.geometry
+  wheel.font.core))
 
 ; Loosely based on https://codepen.io/jordanlachance/pen/yOJdRr but heavily
 ; reworked and Hoplonified :)
 
 (def big-scale 1.3)
-
-(defn polar->cartesian
- [radius radians]
- [(* radius (.cos js/Math radians))
-  (* radius (.sin js/Math radians))])
 
 (defn outer-wrapper
  [outer-radius open? button-hover? transition-length & children]
@@ -59,7 +55,7 @@
          ; sin(PI/4) = rotated-offset / width
          ; rotated-offset = (width x sin(PI /4))
          rotated-offset (j/cell= (/ (* width
-                                       (.sin js/Math (/ (.-PI js/Math) 4)))
+                                       (.sin js/Math (wheel.math.geometry/degrees->radians 45)))
                                     2))
          height (j/cell= (/ radius 12))
          ; rotated-offset (j/cell= (* 2 width))
@@ -122,7 +118,7 @@
                   (map-indexed
                    (fn [i item]
                     [i
-                     (polar->cartesian offset (* i radians-per-item))
+                     (wheel.math.geometry/polar->cartesian offset (* i radians-per-item))
                      item])
                    items))
        total-transition-length menu.config/transition-length
@@ -188,7 +184,7 @@
             :valign "center"
             :css (merge
                   {:text-align "center"}
-                  (fonts.hoplon/font-map->css-map fonts.config/playfair))
+                  (wheel.font.core/font->css-map fonts.config/playfair))
             text))))
 
         (h/div

@@ -1,13 +1,15 @@
 (set-env!
-  :dependencies '[[adzerk/boot-cljs          "1.7.228-2"]
+  :dependencies '[
+                  [org.clojure/clojure "1.9.0-alpha15"]
+                  [org.clojure/clojurescript "1.9.521"]
+                  [adzerk/boot-cljs          "1.7.228-2"]
                   [adzerk/boot-reload        "0.4.13"]
                   [hoplon/javelin            "3.9.0"]
                   [hoplon/hoplon             "7.0.1"]
-                  [org.clojure/clojure       "1.8.0"]
-                  [org.clojure/clojurescript "1.9.293"]
                   [tailrecursion/boot-jetty  "0.1.3"]
                   [camel-snake-kebab "0.4.0"]
-                  [cljsjs/js-yaml "3.3.1-0"]]
+                  [cljsjs/js-yaml "3.3.1-0"]
+                  [thedavidmeister/wheel "0.2.0-SNAPSHOT"]]
 
   :source-paths #{"src"}
   :asset-paths  #{"assets"})

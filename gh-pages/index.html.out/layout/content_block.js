@@ -1,27 +1,27 @@
-// Compiled by ClojureScript 1.9.293 {}
+// Compiled by ClojureScript 1.9.521 {}
 goog.provide('layout.content_block');
 goog.require('cljs.core');
 goog.require('hoplon.core');
 goog.require('layout.config');
 goog.require('colours.ui_gradients');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
-var args__7957__auto__ = [];
-var len__7950__auto___9663 = arguments.length;
-var i__7951__auto___9664 = (0);
+var args__8988__auto__ = [];
+var len__8981__auto___12830 = arguments.length;
+var i__8982__auto___12831 = (0);
 while(true){
-if((i__7951__auto___9664 < len__7950__auto___9663)){
-args__7957__auto__.push((arguments[i__7951__auto___9664]));
+if((i__8982__auto___12831 < len__8981__auto___12830)){
+args__8988__auto__.push((arguments[i__8982__auto___12831]));
 
-var G__9665 = (i__7951__auto___9664 + (1));
-i__7951__auto___9664 = G__9665;
+var G__12832 = (i__8982__auto___12831 + (1));
+i__8982__auto___12831 = G__12832;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__7958__auto__ = ((((0) < args__7957__auto__.length))?(new cljs.core.IndexedSeq(args__7957__auto__.slice((0)),(0),null)):null);
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(argseq__7958__auto__);
+var argseq__8989__auto__ = ((((0) < args__8988__auto__.length))?(new cljs.core.IndexedSeq(args__8988__auto__.slice((0)),(0),null)):null);
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(argseq__8989__auto__);
 });
 
 layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic = (function (children){
@@ -30,28 +30,28 @@ return hoplon.core.div.call(null,new cljs.core.Keyword(null,"css","css",11350451
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_outer.cljs$lang$applyTo = (function (seq9662){
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq9662));
+layout.content_block.content_outer.cljs$lang$applyTo = (function (seq12829){
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq12829));
 });
 
 layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
-var args__7957__auto__ = [];
-var len__7950__auto___9667 = arguments.length;
-var i__7951__auto___9668 = (0);
+var args__8988__auto__ = [];
+var len__8981__auto___12834 = arguments.length;
+var i__8982__auto___12835 = (0);
 while(true){
-if((i__7951__auto___9668 < len__7950__auto___9667)){
-args__7957__auto__.push((arguments[i__7951__auto___9668]));
+if((i__8982__auto___12835 < len__8981__auto___12834)){
+args__8988__auto__.push((arguments[i__8982__auto___12835]));
 
-var G__9669 = (i__7951__auto___9668 + (1));
-i__7951__auto___9668 = G__9669;
+var G__12836 = (i__8982__auto___12835 + (1));
+i__8982__auto___12835 = G__12836;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__7958__auto__ = ((((0) < args__7957__auto__.length))?(new cljs.core.IndexedSeq(args__7957__auto__.slice((0)),(0),null)):null);
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(argseq__7958__auto__);
+var argseq__8989__auto__ = ((((0) < args__8988__auto__.length))?(new cljs.core.IndexedSeq(args__8988__auto__.slice((0)),(0),null)):null);
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(argseq__8989__auto__);
 });
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
@@ -60,8 +60,8 @@ return hoplon.core.div.call(null,new cljs.core.Keyword(null,"css","css",11350451
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_inner.cljs$lang$applyTo = (function (seq9666){
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq9666));
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq12833){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq12833));
 });
 
 

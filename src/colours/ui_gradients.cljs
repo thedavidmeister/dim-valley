@@ -18,3 +18,4 @@
     "colors"))))
 
 (def base-colour (last (stops)))
+(def secondary-colour (first (stops)))

@@ -1,26 +1,26 @@
-// Compiled by ClojureScript 1.9.293 {}
+// Compiled by ClojureScript 1.9.521 {}
 goog.provide('layout.spacer');
 goog.require('cljs.core');
 goog.require('layout.config');
 goog.require('hoplon.core');
 layout.spacer.vertical_spacer = (function layout$spacer$vertical_spacer(var_args){
-var args10024 = [];
-var len__7950__auto___10027 = arguments.length;
-var i__7951__auto___10028 = (0);
+var args14878 = [];
+var len__8981__auto___14881 = arguments.length;
+var i__8982__auto___14882 = (0);
 while(true){
-if((i__7951__auto___10028 < len__7950__auto___10027)){
-args10024.push((arguments[i__7951__auto___10028]));
+if((i__8982__auto___14882 < len__8981__auto___14881)){
+args14878.push((arguments[i__8982__auto___14882]));
 
-var G__10029 = (i__7951__auto___10028 + (1));
-i__7951__auto___10028 = G__10029;
+var G__14883 = (i__8982__auto___14882 + (1));
+i__8982__auto___14882 = G__14883;
 continue;
 } else {
 }
 break;
 }
 
-var G__10026 = args10024.length;
-switch (G__10026) {
+var G__14880 = args14878.length;
+switch (G__14880) {
 case 0:
 return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
 
@@ -30,7 +30,7 @@ return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$1((arguments[(0
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args10024.length)].join('')));
+throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args14878.length)].join('')));
 
 }
 });
@@ -40,9 +40,9 @@ return layout.spacer.vertical_spacer.call(null,null);
 });
 
 layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$1 = (function (height){
-var height__$1 = (function (){var or__6842__auto__ = height;
-if(cljs.core.truth_(or__6842__auto__)){
-return or__6842__auto__;
+var height__$1 = (function (){var or__7760__auto__ = height;
+if(cljs.core.truth_(or__7760__auto__)){
+return or__7760__auto__;
 } else {
 return layout.config.spacer_height;
 }
