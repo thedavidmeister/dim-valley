@@ -30,7 +30,7 @@ return cljs.core._EQ_.call(null,r,p1__15140_SHARP_);
 ,rs)) == null));
 });})(c,routes))
 ;
-var c__9286__auto__ = javelin.core.formula.call(null,((function (c,route_in_routes_QMARK_,routes){
+var c__9731__auto__ = javelin.core.formula.call(null,((function (c,route_in_routes_QMARK_,routes){
 return (function (G__15145,G__15142,G__15144,G__15143){
 if(cljs.core.truth_(G__15142.call(null,G__15143,G__15144))){
 return G__15143;
@@ -39,21 +39,21 @@ return G__15145.call(null,G__15144);
 }
 });})(c,route_in_routes_QMARK_,routes))
 ).call(null,cljs.core.first,route_in_routes_QMARK_,routes,c);
-c__9286__auto__.update = ((function (c__9286__auto__,c,route_in_routes_QMARK_,routes){
+c__9731__auto__.update = ((function (c__9731__auto__,c,route_in_routes_QMARK_,routes){
 return (function (p1__15141_SHARP_){
 return cljs.core.reset_BANG_.call(null,c,p1__15141_SHARP_);
-});})(c__9286__auto__,c,route_in_routes_QMARK_,routes))
+});})(c__9731__auto__,c,route_in_routes_QMARK_,routes))
 ;
 
-return c__9286__auto__;
+return c__9731__auto__;
 })();
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [menu.flower.menu.call(null,current_route,routes,(200)),layout.middle_right.middle_right.call(null,menu.drawers.drawers.call(null,hoplon.core.loop_tpl_STAR_.call(null,routes,((function (routes,current_route){
-return (function (item__9875__auto__){
+return (function (item__10271__auto__){
 var vec__15146 = javelin.core.cell_map.call(null,cljs.core.identity,javelin.core.formula.call(null,((function (routes,current_route){
 return (function (route){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [route], null);
 });})(routes,current_route))
-).call(null,item__9875__auto__));
+).call(null,item__10271__auto__));
 var route = cljs.core.nth.call(null,vec__15146,(0),null);
 return menu.drawers.drawer.call(null,javelin.core.formula.call(null,((function (vec__15146,route,routes,current_route){
 return (function (G__15149,G__15151,G__15150){

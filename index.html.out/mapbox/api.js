@@ -16,23 +16,23 @@ return (mapboxgl["accessToken"] = token);
  * Returns a mapbox LngLat object from given co-ordinates
  */
 mapbox.api.lng_lat = (function mapbox$api$lng_lat(var_args){
-var args14844 = [];
-var len__8981__auto___14851 = arguments.length;
-var i__8982__auto___14852 = (0);
+var args14695 = [];
+var len__8981__auto___14702 = arguments.length;
+var i__8982__auto___14703 = (0);
 while(true){
-if((i__8982__auto___14852 < len__8981__auto___14851)){
-args14844.push((arguments[i__8982__auto___14852]));
+if((i__8982__auto___14703 < len__8981__auto___14702)){
+args14695.push((arguments[i__8982__auto___14703]));
 
-var G__14853 = (i__8982__auto___14852 + (1));
-i__8982__auto___14852 = G__14853;
+var G__14704 = (i__8982__auto___14703 + (1));
+i__8982__auto___14703 = G__14704;
 continue;
 } else {
 }
 break;
 }
 
-var G__14846 = args14844.length;
-switch (G__14846) {
+var G__14697 = args14695.length;
+switch (G__14697) {
 case 1:
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -42,15 +42,15 @@ return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argume
 
 break;
 default:
-throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args14844.length)].join('')));
+throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args14695.length)].join('')));
 
 }
 });
 
-mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__14847){
-var vec__14848 = p__14847;
-var lng = cljs.core.nth.call(null,vec__14848,(0),null);
-var lat = cljs.core.nth.call(null,vec__14848,(1),null);
+mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__14698){
+var vec__14699 = p__14698;
+var lng = cljs.core.nth.call(null,vec__14699,(0),null);
+var lat = cljs.core.nth.call(null,vec__14699,(1),null);
 return mapbox.api.lng_lat.call(null,lng,lat);
 });
 
@@ -81,12 +81,12 @@ return jQuery.data(el,mapbox.api.mapbox_key,m);
  */
 mapbox.api.with_marker_BANG_ = (function mapbox$api$with_marker_BANG_(map_el,marker_el,ll,marker_options){
 return hoplon.core.when_dom.call(null,map_el,(function (){
-var G__14856 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js.call(null,marker_options)));
-G__14856.setLngLat(ll);
+var G__14707 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js.call(null,marker_options)));
+G__14707.setLngLat(ll);
 
-G__14856.addTo(mapbox.api.map_el__GT_map.call(null,map_el));
+G__14707.addTo(mapbox.api.map_el__GT_map.call(null,map_el));
 
-return G__14856;
+return G__14707;
 }));
 });
 /**
