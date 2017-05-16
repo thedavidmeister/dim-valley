@@ -56,7 +56,7 @@ goog.addDependency("../wheel/font/google/config.js", ['wheel.font.google.config'
 goog.addDependency("../wheel/font/google/core.js", ['wheel.font.google.core'], ['wheel.font.config', 'cljs.core', 'cljs.test', 'cljs.spec', 'wheel.font.google.config']);
 goog.addDependency("../wheel/stylesheet/hoplon.js", ['wheel.stylesheet.hoplon'], ['cljs.core', 'hoplon.core', 'cljs.test', 'medley.core']);
 goog.addDependency("../wheel/font/google/hoplon.js", ['wheel.font.google.hoplon'], ['wheel.font.google.core', 'cljs.core', 'wheel.stylesheet.hoplon', 'hoplon.core']);
-goog.addDependency("../pages/dave.js", ['pages.dave'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
+goog.addDependency("../pages/dave.js", ['pages.dave'], ['layout.header_block', 'cljs.core', 'hoplon.core', 'layout.content_block']);
 goog.addDependency("../styles/core.js", ['styles.core'], ['cljs.core', 'hoplon.core']);
 goog.addDependency("../pages/legal.js", ['pages.legal'], ['cljs.core', 'hoplon.core', 'layout.content_block']);
 goog.addDependency("../pages/milly.js", ['pages.milly'], ['layout.header_block', 'cljs.core', 'hoplon.core', 'layout.content_block']);
