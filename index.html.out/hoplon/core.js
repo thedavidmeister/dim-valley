@@ -94,7 +94,7 @@ var more = seq__10023__$1;
 var vec__10025 = clojure.string.split.call(null,f,/\./,(2));
 var f1 = cljs.core.nth.call(null,vec__10025,(0),null);
 var f2 = cljs.core.nth.call(null,vec__10025,(1),null);
-return clojure.string.join.call(null,"/",cljs.core.reverse.call(null,cljs.core.conj.call(null,more,clojure.string.join.call(null,".",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [[cljs.core.str.cljs$core$IFn$_invoke$arity$1(f1),cljs.core.str.cljs$core$IFn$_invoke$arity$1("."),cljs.core.str.cljs$core$IFn$_invoke$arity$1("b261420f96024b4c9f1a60e12284477d")].join(''),f2], null)))));
+return clojure.string.join.call(null,"/",cljs.core.reverse.call(null,cljs.core.conj.call(null,more,clojure.string.join.call(null,".",new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [[cljs.core.str.cljs$core$IFn$_invoke$arity$1(f1),cljs.core.str.cljs$core$IFn$_invoke$arity$1("."),cljs.core.str.cljs$core$IFn$_invoke$arity$1("00ac3e28403d427098a32fe746806bb6")].join(''),f2], null)))));
 });
 /**
  * Public helper.
