@@ -1,27 +1,27 @@
-// Compiled by ClojureScript 1.9.542 {}
+// Compiled by ClojureScript 1.9.521 {}
 goog.provide('layout.content_block');
 goog.require('cljs.core');
 goog.require('hoplon.core');
 goog.require('layout.config');
 goog.require('colours.ui_gradients');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
-var args__8313__auto__ = [];
-var len__8306__auto___13387 = arguments.length;
-var i__8307__auto___13388 = (0);
+var args__8988__auto__ = [];
+var len__8981__auto___12830 = arguments.length;
+var i__8982__auto___12831 = (0);
 while(true){
-if((i__8307__auto___13388 < len__8306__auto___13387)){
-args__8313__auto__.push((arguments[i__8307__auto___13388]));
+if((i__8982__auto___12831 < len__8981__auto___12830)){
+args__8988__auto__.push((arguments[i__8982__auto___12831]));
 
-var G__13389 = (i__8307__auto___13388 + (1));
-i__8307__auto___13388 = G__13389;
+var G__12832 = (i__8982__auto___12831 + (1));
+i__8982__auto___12831 = G__12832;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__8314__auto__ = ((((0) < args__8313__auto__.length))?(new cljs.core.IndexedSeq(args__8313__auto__.slice((0)),(0),null)):null);
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(argseq__8314__auto__);
+var argseq__8989__auto__ = ((((0) < args__8988__auto__.length))?(new cljs.core.IndexedSeq(args__8988__auto__.slice((0)),(0),null)):null);
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(argseq__8989__auto__);
 });
 
 layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic = (function (children){
@@ -30,28 +30,28 @@ return hoplon.core.div.call(null,new cljs.core.Keyword(null,"css","css",11350451
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_outer.cljs$lang$applyTo = (function (seq13386){
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq13386));
+layout.content_block.content_outer.cljs$lang$applyTo = (function (seq12829){
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq12829));
 });
 
 layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
-var args__8313__auto__ = [];
-var len__8306__auto___13391 = arguments.length;
-var i__8307__auto___13392 = (0);
+var args__8988__auto__ = [];
+var len__8981__auto___12834 = arguments.length;
+var i__8982__auto___12835 = (0);
 while(true){
-if((i__8307__auto___13392 < len__8306__auto___13391)){
-args__8313__auto__.push((arguments[i__8307__auto___13392]));
+if((i__8982__auto___12835 < len__8981__auto___12834)){
+args__8988__auto__.push((arguments[i__8982__auto___12835]));
 
-var G__13393 = (i__8307__auto___13392 + (1));
-i__8307__auto___13392 = G__13393;
+var G__12836 = (i__8982__auto___12835 + (1));
+i__8982__auto___12835 = G__12836;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__8314__auto__ = ((((0) < args__8313__auto__.length))?(new cljs.core.IndexedSeq(args__8313__auto__.slice((0)),(0),null)):null);
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(argseq__8314__auto__);
+var argseq__8989__auto__ = ((((0) < args__8988__auto__.length))?(new cljs.core.IndexedSeq(args__8988__auto__.slice((0)),(0),null)):null);
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(argseq__8989__auto__);
 });
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
@@ -60,8 +60,8 @@ return hoplon.core.div.call(null,new cljs.core.Keyword(null,"css","css",11350451
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_inner.cljs$lang$applyTo = (function (seq13390){
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq13390));
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq12833){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq12833));
 });
 
 

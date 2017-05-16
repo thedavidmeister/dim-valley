@@ -5,11 +5,14 @@
   colours.ui-gradients
   layout.header-block
   layout.content-block
+  layout.spacer
   mapbox.dom
   mapbox.api
   [unit.conversion :as u]
   wheel.math.geometry
-  wheel.hoplon.abn.dom))
+  wheel.abn.hoplon
+  wheel.address.hoplon
+  address.config))
 
 (defn dv-marker [width]
 
@@ -51,14 +54,16 @@
                           :marker-options {:offset (map (comp - #(/ % 2)) [marker-width marker-width])})]
   el))
 
-
 (defn content []
  [
   (layout.header-block/header
    "Dim valley pty. ltd."
-   ["A.B.N. " (wheel.hoplon.abn.dom/abn "38 617 641 595")
+   ["A.B.N. " (wheel.abn.hoplon/abn "38 617 641 595")
     (h/br)
     "Modern business services"])
+  (layout.content-block/content-inner
+   (wheel.address.hoplon/simple address.config/address)
+   (layout.spacer/vertical-spacer))
   (dv-map)
   (layout.content-block/content-inner
    "Lorem ipsum")])

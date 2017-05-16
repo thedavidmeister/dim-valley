@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.9.542 {}
+// Compiled by ClojureScript 1.9.521 {}
 goog.provide('fonts.config');
 goog.require('cljs.core');
 fonts.config.default_fallback = "sans-serif";

@@ -7,7 +7,7 @@
   menu.config
   [unit.conversion :as u]
   wheel.math.geometry
-  wheel.hoplon.google-fonts.api))
+  wheel.font.core))
 
 ; Loosely based on https://codepen.io/jordanlachance/pen/yOJdRr but heavily
 ; reworked and Hoplonified :)
@@ -184,7 +184,7 @@
             :valign "center"
             :css (merge
                   {:text-align "center"}
-                  (wheel.hoplon.google-fonts.api/font->css-map fonts.config/playfair))
+                  (wheel.font.core/font->css-map fonts.config/playfair))
             text))))
 
         (h/div

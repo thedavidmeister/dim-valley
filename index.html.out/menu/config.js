@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.9.542 {}
+// Compiled by ClojureScript 1.9.521 {}
 goog.provide('menu.config');
 goog.require('cljs.core');
 goog.require('animation.easings');
