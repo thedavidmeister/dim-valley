@@ -17,7 +17,7 @@
    (h/a (h/img :src "twitter.svg" :css {:width "30px" :display "inline-block" :margin-right "10px"}) :href "https://twitter.com/meelijane/"))
 
   (h/img
-   :src "https://pbs.twimg.com/media/C8DGQUCVYAABgc-.jpg:large"
+   :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/C8DGQUCVYAABgc-.jpg"
    :css {:width "100%"
          :margin "4px 0"})
 
