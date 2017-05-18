@@ -27,7 +27,7 @@
    (layout.spacer/vertical-spacer))
 
   (h/img
-   :src "dave-photo.png"
+   :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave-photo.jpg"
    :css {:width "100%"}
    :margin "4px 0")
 
