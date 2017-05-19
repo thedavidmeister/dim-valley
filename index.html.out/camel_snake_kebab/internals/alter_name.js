@@ -1,6 +1,7 @@
-// Compiled by ClojureScript 1.9.521 {}
+// Compiled by ClojureScript 1.9.521 {:static-fns true, :optimize-constants true}
 goog.provide('camel_snake_kebab.internals.alter_name');
 goog.require('cljs.core');
+goog.require('cljs.core.constants');
 
 /**
  * @interface
@@ -17,13 +18,13 @@ return this$.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2
 var x__8478__auto__ = (((this$ == null))?null:this$);
 var m__8479__auto__ = (camel_snake_kebab.internals.alter_name.alter_name[goog.typeOf(x__8478__auto__)]);
 if(!((m__8479__auto__ == null))){
-return m__8479__auto__.call(null,this$,f);
+return (m__8479__auto__.cljs$core$IFn$_invoke$arity$2 ? m__8479__auto__.cljs$core$IFn$_invoke$arity$2(this$,f) : m__8479__auto__.call(null,this$,f));
 } else {
 var m__8479__auto____$1 = (camel_snake_kebab.internals.alter_name.alter_name["_"]);
 if(!((m__8479__auto____$1 == null))){
-return m__8479__auto____$1.call(null,this$,f);
+return (m__8479__auto____$1.cljs$core$IFn$_invoke$arity$2 ? m__8479__auto____$1.cljs$core$IFn$_invoke$arity$2(this$,f) : m__8479__auto____$1.call(null,this$,f));
 } else {
-throw cljs.core.missing_protocol.call(null,"AlterName.alter-name",this$);
+throw cljs.core.missing_protocol("AlterName.alter-name",this$);
 }
 }
 }
@@ -32,17 +33,19 @@ throw cljs.core.missing_protocol.call(null,"AlterName.alter-name",this$);
 (camel_snake_kebab.internals.alter_name.AlterName["string"] = true);
 
 (camel_snake_kebab.internals.alter_name.alter_name["string"] = (function (this$,f){
-return f.call(null,this$);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(this$) : f.call(null,this$));
 }));
 
 cljs.core.Keyword.prototype.camel_snake_kebab$internals$alter_name$AlterName$ = cljs.core.PROTOCOL_SENTINEL;
 
 cljs.core.Keyword.prototype.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2 = (function (this$,f){
 var this$__$1 = this;
-if(cljs.core.truth_(cljs.core.namespace.call(null,this$__$1))){
-throw cljs.core.ex_info.call(null,"Namespaced keywords are not supported",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"input","input",556931961),this$__$1], null));
+if(cljs.core.truth_(cljs.core.namespace(this$__$1))){
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Namespaced keywords are not supported",new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$input,this$__$1], null));
 } else {
-return cljs.core.keyword.call(null,f.call(null,cljs.core.name.call(null,this$__$1)));
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__17983 = cljs.core.name(this$__$1);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__17983) : f.call(null,G__17983));
+})());
 }
 });
 
@@ -50,11 +53,11 @@ cljs.core.Symbol.prototype.camel_snake_kebab$internals$alter_name$AlterName$ = c
 
 cljs.core.Symbol.prototype.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2 = (function (this$,f){
 var this$__$1 = this;
-if(cljs.core.truth_(cljs.core.namespace.call(null,this$__$1))){
-throw cljs.core.ex_info.call(null,"Namespaced symbols are not supported",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"input","input",556931961),this$__$1], null));
+if(cljs.core.truth_(cljs.core.namespace(this$__$1))){
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Namespaced symbols are not supported",new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$input,this$__$1], null));
 } else {
-return cljs.core.symbol.call(null,f.call(null,cljs.core.name.call(null,this$__$1)));
+return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1((function (){var G__17984 = cljs.core.name(this$__$1);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__17984) : f.call(null,G__17984));
+})());
 }
 });
-
-//# sourceMappingURL=alter_name.js.map

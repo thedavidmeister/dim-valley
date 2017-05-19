@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Users\/davidmeister\/.boot\/cache\/tmp\/Users\/davidmeister\/dim-valley\/2cx\/9txbbm\/index.html.out\/menu\/config.js","sources":["config.cljs"],"lineCount":8,"mappings":";AAAA;;;AAGA,gCAAA,hCAAKA;AACL,AAAKC,qBAAO,AAAA,2GAAmBC","names":["menu.config\/transition-length","menu.config\/easing","animation.easings\/easings"]}

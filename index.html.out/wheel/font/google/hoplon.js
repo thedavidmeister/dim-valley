@@ -1,6 +1,7 @@
-// Compiled by ClojureScript 1.9.521 {}
+// Compiled by ClojureScript 1.9.521 {:static-fns true, :optimize-constants true}
 goog.provide('wheel.font.google.hoplon');
 goog.require('cljs.core');
+goog.require('cljs.core.constants');
 goog.require('hoplon.core');
 goog.require('wheel.stylesheet.hoplon');
 goog.require('wheel.font.google.core');
@@ -8,7 +9,5 @@ goog.require('wheel.font.google.core');
  * Given a sequence of fonts returns the stylesheet link to Google Fonts
  */
 wheel.font.google.hoplon.link = (function wheel$font$google$hoplon$link(fonts__$1){
-return wheel.stylesheet.hoplon.link.call(null,wheel.font.google.core.fonts__GT_url.call(null,fonts__$1));
+return wheel.stylesheet.hoplon.link(wheel.font.google.core.fonts__GT_url(fonts__$1));
 });
-
-//# sourceMappingURL=hoplon.js.map

@@ -1,1 +1,0 @@
-{:rename-macros {}, :renames {}, :externs {jQuery {}, Object {on {}}}, :use-macros {}, :excludes #{}, :name wheel.hoplon.on, :imports nil, :requires {hoplon.core hoplon.core}, :uses nil, :require-macros {hoplon.core hoplon.core}, :cljs.analyzer/constants {:seen #{:hoplon.core/default :html/*}, :order [:hoplon.core/default :html/*]}, :doc nil}

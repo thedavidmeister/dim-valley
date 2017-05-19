@@ -1,158 +1,159 @@
-// Compiled by ClojureScript 1.9.521 {}
+// Compiled by ClojureScript 1.9.521 {:static-fns true, :optimize-constants true}
 goog.provide('wheel.font.spec');
 goog.require('cljs.core');
+goog.require('cljs.core.constants');
 goog.require('wheel.font.config');
 goog.require('cljs.spec');
 goog.require('cljs.test');
-cljs.spec.def_impl.call(null,new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103),new cljs.core.Symbol("cljs.core","string?","cljs.core/string?",-2072921719,null),cljs.core.string_QMARK_);
-cljs.spec.def_impl.call(null,new cljs.core.Keyword("wheel.font","variants","wheel.font/variants",-702745790),new cljs.core.Symbol("cljs.core","sequential?","cljs.core/sequential?",1777854658,null),cljs.core.sequential_QMARK_);
-cljs.spec.def_impl.call(null,new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),new cljs.core.Symbol("cljs.core","string?","cljs.core/string?",-2072921719,null),cljs.core.string_QMARK_);
-cljs.spec.def_impl.call(null,new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol("cljs.spec","keys","cljs.spec/keys",-927379584,null),new cljs.core.Keyword(null,"req","req",-326448303),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)], null),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","variants","wheel.font/variants",-702745790),new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857)], null)),cljs.spec.map_spec_impl.call(null,cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"req-un","req-un",1074571008),new cljs.core.Keyword(null,"opt-un","opt-un",883442496),new cljs.core.Keyword(null,"gfn","gfn",791517474),new cljs.core.Keyword(null,"pred-exprs","pred-exprs",1792271395),new cljs.core.Keyword(null,"keys-pred","keys-pred",858984739),new cljs.core.Keyword(null,"opt-keys","opt-keys",1262688261),new cljs.core.Keyword(null,"req-specs","req-specs",553962313),new cljs.core.Keyword(null,"req","req",-326448303),new cljs.core.Keyword(null,"req-keys","req-keys",514319221),new cljs.core.Keyword(null,"opt-specs","opt-specs",-384905450),new cljs.core.Keyword(null,"pred-forms","pred-forms",172611832),new cljs.core.Keyword(null,"opt","opt",-794706369)],[null,null,null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (G__14260){
-return cljs.core.map_QMARK_.call(null,G__14260);
-}),(function (G__14260){
-return cljs.core.contains_QMARK_.call(null,G__14260,new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103));
-})], null),(function (G__14260){
-return (cljs.core.map_QMARK_.call(null,G__14260)) && (cljs.core.contains_QMARK_.call(null,G__14260,new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)));
-}),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","variants","wheel.font/variants",-702745790),new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","variants","wheel.font/variants",-702745790),new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(new cljs.core.Symbol("cljs.core","fn","cljs.core/fn",-1065745098,null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"%","%",-950237169,null)], null),cljs.core.list(new cljs.core.Symbol("cljs.core","map?","cljs.core/map?",-1390345523,null),new cljs.core.Symbol(null,"%","%",-950237169,null))),cljs.core.list(new cljs.core.Symbol("cljs.core","fn","cljs.core/fn",-1065745098,null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"%","%",-950237169,null)], null),cljs.core.list(new cljs.core.Symbol("cljs.core","contains?","cljs.core/contains?",-976526835,null),new cljs.core.Symbol(null,"%","%",-950237169,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("wheel.font","variants","wheel.font/variants",-702745790),new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857)], null)])));
+cljs.spec.def_impl(cljs.core.cst$kw$wheel$font_SLASH_name,cljs.core.cst$sym$cljs$core_SLASH_string_QMARK_,cljs.core.string_QMARK_);
+cljs.spec.def_impl(cljs.core.cst$kw$wheel$font_SLASH_variants,cljs.core.cst$sym$cljs$core_SLASH_sequential_QMARK_,cljs.core.sequential_QMARK_);
+cljs.spec.def_impl(cljs.core.cst$kw$wheel$font_SLASH_fallback,cljs.core.cst$sym$cljs$core_SLASH_string_QMARK_,cljs.core.string_QMARK_);
+cljs.spec.def_impl(cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$cljs$spec_SLASH_keys,cljs.core.cst$kw$req,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_name], null),cljs.core.cst$kw$opt,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_variants,cljs.core.cst$kw$wheel$font_SLASH_fallback], null)),cljs.spec.map_spec_impl(cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$req_DASH_un,cljs.core.cst$kw$opt_DASH_un,cljs.core.cst$kw$gfn,cljs.core.cst$kw$pred_DASH_exprs,cljs.core.cst$kw$keys_DASH_pred,cljs.core.cst$kw$opt_DASH_keys,cljs.core.cst$kw$req_DASH_specs,cljs.core.cst$kw$req,cljs.core.cst$kw$req_DASH_keys,cljs.core.cst$kw$opt_DASH_specs,cljs.core.cst$kw$pred_DASH_forms,cljs.core.cst$kw$opt],[null,null,null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (G__19886){
+return cljs.core.map_QMARK_(G__19886);
+}),(function (G__19886){
+return cljs.core.contains_QMARK_(G__19886,cljs.core.cst$kw$wheel$font_SLASH_name);
+})], null),(function (G__19886){
+return (cljs.core.map_QMARK_(G__19886)) && (cljs.core.contains_QMARK_(G__19886,cljs.core.cst$kw$wheel$font_SLASH_name));
+}),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_variants,cljs.core.cst$kw$wheel$font_SLASH_fallback], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_name], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_name], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_name], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_variants,cljs.core.cst$kw$wheel$font_SLASH_fallback], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$cljs$core_SLASH_fn,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$_PERCENT_], null),cljs.core.list(cljs.core.cst$sym$cljs$core_SLASH_map_QMARK_,cljs.core.cst$sym$_PERCENT_)),cljs.core.list(cljs.core.cst$sym$cljs$core_SLASH_fn,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$_PERCENT_], null),cljs.core.list(cljs.core.cst$sym$cljs$core_SLASH_contains_QMARK_,cljs.core.cst$sym$_PERCENT_,cljs.core.cst$kw$wheel$font_SLASH_name))], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$wheel$font_SLASH_variants,cljs.core.cst$kw$wheel$font_SLASH_fallback], null)])));
 wheel.font.spec._QMARK__QMARK_spec = (function wheel$font$spec$_QMARK__QMARK_spec(){
-return cljs.test.test_var.call(null,wheel.font.spec._QMARK__QMARK_spec.cljs$lang$var);
+return cljs.test.test_var(wheel.font.spec._QMARK__QMARK_spec.cljs$lang$var);
 });
 wheel.font.spec._QMARK__QMARK_spec.cljs$lang$test = (function (){
-var seq__14261 = cljs.core.seq.call(null,wheel.font.config.test_examples);
-var chunk__14262 = null;
-var count__14263 = (0);
-var i__14264 = (0);
+var seq__19887 = cljs.core.seq(wheel.font.config.test_examples);
+var chunk__19888 = null;
+var count__19889 = (0);
+var i__19890 = (0);
 while(true){
-if((i__14264 < count__14263)){
-var vec__14265 = cljs.core._nth.call(null,chunk__14262,i__14264);
-var i = cljs.core.nth.call(null,vec__14265,(0),null);
-var _ = cljs.core.nth.call(null,vec__14265,(1),null);
-try{var values__12007__auto___14277 = cljs.core._conj.call(null,(function (){var x__8694__auto__ = i;
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917));
-var result__12008__auto___14278 = cljs.core.apply.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14277);
-if(cljs.core.truth_(result__12008__auto___14278)){
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"pass","pass",1574159993),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),new cljs.core.Symbol(null,"i","i",253690212,null)),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core.cons.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14277),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+if((i__19890 < count__19889)){
+var vec__19891 = chunk__19888.cljs$core$IIndexed$_nth$arity$2(null,i__19890);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__19891,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__19891,(1),null);
+try{var values__16095__auto___19903 = cljs.core._conj((function (){var x__8694__auto__ = i;
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$kw$wheel$font_SLASH_font);
+var result__16096__auto___19904 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.spec.valid_QMARK_,values__16095__auto___19903);
+if(cljs.core.truth_(result__16096__auto___19904)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.cst$sym$i),cljs.core.cst$kw$actual,cljs.core.cons(cljs.spec.valid_QMARK_,values__16095__auto___19903),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"fail","fail",1706214930),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),new cljs.core.Symbol(null,"i","i",253690212,null)),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.cons.call(null,new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),values__12007__auto___14277);
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Symbol(null,"not","not",1044554643,null)),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.cst$sym$i),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__8694__auto__ = cljs.core.cons(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,values__16095__auto___19903);
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e14268){var t__12045__auto___14279 = e14268;
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),new cljs.core.Symbol(null,"i","i",253690212,null)),new cljs.core.Keyword(null,"actual","actual",107306363),t__12045__auto___14279,new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+}catch (e19894){var t__16133__auto___19905 = e19894;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.cst$sym$i),cljs.core.cst$kw$actual,t__16133__auto___19905,cljs.core.cst$kw$message,null], null));
 }
-try{var values__12007__auto___14280 = cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.merge.call(null,i,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null));
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917));
-var result__12008__auto___14281 = cljs.core.apply.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14280);
-if(cljs.core.truth_(result__12008__auto___14281)){
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"pass","pass",1574159993),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"merge","merge",-163787882,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core.cons.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14280),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+try{var values__16095__auto___19906 = cljs.core._conj((function (){var x__8694__auto__ = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null)], 0));
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$kw$wheel$font_SLASH_font);
+var result__16096__auto___19907 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.spec.valid_QMARK_,values__16095__auto___19906);
+if(cljs.core.truth_(result__16096__auto___19907)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$merge,cljs.core.cst$sym$i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.spec.valid_QMARK_,values__16095__auto___19906),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"fail","fail",1706214930),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"merge","merge",-163787882,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.cons.call(null,new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),values__12007__auto___14280);
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Symbol(null,"not","not",1044554643,null)),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$merge,cljs.core.cst$sym$i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__8694__auto__ = cljs.core.cons(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,values__16095__auto___19906);
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e14269){var t__12045__auto___14282 = e14269;
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"merge","merge",-163787882,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null))),new cljs.core.Keyword(null,"actual","actual",107306363),t__12045__auto___14282,new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+}catch (e19895){var t__16133__auto___19908 = e19895;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$merge,cljs.core.cst$sym$i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null))),cljs.core.cst$kw$actual,t__16133__auto___19908,cljs.core.cst$kw$message,null], null));
 }
-try{var values__12007__auto___14283 = (function (){var x__8694__auto__ = cljs.spec.valid_QMARK_.call(null,new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.dissoc.call(null,i,new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)));
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
+try{var values__16095__auto___19909 = (function (){var x__8694__auto__ = cljs.spec.valid_QMARK_.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(i,cljs.core.cst$kw$wheel$font_SLASH_name));
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
 })();
-var result__12008__auto___14284 = cljs.core.apply.call(null,cljs.core.not,values__12007__auto___14283);
-if(cljs.core.truth_(result__12008__auto___14284)){
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"pass","pass",1574159993),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol(null,"not","not",1044554643,null),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"dissoc","dissoc",1039760994,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core.cons.call(null,cljs.core.not,values__12007__auto___14283),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+var result__16096__auto___19910 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.not,values__16095__auto___19909);
+if(cljs.core.truth_(result__16096__auto___19910)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$not,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$dissoc,cljs.core.cst$sym$i,cljs.core.cst$kw$wheel$font_SLASH_name))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core.not,values__16095__auto___19909),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"fail","fail",1706214930),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol(null,"not","not",1044554643,null),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"dissoc","dissoc",1039760994,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.cons.call(null,new cljs.core.Symbol(null,"not","not",1044554643,null),values__12007__auto___14283);
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Symbol(null,"not","not",1044554643,null)),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$not,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$dissoc,cljs.core.cst$sym$i,cljs.core.cst$kw$wheel$font_SLASH_name))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__8694__auto__ = cljs.core.cons(cljs.core.cst$sym$not,values__16095__auto___19909);
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e14270){var t__12045__auto___14285 = e14270;
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol(null,"not","not",1044554643,null),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"dissoc","dissoc",1039760994,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))),new cljs.core.Keyword(null,"actual","actual",107306363),t__12045__auto___14285,new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+}catch (e19896){var t__16133__auto___19911 = e19896;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$not,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$dissoc,cljs.core.cst$sym$i,cljs.core.cst$kw$wheel$font_SLASH_name))),cljs.core.cst$kw$actual,t__16133__auto___19911,cljs.core.cst$kw$message,null], null));
 }
-var G__14286 = seq__14261;
-var G__14287 = chunk__14262;
-var G__14288 = count__14263;
-var G__14289 = (i__14264 + (1));
-seq__14261 = G__14286;
-chunk__14262 = G__14287;
-count__14263 = G__14288;
-i__14264 = G__14289;
+var G__19912 = seq__19887;
+var G__19913 = chunk__19888;
+var G__19914 = count__19889;
+var G__19915 = (i__19890 + (1));
+seq__19887 = G__19912;
+chunk__19888 = G__19913;
+count__19889 = G__19914;
+i__19890 = G__19915;
 continue;
 } else {
-var temp__6738__auto__ = cljs.core.seq.call(null,seq__14261);
+var temp__6738__auto__ = cljs.core.seq(seq__19887);
 if(temp__6738__auto__){
-var seq__14261__$1 = temp__6738__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__14261__$1)){
-var c__8671__auto__ = cljs.core.chunk_first.call(null,seq__14261__$1);
-var G__14290 = cljs.core.chunk_rest.call(null,seq__14261__$1);
-var G__14291 = c__8671__auto__;
-var G__14292 = cljs.core.count.call(null,c__8671__auto__);
-var G__14293 = (0);
-seq__14261 = G__14290;
-chunk__14262 = G__14291;
-count__14263 = G__14292;
-i__14264 = G__14293;
+var seq__19887__$1 = temp__6738__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__19887__$1)){
+var c__8671__auto__ = cljs.core.chunk_first(seq__19887__$1);
+var G__19916 = cljs.core.chunk_rest(seq__19887__$1);
+var G__19917 = c__8671__auto__;
+var G__19918 = cljs.core.count(c__8671__auto__);
+var G__19919 = (0);
+seq__19887 = G__19916;
+chunk__19888 = G__19917;
+count__19889 = G__19918;
+i__19890 = G__19919;
 continue;
 } else {
-var vec__14271 = cljs.core.first.call(null,seq__14261__$1);
-var i = cljs.core.nth.call(null,vec__14271,(0),null);
-var _ = cljs.core.nth.call(null,vec__14271,(1),null);
-try{var values__12007__auto___14294 = cljs.core._conj.call(null,(function (){var x__8694__auto__ = i;
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917));
-var result__12008__auto___14295 = cljs.core.apply.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14294);
-if(cljs.core.truth_(result__12008__auto___14295)){
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"pass","pass",1574159993),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),new cljs.core.Symbol(null,"i","i",253690212,null)),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core.cons.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14294),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+var vec__19897 = cljs.core.first(seq__19887__$1);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__19897,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__19897,(1),null);
+try{var values__16095__auto___19920 = cljs.core._conj((function (){var x__8694__auto__ = i;
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$kw$wheel$font_SLASH_font);
+var result__16096__auto___19921 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.spec.valid_QMARK_,values__16095__auto___19920);
+if(cljs.core.truth_(result__16096__auto___19921)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.cst$sym$i),cljs.core.cst$kw$actual,cljs.core.cons(cljs.spec.valid_QMARK_,values__16095__auto___19920),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"fail","fail",1706214930),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),new cljs.core.Symbol(null,"i","i",253690212,null)),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.cons.call(null,new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),values__12007__auto___14294);
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Symbol(null,"not","not",1044554643,null)),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.cst$sym$i),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__8694__auto__ = cljs.core.cons(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,values__16095__auto___19920);
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e14274){var t__12045__auto___14296 = e14274;
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),new cljs.core.Symbol(null,"i","i",253690212,null)),new cljs.core.Keyword(null,"actual","actual",107306363),t__12045__auto___14296,new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+}catch (e19900){var t__16133__auto___19922 = e19900;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.cst$sym$i),cljs.core.cst$kw$actual,t__16133__auto___19922,cljs.core.cst$kw$message,null], null));
 }
-try{var values__12007__auto___14297 = cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.merge.call(null,i,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null));
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917));
-var result__12008__auto___14298 = cljs.core.apply.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14297);
-if(cljs.core.truth_(result__12008__auto___14298)){
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"pass","pass",1574159993),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"merge","merge",-163787882,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core.cons.call(null,cljs.spec.valid_QMARK_,values__12007__auto___14297),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+try{var values__16095__auto___19923 = cljs.core._conj((function (){var x__8694__auto__ = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null)], 0));
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$kw$wheel$font_SLASH_font);
+var result__16096__auto___19924 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.spec.valid_QMARK_,values__16095__auto___19923);
+if(cljs.core.truth_(result__16096__auto___19924)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$merge,cljs.core.cst$sym$i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.spec.valid_QMARK_,values__16095__auto___19923),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"fail","fail",1706214930),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"merge","merge",-163787882,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.cons.call(null,new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),values__12007__auto___14297);
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Symbol(null,"not","not",1044554643,null)),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$merge,cljs.core.cst$sym$i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__8694__auto__ = cljs.core.cons(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,values__16095__auto___19923);
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e14275){var t__12045__auto___14299 = e14275;
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"merge","merge",-163787882,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("wheel.font","fallback","wheel.font/fallback",-846790857),"baz"], null))),new cljs.core.Keyword(null,"actual","actual",107306363),t__12045__auto___14299,new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+}catch (e19901){var t__16133__auto___19925 = e19901;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$merge,cljs.core.cst$sym$i,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$wheel$font_SLASH_fallback,"baz"], null))),cljs.core.cst$kw$actual,t__16133__auto___19925,cljs.core.cst$kw$message,null], null));
 }
-try{var values__12007__auto___14300 = (function (){var x__8694__auto__ = cljs.spec.valid_QMARK_.call(null,new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.dissoc.call(null,i,new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)));
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
+try{var values__16095__auto___19926 = (function (){var x__8694__auto__ = cljs.spec.valid_QMARK_.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(i,cljs.core.cst$kw$wheel$font_SLASH_name));
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
 })();
-var result__12008__auto___14301 = cljs.core.apply.call(null,cljs.core.not,values__12007__auto___14300);
-if(cljs.core.truth_(result__12008__auto___14301)){
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"pass","pass",1574159993),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol(null,"not","not",1044554643,null),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"dissoc","dissoc",1039760994,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core.cons.call(null,cljs.core.not,values__12007__auto___14300),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+var result__16096__auto___19927 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.not,values__16095__auto___19926);
+if(cljs.core.truth_(result__16096__auto___19927)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$not,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$dissoc,cljs.core.cst$sym$i,cljs.core.cst$kw$wheel$font_SLASH_name))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core.not,values__16095__auto___19926),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"fail","fail",1706214930),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol(null,"not","not",1044554643,null),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"dissoc","dissoc",1039760994,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))),new cljs.core.Keyword(null,"actual","actual",107306363),cljs.core._conj.call(null,(function (){var x__8694__auto__ = cljs.core.cons.call(null,new cljs.core.Symbol(null,"not","not",1044554643,null),values__12007__auto___14300);
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__8694__auto__);
-})(),new cljs.core.Symbol(null,"not","not",1044554643,null)),new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$not,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$dissoc,cljs.core.cst$sym$i,cljs.core.cst$kw$wheel$font_SLASH_name))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__8694__auto__ = cljs.core.cons(cljs.core.cst$sym$not,values__16095__auto___19926);
+return cljs.core._conj(cljs.core.List.EMPTY,x__8694__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e14276){var t__12045__auto___14302 = e14276;
-cljs.test.do_report.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"expected","expected",1583670997),cljs.core.list(new cljs.core.Symbol(null,"not","not",1044554643,null),cljs.core.list(new cljs.core.Symbol("spec","valid?","spec/valid?",1431643689,null),new cljs.core.Keyword("wheel.font","font","wheel.font/font",110839917),cljs.core.list(new cljs.core.Symbol(null,"dissoc","dissoc",1039760994,null),new cljs.core.Symbol(null,"i","i",253690212,null),new cljs.core.Keyword("wheel.font","name","wheel.font/name",109325103)))),new cljs.core.Keyword(null,"actual","actual",107306363),t__12045__auto___14302,new cljs.core.Keyword(null,"message","message",-406056002),null], null));
+}catch (e19902){var t__16133__auto___19928 = e19902;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$not,cljs.core.list(cljs.core.cst$sym$spec_SLASH_valid_QMARK_,cljs.core.cst$kw$wheel$font_SLASH_font,cljs.core.list(cljs.core.cst$sym$dissoc,cljs.core.cst$sym$i,cljs.core.cst$kw$wheel$font_SLASH_name))),cljs.core.cst$kw$actual,t__16133__auto___19928,cljs.core.cst$kw$message,null], null));
 }
-var G__14303 = cljs.core.next.call(null,seq__14261__$1);
-var G__14304 = null;
-var G__14305 = (0);
-var G__14306 = (0);
-seq__14261 = G__14303;
-chunk__14262 = G__14304;
-count__14263 = G__14305;
-i__14264 = G__14306;
+var G__19929 = cljs.core.next(seq__19887__$1);
+var G__19930 = null;
+var G__19931 = (0);
+var G__19932 = (0);
+seq__19887 = G__19929;
+chunk__19888 = G__19930;
+count__19889 = G__19931;
+i__19890 = G__19932;
 continue;
 }
 } else {
@@ -163,6 +164,4 @@ break;
 }
 });
 
-wheel.font.spec._QMARK__QMARK_spec.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.spec._QMARK__QMARK_spec;},new cljs.core.Symbol("wheel.font.spec","??spec","wheel.font.spec/??spec",-817389885,null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"ns","ns",441598760),new cljs.core.Keyword(null,"name","name",1843675177),new cljs.core.Keyword(null,"file","file",-1269645878),new cljs.core.Keyword(null,"end-column","end-column",1425389514),new cljs.core.Keyword(null,"column","column",2078222095),new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"end-line","end-line",1837326455),new cljs.core.Keyword(null,"arglists","arglists",1661989754),new cljs.core.Keyword(null,"doc","doc",1913296891),new cljs.core.Keyword(null,"test","test",577538877)],[new cljs.core.Symbol(null,"wheel.font.spec","wheel.font.spec",-1511852501,null),new cljs.core.Symbol(null,"??spec","??spec",-833272348,null),"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/2cx/9txbbm/index.html.out/wheel/font/spec.cljc",16,1,29,29,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.spec._QMARK__QMARK_spec)?wheel.font.spec._QMARK__QMARK_spec.cljs$lang$test:null)]));
-
-//# sourceMappingURL=spec.js.map
+wheel.font.spec._QMARK__QMARK_spec.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.spec._QMARK__QMARK_spec;},cljs.core.cst$sym$wheel$font$spec_SLASH__QMARK__QMARK_spec,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$spec,cljs.core.cst$sym$_QMARK__QMARK_spec,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/988/9txbbm/index.html.out/wheel/font/spec.cljc",16,1,29,29,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.spec._QMARK__QMARK_spec)?wheel.font.spec._QMARK__QMARK_spec.cljs$lang$test:null)]));
