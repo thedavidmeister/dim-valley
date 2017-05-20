@@ -749,6 +749,7 @@ cljs.core.cst$sym$sin = new cljs.core.Symbol(null,"sin","sin",1721439389,null);
 cljs.core.cst$sym$clojure$test$check$generators_SLASH_vector = new cljs.core.Symbol("clojure.test.check.generators","vector","clojure.test.check.generators/vector",1081775325,null);
 cljs.core.cst$kw$html_SLASH__STAR_ = new cljs.core.Keyword("html","*","html/*",-1283138243);
 cljs.core.cst$sym$clojure$spec_SLASH__AMPERSAND_ = new cljs.core.Symbol("clojure.spec","&","clojure.spec/&",-770935491,null);
+cljs.core.cst$kw$margin_DASH_bottom = new cljs.core.Keyword(null,"margin-bottom","margin-bottom",388334941);
 cljs.core.cst$sym$opt_DASH_specs = new cljs.core.Symbol(null,"opt-specs","opt-specs",1255626077,null);
 cljs.core.cst$sym$meta19333 = new cljs.core.Symbol(null,"meta19333","meta19333",-1103553155,null);
 cljs.core.cst$sym$transient_DASH_map = new cljs.core.Symbol(null,"transient-map","transient-map",351764893,null);
