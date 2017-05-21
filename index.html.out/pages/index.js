@@ -20,64 +20,42 @@ goog.require('pages.github');
 goog.require('pages.dave');
 goog.require('styles.core');
 goog.require('mapbox.dom');
-hoplon.core.html.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([(function (){var G__21405 = wheel.font.google.hoplon.link(fonts.config.fonts);
-var G__21406 = styles.core.style();
-var G__21407 = mapbox.dom.stylesheet();
-return (hoplon.core.head.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.head.cljs$core$IFn$_invoke$arity$3(G__21405,G__21406,G__21407) : hoplon.core.head.call(null,G__21405,G__21406,G__21407));
-})(),(function (){var G__21408 = cljs.core.cst$kw$css;
-var G__21409 = new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$background,[cljs.core.str.cljs$core$IFn$_invoke$arity$1("linear-gradient(to left, "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2(", ",colours.ui_gradients.stops.cljs$core$IFn$_invoke$arity$0())),cljs.core.str.cljs$core$IFn$_invoke$arity$1(")")].join(''),cljs.core.cst$kw$min_DASH_height,"100vh",cljs.core.cst$kw$width,"100vw",cljs.core.cst$kw$overflow_DASH_x,"hidden"], null);
-var G__21410 = (function (){var routes = new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$text,"dim valley pty. ltd.",cljs.core.cst$kw$f,pages.dim_valley.content], null),new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$text,"legal",cljs.core.cst$kw$f,pages.legal.content], null),new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$url,"octocat.jpg",cljs.core.cst$kw$f,pages.github.content], null),new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$url,"dave.png",cljs.core.cst$kw$f,pages.dave.content], null),new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$url,"milly.png",cljs.core.cst$kw$f,pages.milly.content], null)], null);
-var current_route = (function (){var c = javelin.core.cell.cljs$core$IFn$_invoke$arity$1(null);
-var route_in_routes_QMARK_ = ((function (c,routes,G__21408,G__21409){
-return (function (r,rs){
-return !((cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(((function (c,routes,G__21408,G__21409){
-return (function (p1__21403_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(r,p1__21403_SHARP_);
-});})(c,routes,G__21408,G__21409))
-,rs)) == null));
-});})(c,routes,G__21408,G__21409))
-;
-var c__16747__auto__ = javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (c,route_in_routes_QMARK_,routes,G__21408,G__21409){
-return (function (G__21414,G__21411,G__21413,G__21412){
-if(cljs.core.truth_((G__21411.cljs$core$IFn$_invoke$arity$2 ? G__21411.cljs$core$IFn$_invoke$arity$2(G__21412,G__21413) : G__21411.call(null,G__21412,G__21413)))){
-return G__21412;
-} else {
-return (G__21414.cljs$core$IFn$_invoke$arity$1 ? G__21414.cljs$core$IFn$_invoke$arity$1(G__21413) : G__21414.call(null,G__21413));
-}
-});})(c,route_in_routes_QMARK_,routes,G__21408,G__21409))
-).call(null,cljs.core.first,route_in_routes_QMARK_,routes,c);
-c__16747__auto__.update = ((function (c__16747__auto__,c,route_in_routes_QMARK_,routes,G__21408,G__21409){
-return (function (p1__21404_SHARP_){
-return (cljs.core.reset_BANG_.cljs$core$IFn$_invoke$arity$2 ? cljs.core.reset_BANG_.cljs$core$IFn$_invoke$arity$2(c,p1__21404_SHARP_) : cljs.core.reset_BANG_.call(null,c,p1__21404_SHARP_));
-});})(c__16747__auto__,c,route_in_routes_QMARK_,routes,G__21408,G__21409))
-;
-
-return c__16747__auto__;
+hoplon.core.html.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([(function (){var G__24645 = wheel.font.google.hoplon.link(fonts.config.fonts);
+var G__24646 = styles.core.style();
+var G__24647 = mapbox.dom.stylesheet();
+return (hoplon.core.head.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.head.cljs$core$IFn$_invoke$arity$3(G__24645,G__24646,G__24647) : hoplon.core.head.call(null,G__24645,G__24646,G__24647));
+})(),(function (){var G__24648 = cljs.core.cst$kw$css;
+var G__24649 = new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$background,[cljs.core.str.cljs$core$IFn$_invoke$arity$1("linear-gradient(to left, "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(clojure.string.join.cljs$core$IFn$_invoke$arity$2(", ",colours.ui_gradients.stops.cljs$core$IFn$_invoke$arity$0())),cljs.core.str.cljs$core$IFn$_invoke$arity$1(")")].join(''),cljs.core.cst$kw$min_DASH_height,"100vh",cljs.core.cst$kw$width,"100vw",cljs.core.cst$kw$overflow_DASH_x,"hidden"], null);
+var G__24650 = (function (){var items = new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$text,"dim valley pty. ltd.",cljs.core.cst$kw$f,pages.dim_valley.content,cljs.core.cst$kw$handler,cljs.core.cst$kw$contact], null),new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$text,"legal",cljs.core.cst$kw$f,pages.legal.content,cljs.core.cst$kw$handler,cljs.core.cst$kw$legal], null),new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$url,"octocat.jpg",cljs.core.cst$kw$f,pages.github.content,cljs.core.cst$kw$handler,cljs.core.cst$kw$github], null),new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$url,"dave.png",cljs.core.cst$kw$f,pages.dave.content,cljs.core.cst$kw$handler,cljs.core.cst$kw$dave], null),new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$url,"milly.png",cljs.core.cst$kw$f,pages.milly.content,cljs.core.cst$kw$handler,cljs.core.cst$kw$milly], null)], null);
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [menu.flower.menu(items,(200)),layout.middle_right.middle_right(menu.drawers.drawers.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([hoplon.core.loop_tpl_STAR_(items,((function (items,G__24648,G__24649){
+return (function (item__14903__auto__){
+var vec__24651 = javelin.core.cell_map(cljs.core.identity,javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (items,G__24648,G__24649){
+return (function (item){
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [item], null);
+});})(items,G__24648,G__24649))
+).call(null,item__14903__auto__));
+var item = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24651,(0),null);
+return menu.drawers.drawer.cljs$core$IFn$_invoke$arity$variadic(javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (vec__24651,item,items,G__24648,G__24649){
+return (function (G__24654,G__24657,G__24655,G__24656,G__24658){
+var G__24659 = G__24655;
+var G__24660 = (function (){var G__24661 = G__24657;
+var G__24662 = cljs.core.cst$kw$handler.cljs$core$IFn$_invoke$arity$1(G__24658);
+return (G__24656.cljs$core$IFn$_invoke$arity$2 ? G__24656.cljs$core$IFn$_invoke$arity$2(G__24661,G__24662) : G__24656.call(null,G__24661,G__24662));
 })();
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [menu.flower.menu(current_route,routes,(200)),layout.middle_right.middle_right(menu.drawers.drawers.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([hoplon.core.loop_tpl_STAR_(routes,((function (routes,current_route,G__21408,G__21409){
-return (function (item__17337__auto__){
-var vec__21415 = javelin.core.cell_map(cljs.core.identity,javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (routes,current_route,G__21408,G__21409){
-return (function (route){
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [route], null);
-});})(routes,current_route,G__21408,G__21409))
-).call(null,item__17337__auto__));
-var route = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21415,(0),null);
-return menu.drawers.drawer.cljs$core$IFn$_invoke$arity$variadic(javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (vec__21415,route,routes,current_route,G__21408,G__21409){
-return (function (G__21418,G__21420,G__21419){
-return (G__21418.cljs$core$IFn$_invoke$arity$2 ? G__21418.cljs$core$IFn$_invoke$arity$2(G__21419,G__21420) : G__21418.call(null,G__21419,G__21420));
-});})(vec__21415,route,routes,current_route,G__21408,G__21409))
-).call(null,cljs.core._EQ_,current_route,route),"calc(75vw + 4px)",cljs.core.array_seq([layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([(function (){var G__21421 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$css,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$width,"cacl(60vw - 4px)"], null)], null);
-var G__21422 = (function (){var G__21423 = javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (G__21421,vec__21415,route,routes,current_route,G__21408,G__21409){
-return (function (G__21424){
-return cljs.core.cst$kw$f.cljs$core$IFn$_invoke$arity$1(G__21424).call(null);
-});})(G__21421,vec__21415,route,routes,current_route,G__21408,G__21409))
-).call(null,route);
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$1(G__21423) : hoplon.core.div.call(null,G__21423));
+return (G__24654.cljs$core$IFn$_invoke$arity$2 ? G__24654.cljs$core$IFn$_invoke$arity$2(G__24659,G__24660) : G__24654.call(null,G__24659,G__24660));
+});})(vec__24651,item,items,G__24648,G__24649))
+).call(null,cljs.core._EQ_,route.config.routes,route.state.history,wheel.route.core.bidi__GT_path,item),"calc(75vw + 4px)",cljs.core.array_seq([layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([(function (){var G__24663 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$css,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$width,"cacl(60vw - 4px)"], null)], null);
+var G__24664 = (function (){var G__24665 = javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (G__24663,vec__24651,item,items,G__24648,G__24649){
+return (function (G__24666){
+return cljs.core.cst$kw$f.cljs$core$IFn$_invoke$arity$1(G__24666).call(null);
+});})(G__24663,vec__24651,item,items,G__24648,G__24649))
+).call(null,item);
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$1(G__24665) : hoplon.core.div.call(null,G__24665));
 })();
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__21421,G__21422) : hoplon.core.div.call(null,G__21421,G__21422));
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__24663,G__24664) : hoplon.core.div.call(null,G__24663,G__24664));
 })()], 0))], 0));
-});})(routes,current_route,G__21408,G__21409))
+});})(items,G__24648,G__24649))
 )], 0)))], null);
 })();
-return (hoplon.core.body.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.body.cljs$core$IFn$_invoke$arity$3(G__21408,G__21409,G__21410) : hoplon.core.body.call(null,G__21408,G__21409,G__21410));
+return (hoplon.core.body.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.body.cljs$core$IFn$_invoke$arity$3(G__24648,G__24649,G__24650) : hoplon.core.body.call(null,G__24648,G__24649,G__24650));
 })()], 0));

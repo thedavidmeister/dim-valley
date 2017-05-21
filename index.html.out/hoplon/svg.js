@@ -11,24 +11,24 @@ hoplon.svg.make_svg_ctor = (function hoplon$svg$make_svg_ctor(tag){
 var xmlns = "http://www.w3.org/2000/svg";
 return ((function (xmlns){
 return (function() { 
-var G__17932__delegate = function (args){
+var G__18069__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(hoplon.core.ensure_kids_BANG_(document.createElementNS(xmlns,tag)),args);
 };
-var G__17932 = function (var_args){
+var G__18069 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__17933__i = 0, G__17933__a = new Array(arguments.length -  0);
-while (G__17933__i < G__17933__a.length) {G__17933__a[G__17933__i] = arguments[G__17933__i + 0]; ++G__17933__i;}
-  args = new cljs.core.IndexedSeq(G__17933__a,0);
+var G__18070__i = 0, G__18070__a = new Array(arguments.length -  0);
+while (G__18070__i < G__18070__a.length) {G__18070__a[G__18070__i] = arguments[G__18070__i + 0]; ++G__18070__i;}
+  args = new cljs.core.IndexedSeq(G__18070__a,0);
 } 
-return G__17932__delegate.call(this,args);};
-G__17932.cljs$lang$maxFixedArity = 0;
-G__17932.cljs$lang$applyTo = (function (arglist__17934){
-var args = cljs.core.seq(arglist__17934);
-return G__17932__delegate(args);
+return G__18069__delegate.call(this,args);};
+G__18069.cljs$lang$maxFixedArity = 0;
+G__18069.cljs$lang$applyTo = (function (arglist__18071){
+var args = cljs.core.seq(arglist__18071);
+return G__18069__delegate(args);
 });
-G__17932.cljs$core$IFn$_invoke$arity$variadic = G__17932__delegate;
-return G__17932;
+G__18069.cljs$core$IFn$_invoke$arity$variadic = G__18069__delegate;
+return G__18069;
 })()
 ;
 ;})(xmlns))
