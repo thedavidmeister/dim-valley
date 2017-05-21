@@ -36,23 +36,23 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 ).call(null,item__14903__auto__));
 var item = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24651,(0),null);
 return menu.drawers.drawer.cljs$core$IFn$_invoke$arity$variadic(javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (vec__24651,item,items,G__24648,G__24649){
-return (function (G__24654,G__24657,G__24655,G__24656,G__24658){
-var G__24659 = G__24655;
-var G__24660 = (function (){var G__24661 = G__24657;
-var G__24662 = cljs.core.cst$kw$handler.cljs$core$IFn$_invoke$arity$1(G__24658);
-return (G__24656.cljs$core$IFn$_invoke$arity$2 ? G__24656.cljs$core$IFn$_invoke$arity$2(G__24661,G__24662) : G__24656.call(null,G__24661,G__24662));
+return (function (G__24654,G__24657,G__24656,G__24658,G__24655,G__24660,G__24659){
+var G__24661 = (G__24655.cljs$core$IFn$_invoke$arity$3 ? G__24655.cljs$core$IFn$_invoke$arity$3(G__24656,G__24657,G__24658) : G__24655.call(null,G__24656,G__24657,G__24658));
+var G__24662 = (function (){var G__24663 = G__24660;
+var G__24664 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$handler], null);
+return (G__24659.cljs$core$IFn$_invoke$arity$2 ? G__24659.cljs$core$IFn$_invoke$arity$2(G__24663,G__24664) : G__24659.call(null,G__24663,G__24664));
 })();
-return (G__24654.cljs$core$IFn$_invoke$arity$2 ? G__24654.cljs$core$IFn$_invoke$arity$2(G__24659,G__24660) : G__24654.call(null,G__24659,G__24660));
+return (G__24654.cljs$core$IFn$_invoke$arity$2 ? G__24654.cljs$core$IFn$_invoke$arity$2(G__24661,G__24662) : G__24654.call(null,G__24661,G__24662));
 });})(vec__24651,item,items,G__24648,G__24649))
-).call(null,cljs.core._EQ_,route.config.routes,route.state.history,wheel.route.core.bidi__GT_path,item),"calc(75vw + 4px)",cljs.core.array_seq([layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([(function (){var G__24663 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$css,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$width,"cacl(60vw - 4px)"], null)], null);
-var G__24664 = (function (){var G__24665 = javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (G__24663,vec__24651,item,items,G__24648,G__24649){
-return (function (G__24666){
-return cljs.core.cst$kw$f.cljs$core$IFn$_invoke$arity$1(G__24666).call(null);
-});})(G__24663,vec__24651,item,items,G__24648,G__24649))
+).call(null,cljs.core._EQ_,route.config.routes,route.state.history,route.config.fallback_handler,wheel.route.core.path__GT_bidi,item,cljs.core.select_keys),"calc(75vw + 4px)",cljs.core.array_seq([layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([(function (){var G__24665 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$css,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$width,"cacl(60vw - 4px)"], null)], null);
+var G__24666 = (function (){var G__24667 = javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (G__24665,vec__24651,item,items,G__24648,G__24649){
+return (function (G__24668){
+return cljs.core.cst$kw$f.cljs$core$IFn$_invoke$arity$1(G__24668).call(null);
+});})(G__24665,vec__24651,item,items,G__24648,G__24649))
 ).call(null,item);
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$1(G__24665) : hoplon.core.div.call(null,G__24665));
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$1(G__24667) : hoplon.core.div.call(null,G__24667));
 })();
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__24663,G__24664) : hoplon.core.div.call(null,G__24663,G__24664));
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__24665,G__24666) : hoplon.core.div.call(null,G__24665,G__24666));
 })()], 0))], 0));
 });})(items,G__24648,G__24649))
 )], 0)))], null);

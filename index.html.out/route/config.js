@@ -8,3 +8,4 @@ if(cljs.core.truth_(wheel.route.core.routes_QMARK_(route.config.routes))){
 } else {
 throw (new Error("Assert failed: (wheel.route.core/routes? routes)"));
 }
+route.config.fallback_handler = cljs.core.cst$kw$contact;
