@@ -16,23 +16,23 @@ return (mapboxgl["accessToken"] = token);
  * Returns a mapbox LngLat object from given co-ordinates
  */
 mapbox.api.lng_lat = (function mapbox$api$lng_lat(var_args){
-var args24035 = [];
-var len__8981__auto___24042 = arguments.length;
-var i__8982__auto___24043 = (0);
+var args24001 = [];
+var len__8981__auto___24008 = arguments.length;
+var i__8982__auto___24009 = (0);
 while(true){
-if((i__8982__auto___24043 < len__8981__auto___24042)){
-args24035.push((arguments[i__8982__auto___24043]));
+if((i__8982__auto___24009 < len__8981__auto___24008)){
+args24001.push((arguments[i__8982__auto___24009]));
 
-var G__24044 = (i__8982__auto___24043 + (1));
-i__8982__auto___24043 = G__24044;
+var G__24010 = (i__8982__auto___24009 + (1));
+i__8982__auto___24009 = G__24010;
 continue;
 } else {
 }
 break;
 }
 
-var G__24037 = args24035.length;
-switch (G__24037) {
+var G__24003 = args24001.length;
+switch (G__24003) {
 case 1:
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -42,15 +42,15 @@ return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argume
 
 break;
 default:
-throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args24035.length)].join('')));
+throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args24001.length)].join('')));
 
 }
 });
 
-mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__24038){
-var vec__24039 = p__24038;
-var lng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24039,(0),null);
-var lat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24039,(1),null);
+mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__24004){
+var vec__24005 = p__24004;
+var lng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24005,(0),null);
+var lat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24005,(1),null);
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$2(lng,lat);
 });
 
@@ -81,12 +81,12 @@ return jQuery.data(el,mapbox.api.mapbox_key,m);
  */
 mapbox.api.with_marker_BANG_ = (function mapbox$api$with_marker_BANG_(map_el,marker_el,ll,marker_options){
 return hoplon.core.when_dom(map_el,(function (){
-var G__24047 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js(marker_options)));
-G__24047.setLngLat(ll);
+var G__24013 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js(marker_options)));
+G__24013.setLngLat(ll);
 
-G__24047.addTo(mapbox.api.map_el__GT_map(map_el));
+G__24013.addTo(mapbox.api.map_el__GT_map(map_el));
 
-return G__24047;
+return G__24013;
 }));
 });
 /**
