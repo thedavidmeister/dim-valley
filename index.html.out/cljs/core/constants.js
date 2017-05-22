@@ -461,6 +461,7 @@ cljs.core.cst$kw$source = new cljs.core.Keyword(null,"source","source",-43393153
 cljs.core.cst$kw$schema$core_SLASH_missing = new cljs.core.Keyword("schema.core","missing","schema.core/missing",1420181325);
 cljs.core.cst$kw$flush_DASH_on_DASH_newline = new cljs.core.Keyword(null,"flush-on-newline","flush-on-newline",-151457939);
 cljs.core.cst$sym$wheel$route$core_SLASH__QMARK__QMARK_path_DASH__GT_bidi = new cljs.core.Symbol("wheel.route.core","??path->bidi","wheel.route.core/??path->bidi",284798861,null);
+cljs.core.cst$kw$max_DASH_width = new cljs.core.Keyword(null,"max-width","max-width",-1939924051);
 cljs.core.cst$kw$relative_DASH_to = new cljs.core.Keyword(null,"relative-to","relative-to",-470100051);
 cljs.core.cst$kw$preds_DASH_and_DASH_schemas = new cljs.core.Keyword(null,"preds-and-schemas","preds-and-schemas",-1306766355);
 cljs.core.cst$sym$default_DASH_dispatch_DASH_val = new cljs.core.Symbol(null,"default-dispatch-val","default-dispatch-val",-1231201266,null);
