@@ -9,8 +9,8 @@ goog.require('mapbox.api');
  * @param {...*} var_args
  */
 mapbox.dom.map = (function() { 
-var mapbox$dom$map__delegate = function (args__14859__auto__){
-var vec__24069 = hoplon.core.parse_args(args__14859__auto__);
+var mapbox$dom$map__delegate = function (args__14861__auto__){
+var vec__24069 = hoplon.core.parse_args(args__14861__auto__);
 var map__24072 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24069,(0),null);
 var map__24072__$1 = ((((!((map__24072 == null)))?((((map__24072.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24072.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24072):map__24072);
 var attributes = map__24072__$1;
@@ -39,17 +39,17 @@ mapbox.api.with_marker_BANG_(el,marker,center_24076,marker_options);
 return el;
 };
 var mapbox$dom$map = function (var_args){
-var args__14859__auto__ = null;
+var args__14861__auto__ = null;
 if (arguments.length > 0) {
 var G__24077__i = 0, G__24077__a = new Array(arguments.length -  0);
 while (G__24077__i < G__24077__a.length) {G__24077__a[G__24077__i] = arguments[G__24077__i + 0]; ++G__24077__i;}
-  args__14859__auto__ = new cljs.core.IndexedSeq(G__24077__a,0);
+  args__14861__auto__ = new cljs.core.IndexedSeq(G__24077__a,0);
 } 
-return mapbox$dom$map__delegate.call(this,args__14859__auto__);};
+return mapbox$dom$map__delegate.call(this,args__14861__auto__);};
 mapbox$dom$map.cljs$lang$maxFixedArity = 0;
 mapbox$dom$map.cljs$lang$applyTo = (function (arglist__24078){
-var args__14859__auto__ = cljs.core.seq(arglist__24078);
-return mapbox$dom$map__delegate(args__14859__auto__);
+var args__14861__auto__ = cljs.core.seq(arglist__24078);
+return mapbox$dom$map__delegate(args__14861__auto__);
 });
 mapbox$dom$map.cljs$core$IFn$_invoke$arity$variadic = mapbox$dom$map__delegate;
 return mapbox$dom$map;
