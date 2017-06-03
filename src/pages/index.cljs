@@ -50,5 +50,4 @@
 
         (layout.content-block/content-outer
          (h/div
-          {:css {:width "cacl(60vw - 4px)"}}
           (h/div (j/cell= ((:f item))))))))))])))
