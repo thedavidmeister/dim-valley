@@ -60,13 +60,16 @@
    "Dim Valley"
    "Modern business services")
   (layout.content-block/content-inner
-   "Dim Valley provides modern business services as a consulting service. Milly Schmidt and Dave Meister have developed a business-first approach to technology. We work with organisations in an honest and bespoke manner, leveraging various approaches, patterns, technologies and tools to solve their unique problems."
+   "Milly Schmidt and Dave Meister have developed a business-first approach to technology. We work with organisations in an honest and bespoke manner, leveraging various approaches, patterns, technologies and tools to solve their unique problems."
    (layout.spacer/vertical-spacer))
   (layout.content-block/content-inner
    (h/h2 "Contact us")
+   (h/p (h/strong "Milly: ") "0403 858 811 | meeli.jane@gmail.com")
+   (h/p (h/strong "Dave: ") "0434 016 790 | thedavidmeister@gmail.com")
+   (wheel.address.hoplon/simple address.config/address)
+   (h/br)
    (h/br)
    ["A.B.N. " (wheel.abn.hoplon/abn "38 617 641 595")]
    (h/br)
-   (wheel.address.hoplon/simple address.config/address)
    (layout.spacer/vertical-spacer))
   (dv-map)])
