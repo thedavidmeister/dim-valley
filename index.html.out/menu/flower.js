@@ -233,7 +233,7 @@ return (hoplon.core.div.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.div.cljs$cor
 })(),(function (){var G__23961 = cljs.core.cst$kw$css;
 var G__23962 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$z_DASH_index,(0)], null);
 var G__23963 = hoplon.core.loop_tpl_STAR_(i_xy_item,((function (G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
-return (function (item__20491__auto__){
+return (function (item__14903__auto__){
 var vec__23976 = javelin.core.cell_map(cljs.core.identity,javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
 return (function (p__23979){
 var vec__23980 = p__23979;
@@ -244,7 +244,7 @@ var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23983,(1),null);
 var item = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23980,(2),null);
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,i,y,item], null);
 });})(G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
-).call(null,item__20491__auto__));
+).call(null,item__14903__auto__));
 var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23976,(0),null);
 var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23976,(1),null);
 var y = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23976,(2),null);
@@ -330,7 +330,7 @@ return (G__24020.cljs$core$IFn$_invoke$arity$1 ? G__24020.cljs$core$IFn$_invoke$
 })()]);
 });})(G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
 ).call(null,menu.config.easing,item_radius,unit.conversion.n__GT_px,menu.flower.big_scale,interacting_QMARK_,total_transition_length,url);
-var G__24016 = (function (){var con__20501__auto__ = (new cljs.core.Delay(((function (G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
+var G__24016 = (function (){var con__14913__auto__ = (new cljs.core.Delay(((function (G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
 return (function (){
 var G__24027 = cljs.core.cst$kw$css;
 var G__24028 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$position,"absolute",cljs.core.cst$kw$width,"100%",cljs.core.cst$kw$height,"100%"], null);
@@ -346,14 +346,14 @@ return (hoplon.core.tr.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.tr.cljs$core$
 return (hoplon.core.table.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.table.cljs$core$IFn$_invoke$arity$3(G__24027,G__24028,G__24029) : hoplon.core.table.call(null,G__24027,G__24028,G__24029));
 });})(G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
 ,null));
-var alt__20502__auto__ = (new cljs.core.Delay(((function (con__20501__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
+var alt__14914__auto__ = (new cljs.core.Delay(((function (con__14913__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
 return (function (){
 return null;
-});})(con__20501__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
+});})(con__14913__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
 ,null));
-var tpl__20503__auto__ = ((function (con__20501__auto__,alt__20502__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
-return (function (p__20504__auto__){
-var G__24036 = (function (){var or__7760__auto__ = (cljs.core.truth_(p__20504__auto__)?con__20501__auto__:alt__20502__auto__);
+var tpl__14915__auto__ = ((function (con__14913__auto__,alt__14914__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
+return (function (p__14916__auto__){
+var G__24036 = (function (){var or__7760__auto__ = (cljs.core.truth_(p__14916__auto__)?con__14913__auto__:alt__14914__auto__);
 if(cljs.core.truth_(or__7760__auto__)){
 return or__7760__auto__;
 } else {
@@ -361,9 +361,9 @@ return (cljs.core.atom.cljs$core$IFn$_invoke$arity$0 ? cljs.core.atom.cljs$core$
 }
 })();
 return (cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(G__24036) : cljs.core.deref.call(null,G__24036));
-});})(con__20501__auto__,alt__20502__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
+});})(con__14913__auto__,alt__14914__auto__,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length))
 ;
-return javelin.core.formula.cljs$core$IFn$_invoke$arity$1(tpl__20503__auto__).call(null,text);
+return javelin.core.formula.cljs$core$IFn$_invoke$arity$1(tpl__14915__auto__).call(null,text);
 })();
 var G__24017 = (function (){var G__24037 = cljs.core.cst$kw$css;
 var G__24038 = javelin.core.formula.cljs$core$IFn$_invoke$arity$1(((function (G__24037,G__24008,G__24009,G__24010,G__24011,G__24012,G__24013,G__24014,G__24015,G__24016,G__23994,G__23995,transition_delay,url,text,handler,mouseover_QMARK_,interacting_QMARK_,vec__23976,x,i,y,item,G__23961,G__23962,open_QMARK_,button_hover_QMARK_,ratio,offset,item_radius,radians_per_item,i_xy_item,total_transition_length,base_transition_length){
