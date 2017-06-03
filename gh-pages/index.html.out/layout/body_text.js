@@ -7,8 +7,8 @@ goog.require('hoplon.core');
  * @param {...*} var_args
  */
 layout.body_text.p = (function() { 
-var layout$body_text$p__delegate = function (args__14859__auto__){
-var vec__24449 = hoplon.core.parse_args(args__14859__auto__);
+var layout$body_text$p__delegate = function (args__14861__auto__){
+var vec__24449 = hoplon.core.parse_args(args__14861__auto__);
 var attributes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24449,(0),null);
 var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24449,(1),null);
 var G__24452 = cljs.core.cst$kw$css;
@@ -18,17 +18,17 @@ var G__24455 = children;
 return (hoplon.core.p.cljs$core$IFn$_invoke$arity$4 ? hoplon.core.p.cljs$core$IFn$_invoke$arity$4(G__24452,G__24453,G__24454,G__24455) : hoplon.core.p.call(null,G__24452,G__24453,G__24454,G__24455));
 };
 var layout$body_text$p = function (var_args){
-var args__14859__auto__ = null;
+var args__14861__auto__ = null;
 if (arguments.length > 0) {
 var G__24456__i = 0, G__24456__a = new Array(arguments.length -  0);
 while (G__24456__i < G__24456__a.length) {G__24456__a[G__24456__i] = arguments[G__24456__i + 0]; ++G__24456__i;}
-  args__14859__auto__ = new cljs.core.IndexedSeq(G__24456__a,0);
+  args__14861__auto__ = new cljs.core.IndexedSeq(G__24456__a,0);
 } 
-return layout$body_text$p__delegate.call(this,args__14859__auto__);};
+return layout$body_text$p__delegate.call(this,args__14861__auto__);};
 layout$body_text$p.cljs$lang$maxFixedArity = 0;
 layout$body_text$p.cljs$lang$applyTo = (function (arglist__24457){
-var args__14859__auto__ = cljs.core.seq(arglist__24457);
-return layout$body_text$p__delegate(args__14859__auto__);
+var args__14861__auto__ = cljs.core.seq(arglist__24457);
+return layout$body_text$p__delegate(args__14861__auto__);
 });
 layout$body_text$p.cljs$core$IFn$_invoke$arity$variadic = layout$body_text$p__delegate;
 return layout$body_text$p;
