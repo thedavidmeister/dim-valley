@@ -10,24 +10,24 @@ goog.require('wheel.route.hoplon');
  * @param {...*} var_args
  */
 route.hoplon.link = (function() { 
-var route$hoplon$link__delegate = function (args__14861__auto__){
-var vec__23519 = hoplon.core.parse_args(args__14861__auto__);
+var route$hoplon$link__delegate = function (args__14859__auto__){
+var vec__23519 = hoplon.core.parse_args(args__14859__auto__);
 var attributes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23519,(0),null);
 var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23519,(1),null);
 return wheel.route.hoplon.link.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$history,route.state.history,cljs.core.cst$kw$routes,route.config.routes], null),attributes], 0)),children], 0));
 };
 var route$hoplon$link = function (var_args){
-var args__14861__auto__ = null;
+var args__14859__auto__ = null;
 if (arguments.length > 0) {
 var G__23522__i = 0, G__23522__a = new Array(arguments.length -  0);
 while (G__23522__i < G__23522__a.length) {G__23522__a[G__23522__i] = arguments[G__23522__i + 0]; ++G__23522__i;}
-  args__14861__auto__ = new cljs.core.IndexedSeq(G__23522__a,0);
+  args__14859__auto__ = new cljs.core.IndexedSeq(G__23522__a,0);
 } 
-return route$hoplon$link__delegate.call(this,args__14861__auto__);};
+return route$hoplon$link__delegate.call(this,args__14859__auto__);};
 route$hoplon$link.cljs$lang$maxFixedArity = 0;
 route$hoplon$link.cljs$lang$applyTo = (function (arglist__23523){
-var args__14861__auto__ = cljs.core.seq(arglist__23523);
-return route$hoplon$link__delegate(args__14861__auto__);
+var args__14859__auto__ = cljs.core.seq(arglist__23523);
+return route$hoplon$link__delegate(args__14859__auto__);
 });
 route$hoplon$link.cljs$core$IFn$_invoke$arity$variadic = route$hoplon$link__delegate;
 return route$hoplon$link;
