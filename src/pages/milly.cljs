@@ -27,7 +27,7 @@
 
   (layout.header-block/header
    "Amelia Schmidt (Milly)"
-   "Owner and CPO at Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd.")
+   "Owner and consultant at Dim Valley Pty. Ltd. and owner and CPO at Nice Feature Pty. Ltd.")
 
   (layout.content-block/content-inner
    (h/h2 "I believe...")
