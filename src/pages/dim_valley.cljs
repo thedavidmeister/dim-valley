@@ -56,14 +56,20 @@
 
 (defn content []
  [
-  (dv-map)
   (layout.header-block/header
-   "Dim valley pty. ltd."
-   ["A.B.N. " (wheel.abn.hoplon/abn "38 617 641 595")
-    (h/br)
-    "Modern business services"])
+   "Dim Valley"
+   "Modern business services")
   (layout.content-block/content-inner
-   (wheel.address.hoplon/simple address.config/address)
+   "Milly Schmidt and Dave Meister have developed a business-first approach to technology. We work with organisations in an honest and bespoke manner, leveraging various approaches, patterns, technologies and tools to solve their unique problems."
    (layout.spacer/vertical-spacer))
   (layout.content-block/content-inner
-   "Lorem ipsum")])
+   (h/h2 "Contact us")
+   (h/p (h/strong "Milly: ") "0403 858 811 | meeli.jane@gmail.com")
+   (h/p (h/strong "Dave: ") "0434 016 790 | thedavidmeister@gmail.com")
+   (wheel.address.hoplon/simple address.config/address)
+   (h/br)
+   (h/br)
+   ["A.B.N. " (wheel.abn.hoplon/abn "38 617 641 595")]
+   (h/br)
+   (layout.spacer/vertical-spacer))
+  (dv-map)])
