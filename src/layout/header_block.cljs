@@ -9,17 +9,14 @@
   (h/div
    :css (merge
          {:padding "2.67rem 0"}
-         (wheel.font.core/font->css-map fonts.config/playfair))
+         (wheel.font.core/font->css-map fonts.config/gentium-basic))
    (h/h1
     :css {:margin "0 0 1.2rem 0"}
     heading)
 
    (h/span
     :css {:font-size "2.2rem"
-          :width "70%"
           :max-width "600px"
           :display "inline-block"
-          :font-style "italic"
-          :color "black"
-          :margin-top "2rem"}
+          :margin-top "1rem"}
     tagline))))
