@@ -2,4 +2,4 @@
 goog.provide('colours.config');
 goog.require('cljs.core');
 goog.require('cljs.core.constants');
-colours.config.gradient_name = "Day Tripper";
+colours.config.gradient_name = "Dawn";
