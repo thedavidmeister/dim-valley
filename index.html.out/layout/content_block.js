@@ -7,14 +7,14 @@ goog.require('layout.config');
 goog.require('colours.ui_gradients');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
 var args__8988__auto__ = [];
-var len__8981__auto___21633 = arguments.length;
-var i__8982__auto___21634 = (0);
+var len__8981__auto___21630 = arguments.length;
+var i__8982__auto___21631 = (0);
 while(true){
-if((i__8982__auto___21634 < len__8981__auto___21633)){
-args__8988__auto__.push((arguments[i__8982__auto___21634]));
+if((i__8982__auto___21631 < len__8981__auto___21630)){
+args__8988__auto__.push((arguments[i__8982__auto___21631]));
 
-var G__21635 = (i__8982__auto___21634 + (1));
-i__8982__auto___21634 = G__21635;
+var G__21632 = (i__8982__auto___21631 + (1));
+i__8982__auto___21631 = G__21632;
 continue;
 } else {
 }
@@ -26,10 +26,7 @@ return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(a
 });
 
 layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic = (function (children){
-var G__21630 = cljs.core.cst$kw$css;
-var G__21631 = new cljs.core.PersistentArrayMap(null, 7, [cljs.core.cst$kw$border_DASH_width,"4px",cljs.core.cst$kw$border_DASH_style,"dotted",cljs.core.cst$kw$border_DASH_color,cljs.core.last(colours.ui_gradients.stops.cljs$core$IFn$_invoke$arity$0()),cljs.core.cst$kw$border_DASH_image_DASH_source,"url('border-dots.svg')",cljs.core.cst$kw$border_DASH_image_DASH_slice,"33% 33%",cljs.core.cst$kw$border_DASH_image_DASH_repeat,"round",cljs.core.cst$kw$border_DASH_right,"none"], null);
-var G__21632 = children;
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$3(G__21630,G__21631,G__21632) : hoplon.core.div.call(null,G__21630,G__21631,G__21632));
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$1(children) : hoplon.core.div.call(null,children));
 });
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
@@ -40,14 +37,14 @@ return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(c
 
 layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
 var args__8988__auto__ = [];
-var len__8981__auto___21642 = arguments.length;
-var i__8982__auto___21643 = (0);
+var len__8981__auto___21639 = arguments.length;
+var i__8982__auto___21640 = (0);
 while(true){
-if((i__8982__auto___21643 < len__8981__auto___21642)){
-args__8988__auto__.push((arguments[i__8982__auto___21643]));
+if((i__8982__auto___21640 < len__8981__auto___21639)){
+args__8988__auto__.push((arguments[i__8982__auto___21640]));
 
-var G__21644 = (i__8982__auto___21643 + (1));
-i__8982__auto___21643 = G__21644;
+var G__21641 = (i__8982__auto___21640 + (1));
+i__8982__auto___21640 = G__21641;
 continue;
 } else {
 }
@@ -59,17 +56,17 @@ return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(a
 });
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
-var G__21637 = cljs.core.cst$kw$css;
-var G__21638 = new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
-var G__21639 = cljs.core.cst$kw$class;
-var G__21640 = "clearfix";
-var G__21641 = children;
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$5(G__21637,G__21638,G__21639,G__21640,G__21641) : hoplon.core.div.call(null,G__21637,G__21638,G__21639,G__21640,G__21641));
+var G__21634 = cljs.core.cst$kw$css;
+var G__21635 = new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
+var G__21636 = cljs.core.cst$kw$class;
+var G__21637 = "clearfix";
+var G__21638 = children;
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$5(G__21634,G__21635,G__21636,G__21637,G__21638) : hoplon.core.div.call(null,G__21634,G__21635,G__21636,G__21637,G__21638));
 });
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_inner.cljs$lang$applyTo = (function (seq21636){
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq21636));
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq21633){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq21633));
 });
 
