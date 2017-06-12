@@ -9,7 +9,7 @@
         :height "10vh"}))
 
 (defn spacer-tr [] (h/tr (spacer-td) (h/td)))
-(defn content-tr [content] (h/tr (h/td) (h/td content)))
+(defn content-tr [content] (h/tr (spacer-td) (h/td content) (spacer-td)))
 
 (defn middle-right
  [children]

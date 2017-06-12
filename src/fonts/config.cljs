@@ -2,10 +2,10 @@
 
 (def default-fallback "sans-serif")
 
-(def playfair {:wheel.font/name "Playfair Display"
-               :wheel.font/fallback "serif"})
+(def gentium-basic {:wheel.font/name "Gentium Basic"
+                    :wheel.font/fallback "serif"})
 
-(def raleway {:wheel.font/name "Raleway"
-              :wheel.font/variants ["400" "700"]})
+(def open-sans {:wheel.font/name "Open Sans"
+                :wheel.font/variants ["400" "700"]})
 
-(def fonts [playfair raleway])
+(def fonts [gentium-basic open-sans])

@@ -1,3 +1,3 @@
 (ns colours.config)
 
-(def gradient-name "Day Tripper")
+(def gradient-name "Dawn")

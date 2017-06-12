@@ -15,7 +15,8 @@
    :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave-photo.jpg"
    :width "100%"
    :height "400px"
-   :css {:margin-bottom "4px"})
+   :css {:margin-bottom "4px"
+         :filter "saturate(0)"})
 
   (layout.content-block/content-inner
    (layout.spacer/vertical-spacer)

@@ -5,8 +5,7 @@
 (h/defelem p
  [attributes children]
  (h/p
-  :css (merge {:width "70%"
-               :max-width "600px"}
+  :css (merge {:max-width "600px"}
               (:css attributes))
   (dissoc attributes :css)
   children))

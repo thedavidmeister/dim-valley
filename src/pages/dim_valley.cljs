@@ -61,7 +61,7 @@
    :width "100%"
    :height "400px"
    :css {:margin-bottom "4px"
-         :filter "hue-rotate(100deg)"})
+         :filter "saturate(0)"})
   (layout.header-block/header
    "Dim Valley"
    "Modern business services")

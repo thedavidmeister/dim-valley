@@ -194,7 +194,7 @@
              :valign "center"
              :css (merge
                    {:text-align "center"}
-                   (wheel.font.core/font->css-map fonts.config/playfair))
+                   (wheel.font.core/font->css-map fonts.config/gentium-basic))
              text))))
 
          (h/div
