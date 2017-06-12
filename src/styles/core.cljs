@@ -15,9 +15,15 @@
   box-sizing: border-box;
 }
 
+html {
+ font-size: 62.5%;
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-size: 1.9rem;
+    line-height: 2.9rem;
     font-family: 'Raleway', sans-serif;
     color: " colours.ui-gradients/base-colour ";
 }
@@ -25,6 +31,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: 'Playfair Display', serif;
+  margin-top: 4.4rem;
+}
+
+ul {
+ margin-left: 2rem;
 }
 
 img {
@@ -50,7 +61,7 @@ svg:hover {
 }
 
 a {
- color: " colours.ui-gradients/secondary-colour ";
+ color: black;
 }
 
 a:hover {

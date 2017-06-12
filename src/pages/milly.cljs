@@ -27,9 +27,11 @@
 
   (layout.header-block/header
    "Amelia Schmidt (Milly)"
-   "I believe modern businesses should consciously develop and evolve their unique model in a way that, over time, the needs of the business and customer naturally become one and the same.")
+   "Owner and consultant at Dim Valley Pty. Ltd. and owner and CPO at Nice Feature Pty. Ltd.")
 
   (layout.content-block/content-inner
+   (h/h2 "I believe...")
+   (layout.body-text/p "Modern businesses should consciously develop and evolve their unique model in a way that, over time, the needs of the business and customer naturally become one and the same.")
    (h/h2 "What I do")
    (layout.body-text/p "I see design as a mode of communication. My practice is centred around people and my work is collaborative and facilitative. It's less important to me that my opinion is what we deliver and more important that we solve problems for people in the most elegant and efficient way we can.")
    (layout.body-text/p "I achieve this through " (h/strong "user experience design, user interface design and engineering, modern business education, written communication and community engagement and ambassadorship."))
@@ -71,11 +73,12 @@
      (h/li "Web computer science fundamentals")
      (h/li "What is user experience design?")))
 
-   (h/h2 "Public speaking, community engagement and ambassadorship")
+   (h/h2 "Community engagement & ambassadorship")
    (layout.body-text/p
     (h/strong "I am passionate about encouraging young women to thrive in the technology industry. I strongly believe that we can improve the way businesses work and the services they provide by creating more diverse and open workplaces. I spend time engaging with the local community to promote cross-functional knowledge and skillsharing, design thinking across different business practices and design and engineering education for all levels. I'm available on request for the following:")
     (h/ul
      (h/li "Panel moderation or participation")
      (h/li "Seminars, webinars, keynotes or talks")
      (h/li "Mentoring")
-     (h/li "Design leadership and advice"))))])
+     (h/li "Design leadership and advice"))
+    (layout.spacer/vertical-spacer)))])
