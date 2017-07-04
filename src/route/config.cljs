@@ -6,8 +6,9 @@
       "milly" :milly
       "legal" :legal
       "github" :github
-      "contact" :contact}])
+      "contact" :contact
+      "about" :about}])
 
 (assert (wheel.route.core/routes? routes))
 
-(def fallback-handler :contact)
+(def fallback-handler :about)
