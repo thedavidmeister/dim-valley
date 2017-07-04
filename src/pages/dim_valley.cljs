@@ -23,4 +23,5 @@
    "Dim Valley"
    "Modern business services")
   (layout.content-block/content-inner
-   (layout.body-text/p "Milly Schmidt and Dave Meister have developed a business-first approach to technology. We work with organisations in an honest and bespoke manner, leveraging various approaches, patterns, technologies and tools to solve their unique problems."))])
+   (layout.body-text/p "Milly Schmidt and Dave Meister have developed a business-first approach to technology. We work with organisations in an honest and bespoke manner, leveraging various approaches, patterns, technologies and tools to solve their unique problems.")
+   (layout.spacer/vertical-spacer))])
