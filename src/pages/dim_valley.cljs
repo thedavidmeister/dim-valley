@@ -1,15 +1,9 @@
 (ns pages.dim-valley
  (:require
   [hoplon.core :as h]
-  [javelin.core :as j]
-  colours.ui-gradients
   layout.header-block
   layout.content-block
-  layout.spacer
-  wheel.math.geometry
-  wheel.abn.hoplon
-  wheel.address.hoplon
-  address.config))
+  layout.spacer))
 
 (defn content []
  [
