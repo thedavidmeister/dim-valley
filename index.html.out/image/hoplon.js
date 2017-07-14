@@ -9,8 +9,8 @@ goog.require('javelin.core');
  * @param {...*} var_args
  */
 image.hoplon.cropped = (function() { 
-var image$hoplon$cropped__delegate = function (args__20447__auto__){
-var vec__24350 = hoplon.core.parse_args(args__20447__auto__);
+var image$hoplon$cropped__delegate = function (args__14859__auto__){
+var vec__24350 = hoplon.core.parse_args(args__14859__auto__);
 var map__24353 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24350,(0),null);
 var map__24353__$1 = ((((!((map__24353 == null)))?((((map__24353.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24353.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24353):map__24353);
 var attributes = map__24353__$1;
@@ -30,17 +30,17 @@ var G__24357 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(attributes,
 return (hoplon.core.div.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$3(G__24355,G__24356,G__24357) : hoplon.core.div.call(null,G__24355,G__24356,G__24357));
 };
 var image$hoplon$cropped = function (var_args){
-var args__20447__auto__ = null;
+var args__14859__auto__ = null;
 if (arguments.length > 0) {
 var G__24365__i = 0, G__24365__a = new Array(arguments.length -  0);
 while (G__24365__i < G__24365__a.length) {G__24365__a[G__24365__i] = arguments[G__24365__i + 0]; ++G__24365__i;}
-  args__20447__auto__ = new cljs.core.IndexedSeq(G__24365__a,0);
+  args__14859__auto__ = new cljs.core.IndexedSeq(G__24365__a,0);
 } 
-return image$hoplon$cropped__delegate.call(this,args__20447__auto__);};
+return image$hoplon$cropped__delegate.call(this,args__14859__auto__);};
 image$hoplon$cropped.cljs$lang$maxFixedArity = 0;
 image$hoplon$cropped.cljs$lang$applyTo = (function (arglist__24366){
-var args__20447__auto__ = cljs.core.seq(arglist__24366);
-return image$hoplon$cropped__delegate(args__20447__auto__);
+var args__14859__auto__ = cljs.core.seq(arglist__24366);
+return image$hoplon$cropped__delegate(args__14859__auto__);
 });
 image$hoplon$cropped.cljs$core$IFn$_invoke$arity$variadic = image$hoplon$cropped__delegate;
 return image$hoplon$cropped;
