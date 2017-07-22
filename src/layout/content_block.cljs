@@ -11,6 +11,7 @@
 (defn content-inner [& children]
  (h/div
   :css {:padding-left layout.config/spacer-width
+        :padding-right layout.config/spacer-width
         :background-color "white"}
   :class "clearfix"
   children))
