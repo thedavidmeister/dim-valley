@@ -69,24 +69,6 @@
       " built in " (wheel.link.hoplon/external "https://hoplon.io/" "Hoplon") ", leveraging a ton of " (wheel.link.hoplon/external "https://github.com/thedavidmeister/wheel" "my own intellectual property") "."))))
 
   (layout.content-block/content-inner
-   (h/h2 "Availability")
-   (layout.body-text/p
-    "Building " (wheel.link.hoplon/external "https://estimate-work.com/" "Estimate Work") " is currently my primary focus, limiting my overall availability, but I am happy to provide services to new and existing clients on an ad-hoc basis.")
-
-   (layout.body-text/p
-    "I am available " (h/strong "up to 3 days per week") " to contract on projects with a clearly defined scope and deliverables.")
-
-   (layout.body-text/p
-    "My preference is for most or all project work to be " (h/strong "conducted remotely") ", using common telecommute technologies such as Google Hangouts, Slack, Flowdock, etc. to stay connected and in sync."))
-
-  (layout.content-block/content-inner
-   (h/h2 "Rate card")
-   (layout.body-text/p
-    "1 hour = $AUD 120 + GST"
-    (h/br)
-    "1 day (prebooked) = $AUD 800 + GST"))
-
-  (layout.content-block/content-inner
    (h/h2 "Case studies")
    (h/h3 "Estimate Work")
    (layout.body-text/p
