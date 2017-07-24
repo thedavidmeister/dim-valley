@@ -1,6 +1,7 @@
 (ns styles.core
  (:require
-  [hoplon.core :as h])
+  [hoplon.core :as h]
+  colours.ui-gradients)
  (:require-macros
   wheel.slurp.core))
 

@@ -3,7 +3,10 @@
   [hoplon.core :as h]
   layout.header-block
   layout.content-block
-  layout.spacer))
+  layout.spacer
+  image.hoplon
+  layout.body-text
+  wheel.link.hoplon))
 
 (defn content []
  [
