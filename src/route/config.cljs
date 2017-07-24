@@ -6,6 +6,7 @@
       "milly" :milly
       "legal" :legal
       "github" :github
+      "work-with-us" :work-with-us
       "contact" :contact
       "about" :about}])
 
