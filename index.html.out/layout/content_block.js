@@ -57,7 +57,7 @@ return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(a
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
 var G__21634 = cljs.core.cst$kw$css;
-var G__21635 = new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
+var G__21635 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
 var G__21636 = cljs.core.cst$kw$class;
 var G__21637 = "clearfix";
 var G__21638 = children;
