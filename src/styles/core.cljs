@@ -40,6 +40,7 @@ body > table:after {
  background-image: url('http://www.supercoloring.com/sites/default/files/silhouettes/2015/05/mountain-range-outline-silhouette.svg');
  background-position: bottom;
  z-index: -1;
+ background-repeat-y: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
