@@ -33,7 +33,7 @@
         :overflow-x "hidden"}
 
   (let [items [{:text "about" :f pages.dim-valley/content :handler :about}
-               ; {:text "legal" :f pages.legal/content :handler :legal}
+               {:text "legal" :f pages.legal/content :handler :legal}
                {:text "contact" :f pages.contact/content :handler :contact}
                {:text "work with us" :f pages.work-with-us/content :handler :work-with-us}
                ; {:url "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/octocat.jpg" :f pages.github/content :handler :github}
