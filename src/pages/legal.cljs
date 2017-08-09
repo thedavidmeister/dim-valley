@@ -17,8 +17,8 @@
   (h/p
    "Insurer: " (wheel.link.hoplon/external "https://www.dualaustralia.com.au/" "Dual Australia Pty. Ltd.")
    (h/br)
-   "Professional Indemnity: $AUD 2,000,000"
+   "Professional Indemnity limit: " (h/strong "A$2,000,000")
    (h/br)
-   "Public & Products Liability: $AUD 20,000,000"
+   "Public & Products Liability limit: " (h/strong "A$20,000,000")
    (h/br)
    "Certificate of Currency (2017-08-08): " (wheel.link.hoplon/external "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/legal-docs/Certificate+of+currency+2017-8-8+P-IT016234517I-3.pdf" "Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd"))))
