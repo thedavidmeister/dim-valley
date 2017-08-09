@@ -10,7 +10,6 @@
   mapbox.api
   [unit.conversion :as u]
   wheel.math.geometry
-  wheel.abn.hoplon
   wheel.address.hoplon
   address.config))
 
@@ -64,6 +63,4 @@
    (h/p (h/strong "Milly: ") "0403 858 811 | meeli.jane@gmail.com")
    (h/p (h/strong "Dave: ") "0434 016 790 | thedavidmeister@gmail.com")
    (h/p (h/strong "We are based at ") (wheel.address.hoplon/simple address.config/address))
-   (h/p (h/strong "A.B.N. ") (wheel.abn.hoplon/abn "38 617 641 595"))
-   (h/p (h/strong "Established: ") "20/03/2017")
    (layout.spacer/vertical-spacer))])

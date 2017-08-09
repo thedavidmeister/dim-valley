@@ -2,11 +2,16 @@
  (:require
   [hoplon.core :as h]
   layout.content-block
-  wheel.link.hoplon))
+  wheel.link.hoplon
+  wheel.abn.hoplon))
 
 (defn content []
  (layout.content-block/content-inner
-  (h/h1 "Legal documents")
+  (h/h1 "Dim Valley Pty. Ltd.")
+  (h/p
+   "Est. 2017-03-20"
+   (h/br)
+   "A.B.N. " (wheel.abn.hoplon/abn "38 617 641 595"))
   (h/h2 "Insurances")
   (h/h3 "Professional Indemnity, Public & Products Liability")
   (h/p
