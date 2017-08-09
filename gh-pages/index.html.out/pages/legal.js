@@ -22,7 +22,7 @@ var G__24826 = "Public & Products Liability limit: ";
 var G__24827 = (hoplon.core.strong.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.strong.cljs$core$IFn$_invoke$arity$1("A$20,000,000") : hoplon.core.strong.call(null,"A$20,000,000"));
 var G__24828 = (hoplon.core.br.cljs$core$IFn$_invoke$arity$0 ? hoplon.core.br.cljs$core$IFn$_invoke$arity$0() : hoplon.core.br.call(null));
 var G__24829 = "Certificate of Currency (2017-08-08): ";
-var G__24830 = wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$2("https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/legal-docs/Certificate+of+currency+2017-8-8+P-IT016234517I-3.pdf","Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd");
+var G__24830 = wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$2("https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/legal-docs/Certificate+of+currency+2017-8-8+P-IT016234517I-3.pdf","Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd.");
 return (hoplon.core.p.cljs$core$IFn$_invoke$arity$11 ? hoplon.core.p.cljs$core$IFn$_invoke$arity$11(G__24820,G__24821,G__24822,G__24823,G__24824,G__24825,G__24826,G__24827,G__24828,G__24829,G__24830) : hoplon.core.p.call(null,G__24820,G__24821,G__24822,G__24823,G__24824,G__24825,G__24826,G__24827,G__24828,G__24829,G__24830));
 })()], 0));
 });
