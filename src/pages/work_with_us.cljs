@@ -6,10 +6,11 @@
   layout.spacer
   image.hoplon
   layout.body-text
-  wheel.link.hoplon))
-
+  wheel.link.hoplon
+  layout.rounded-corners))
+  
 (defn content []
- [
+ (layout.rounded-corners/wrapper
   (image.hoplon/cropped
    :src "https://s3-ap-southeast-2.amazonaws.com/estimatework/collab.jpeg"
    :width "100%"
@@ -38,4 +39,4 @@
     (h/strong "Our hourly rate:") " $AUD 120 + GST"
     (h/br)
     (h/strong "Our day rate (prebooked):") " $AUD 800 + GST")
-   (layout.spacer/vertical-spacer))])
+   (layout.spacer/vertical-spacer))))

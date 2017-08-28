@@ -4,13 +4,14 @@
   layout.content-block
   layout.header-block
   layout.body-text
+  layout.rounded-corners
   image.hoplon
   social.hoplon
   wheel.abn.core
   wheel.link.hoplon))
 
 (defn content []
- [
+ (layout.rounded-corners/wrapper
   (image.hoplon/cropped
    :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave-photo.jpg"
    :width "100%"
@@ -87,4 +88,4 @@
       (h/li (wheel.link.hoplon/external "https://auth0.com/" "Auth0") " for authentiation/SSO")
       (h/li (wheel.link.hoplon/external "https://stripe.com/au" "Stripe") " as payment gateway")
       (h/li (wheel.link.hoplon/external "https://github.com/ptaoussanis/sente" "AJAX + WebSockets") " for client/server communication")))
-    (layout.spacer/vertical-spacer)))])
+    (layout.spacer/vertical-spacer)))))

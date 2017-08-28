@@ -2,16 +2,17 @@
  (:require
   [hoplon.core :as h]
   [javelin.core :as j]
+  [unit.conversion :as u]
   layout.content-block
   layout.header-block
   colours.ui-gradients
-  layout.spacer
   mapbox.dom
   mapbox.api
-  [unit.conversion :as u]
   wheel.math.geometry
   wheel.address.hoplon
-  address.config))
+  address.config
+  layout.spacer
+  layout.rounded-corners))
 
 (defn dv-marker [width]
 
@@ -56,11 +57,12 @@
 
 
 (defn content []
- [(dv-map)
+ (layout.rounded-corners/wrapper
+  (dv-map)
   (layout.content-block/content-inner
    (h/h1 "Let's work together.")
    (h/p "If you are interested in working with us, let's talk.")
    (h/p (h/strong "Milly: ") "0403 858 811 | meeli.jane@gmail.com")
    (h/p (h/strong "Dave: ") "0434 016 790 | thedavidmeister@gmail.com")
    (h/p (h/strong "We are based at ") (wheel.address.hoplon/simple address.config/address))
-   (layout.spacer/vertical-spacer))])
+   (layout.spacer/vertical-spacer))))
