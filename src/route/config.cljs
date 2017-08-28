@@ -8,8 +8,9 @@
       "github" :github
       "work-with-us" :work-with-us
       "contact" :contact
-      "about" :about}])
+      "about" :about
+      "splash" :splash}])
 
 (assert (wheel.route.core/routes? routes))
 
-(def fallback-handler :about)
+(def fallback-handler :splash)
