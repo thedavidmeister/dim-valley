@@ -5,23 +5,23 @@ goog.require('cljs.core.constants');
 goog.require('layout.config');
 goog.require('hoplon.core');
 layout.spacer.vertical_spacer = (function layout$spacer$vertical_spacer(var_args){
-var args23454 = [];
-var len__8981__auto___23459 = arguments.length;
-var i__8982__auto___23460 = (0);
+var args20378 = [];
+var len__8981__auto___20383 = arguments.length;
+var i__8982__auto___20384 = (0);
 while(true){
-if((i__8982__auto___23460 < len__8981__auto___23459)){
-args23454.push((arguments[i__8982__auto___23460]));
+if((i__8982__auto___20384 < len__8981__auto___20383)){
+args20378.push((arguments[i__8982__auto___20384]));
 
-var G__23461 = (i__8982__auto___23460 + (1));
-i__8982__auto___23460 = G__23461;
+var G__20385 = (i__8982__auto___20384 + (1));
+i__8982__auto___20384 = G__20385;
 continue;
 } else {
 }
 break;
 }
 
-var G__23456 = args23454.length;
-switch (G__23456) {
+var G__20380 = args20378.length;
+switch (G__20380) {
 case 0:
 return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
 
@@ -31,7 +31,7 @@ return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$1((arguments[(0
 
 break;
 default:
-throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args23454.length)].join('')));
+throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args20378.length)].join('')));
 
 }
 });
@@ -48,9 +48,9 @@ return or__7760__auto__;
 return layout.config.spacer_height;
 }
 })();
-var G__23457 = cljs.core.cst$kw$css;
-var G__23458 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$height,height__$1], null);
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__23457,G__23458) : hoplon.core.div.call(null,G__23457,G__23458));
+var G__20381 = cljs.core.cst$kw$css;
+var G__20382 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$height,height__$1], null);
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__20381,G__20382) : hoplon.core.div.call(null,G__20381,G__20382));
 });
 
 layout.spacer.vertical_spacer.cljs$lang$maxFixedArity = 1;
