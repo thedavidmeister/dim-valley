@@ -30,7 +30,8 @@
   :css {:background (str "linear-gradient(135deg, " (clojure.string/join ", " (colours.ui-gradients/stops)) ")")
         :min-height "100vh"
         :width "100vw"
-        :overflow-x "hidden"}
+        :overflow-x "hidden"
+        :background-attachment "fixed"}
 
   (let [items [{:text "about" :f pages.dim-valley/content :handler :about}
                {:text "legal" :f pages.legal/content :handler :legal}
