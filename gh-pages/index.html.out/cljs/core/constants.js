@@ -398,6 +398,7 @@ cljs.core.cst$sym$matched = new cljs.core.Symbol(null,"matched","matched",665324
 cljs.core.cst$sym$front = new cljs.core.Symbol(null,"front","front",117022539,null);
 cljs.core.cst$sym$buf = new cljs.core.Symbol(null,"buf","buf",1426618187,null);
 cljs.core.cst$kw$max_DASH_iterations = new cljs.core.Keyword(null,"max-iterations","max-iterations",2021275563);
+cljs.core.cst$kw$background_DASH_attachment = new cljs.core.Keyword(null,"background-attachment","background-attachment",-885303381);
 cljs.core.cst$kw$pos = new cljs.core.Keyword(null,"pos","pos",-864607220);
 cljs.core.cst$kw$history = new cljs.core.Keyword(null,"history","history",-247395220);
 cljs.core.cst$sym$pre = new cljs.core.Symbol(null,"pre","pre",-535978900,null);
