@@ -8,26 +8,26 @@ goog.require('hoplon.core');
  */
 layout.body_text.p = (function() { 
 var layout$body_text$p__delegate = function (args__14859__auto__){
-var vec__23452 = hoplon.core.parse_args(args__14859__auto__);
-var attributes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23452,(0),null);
-var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23452,(1),null);
-var G__23455 = cljs.core.cst$kw$css;
-var G__23456 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$max_DASH_width,"600px"], null),cljs.core.cst$kw$css.cljs$core$IFn$_invoke$arity$1(attributes)], 0));
-var G__23457 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(attributes,cljs.core.cst$kw$css);
-var G__23458 = children;
-return (hoplon.core.p.cljs$core$IFn$_invoke$arity$4 ? hoplon.core.p.cljs$core$IFn$_invoke$arity$4(G__23455,G__23456,G__23457,G__23458) : hoplon.core.p.call(null,G__23455,G__23456,G__23457,G__23458));
+var vec__20372 = hoplon.core.parse_args(args__14859__auto__);
+var attributes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20372,(0),null);
+var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20372,(1),null);
+var G__20375 = cljs.core.cst$kw$css;
+var G__20376 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$max_DASH_width,"600px"], null),cljs.core.cst$kw$css.cljs$core$IFn$_invoke$arity$1(attributes)], 0));
+var G__20377 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(attributes,cljs.core.cst$kw$css);
+var G__20378 = children;
+return (hoplon.core.p.cljs$core$IFn$_invoke$arity$4 ? hoplon.core.p.cljs$core$IFn$_invoke$arity$4(G__20375,G__20376,G__20377,G__20378) : hoplon.core.p.call(null,G__20375,G__20376,G__20377,G__20378));
 };
 var layout$body_text$p = function (var_args){
 var args__14859__auto__ = null;
 if (arguments.length > 0) {
-var G__23459__i = 0, G__23459__a = new Array(arguments.length -  0);
-while (G__23459__i < G__23459__a.length) {G__23459__a[G__23459__i] = arguments[G__23459__i + 0]; ++G__23459__i;}
-  args__14859__auto__ = new cljs.core.IndexedSeq(G__23459__a,0);
+var G__20379__i = 0, G__20379__a = new Array(arguments.length -  0);
+while (G__20379__i < G__20379__a.length) {G__20379__a[G__20379__i] = arguments[G__20379__i + 0]; ++G__20379__i;}
+  args__14859__auto__ = new cljs.core.IndexedSeq(G__20379__a,0);
 } 
 return layout$body_text$p__delegate.call(this,args__14859__auto__);};
 layout$body_text$p.cljs$lang$maxFixedArity = 0;
-layout$body_text$p.cljs$lang$applyTo = (function (arglist__23460){
-var args__14859__auto__ = cljs.core.seq(arglist__23460);
+layout$body_text$p.cljs$lang$applyTo = (function (arglist__20380){
+var args__14859__auto__ = cljs.core.seq(arglist__20380);
 return layout$body_text$p__delegate(args__14859__auto__);
 });
 layout$body_text$p.cljs$core$IFn$_invoke$arity$variadic = layout$body_text$p__delegate;
