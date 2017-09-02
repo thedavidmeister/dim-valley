@@ -1,7 +1,8 @@
 (ns styles.core
  (:require
   [hoplon.core :as h]
-  colours.ui-gradients)
+  colours.ui-gradients
+  fonts.config)
  (:require-macros
   wheel.slurp.core))
 
@@ -97,5 +98,26 @@ ul {
 ul li {
  list-style-type: circle;
  margin: 1em 0;
+}
+
+.cta {
+ background-color: " colours.ui-gradients/base-colour ";
+ color: white;
+ font-size: 1.5rem;
+ border-radius: 100px;
+ padding: 2rem 3rem;
+ -webkit-border-radius: 100px;
+ border: 0 none;
+ font-family: " fonts.config/open-sans ";
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ box-shadow: 0 0 4px " colours.ui-gradients/base-colour ";
+ transform: scale(1);
+ outline: none;
+}
+.cta:hover, .cta:focus {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  background-color: " colours.ui-gradients/secondary-colour ";
 }
 ")]))

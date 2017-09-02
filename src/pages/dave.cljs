@@ -3,7 +3,7 @@
   [hoplon.core :as h]
   layout.content-block
   layout.header-block
-  layout.body-text
+  type.body-text
   image.hoplon
   social.hoplon
   wheel.abn.core
@@ -32,15 +32,15 @@
 
   (layout.content-block/content-inner
    (h/h2 "I believe...")
-   (layout.body-text/p "Simple beats complex.")
-   (layout.body-text/p "Quality is a process.")
-   (layout.body-text/p "Machines are better machines than humans.")
-   (layout.body-text/p "Effective systems are composed from effective parts."))
+   (type.body-text/p "Simple beats complex.")
+   (type.body-text/p "Quality is a process.")
+   (type.body-text/p "Machines are better machines than humans.")
+   (type.body-text/p "Effective systems are composed from effective parts."))
 
   (layout.content-block/content-inner
    (h/h2 "Experience")
    (h/h3 "Commercial")
-   (layout.body-text/p
+   (type.body-text/p
     (h/ul
      (h/li (h/strong "10+ years total") " professional web experience.")
      (h/li (h/strong "Started out") " making cool MySpace pages for local indie bands.")
@@ -50,7 +50,7 @@
      (h/li (h/strong "Current owner and CTO") " of Dim Valley and Nice Feature.")))
 
    (h/h3 "Open source")
-   (layout.body-text/p
+   (type.body-text/p
     (h/ul
      (h/li
       (h/strong (wheel.link.hoplon/external "http://drupalcores.com/countries.html" "6th in Australia"))
@@ -71,13 +71,13 @@
   (layout.content-block/content-inner
    (h/h2 "Case studies")
    (h/h3 "Estimate Work")
-   (layout.body-text/p
+   (type.body-text/p
     "Estimate Work is a project planning tool designed to assist small teams working with hard deadlines, limited resources and significant risks to quantify and manage their " (wheel.link.hoplon/external "https://en.wikipedia.org/wiki/Project_management_triangle" "iron triangle") ".")
-   (layout.body-text/p
+   (type.body-text/p
     "The Estimate Work product is being bootstrapped by Milly and myself and is 100% self-funded. Many key features are still in planning or active development stages. Regardless, our experience with the chosen tech stack and early feedback from the target market are both positive.")
-   (layout.body-text/p
+   (type.body-text/p
     (h/h4 "Estimate Work's tech stack:")
-    (layout.body-text/p
+    (type.body-text/p
      (h/ul
       (h/li (wheel.link.hoplon/external "https://clojure.org/" "Clojure") " + " (wheel.link.hoplon/external "https://clojurescript.org/" "ClojureScript") " for server and client side programming")
       (h/li (wheel.link.hoplon/external "https://blog.estimate-work.com/a-new-world-writing-css-in-clojurescript-and-life-after-sass-bdf5bc80a24f" "Garden CSS preprocessor/abstraction"))

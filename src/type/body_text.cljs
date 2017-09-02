@@ -1,4 +1,4 @@
-(ns layout.body-text
+(ns type.body-text
  (:require
   [hoplon.core :as h]))
 
