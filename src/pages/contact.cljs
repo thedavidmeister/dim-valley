@@ -11,9 +11,8 @@
   wheel.math.geometry
   wheel.address.hoplon
   address.config
-  layout.spacer
-  layout.rounded-corners))
-
+  layout.spacer))
+  
 (defn dv-marker [width]
 
  (let [; cos(45) = marker-width / line-length
@@ -57,7 +56,7 @@
 
 
 (defn content []
- (layout.rounded-corners/wrapper
+ (h/div
   (dv-map)
   (layout.content-block/content-inner
    (h/h1 "Let's work together.")

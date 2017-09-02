@@ -4,14 +4,13 @@
   layout.content-block
   layout.header-block
   layout.body-text
-  layout.rounded-corners
   image.hoplon
   social.hoplon
   wheel.abn.core
   wheel.link.hoplon))
 
 (defn content []
- (layout.rounded-corners/wrapper
+ (h/div
   (image.hoplon/cropped
    :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave-photo.jpg"
    :width "100%"

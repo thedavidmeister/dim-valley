@@ -6,11 +6,10 @@
   layout.spacer
   image.hoplon
   layout.body-text
-  wheel.link.hoplon
-  layout.rounded-corners))
-  
+  wheel.link.hoplon))
+
 (defn content []
- (layout.rounded-corners/wrapper
+ (h/div
   (image.hoplon/cropped
    :src "https://s3-ap-southeast-2.amazonaws.com/estimatework/collab.jpeg"
    :width "100%"

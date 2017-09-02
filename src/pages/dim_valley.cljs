@@ -3,12 +3,11 @@
   [hoplon.core :as h]
   layout.header-block
   layout.content-block
-  layout.rounded-corners
   layout.spacer))
 
 (defn content []
  []
- (layout.rounded-corners/wrapper
+ (h/div
   (h/div
    :css {:position "relative"}
    (image.hoplon/cropped

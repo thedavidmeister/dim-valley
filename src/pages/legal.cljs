@@ -3,11 +3,10 @@
   [hoplon.core :as h]
   layout.content-block
   wheel.link.hoplon
-  wheel.abn.hoplon
-  layout.rounded-corners))
-  
+  wheel.abn.hoplon))
+
 (defn content []
- (layout.rounded-corners/wrapper
+ (h/div
   (layout.content-block/content-inner
    (h/h1 "Dim Valley Pty. Ltd.")
    (h/p
