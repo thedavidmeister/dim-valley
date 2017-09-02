@@ -10,7 +10,7 @@
   layout.body-text))
 
 (defn content []
- [
+ (h/div
   (image.hoplon/cropped
    :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/C8DGQUCVYAABgc-.jpg"
    :width "100%"
@@ -82,4 +82,4 @@
      (h/li "Seminars, webinars, keynotes or talks")
      (h/li "Mentoring")
      (h/li "Design leadership and advice"))
-    (layout.spacer/vertical-spacer)))])
+    (layout.spacer/vertical-spacer)))))
