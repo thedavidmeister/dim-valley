@@ -6,14 +6,14 @@ goog.require('hoplon.core');
 goog.require('layout.config');
 layout.rounded_corners.wrapper = (function layout$rounded_corners$wrapper(var_args){
 var args__8988__auto__ = [];
-var len__8981__auto___21633 = arguments.length;
-var i__8982__auto___21634 = (0);
+var len__8981__auto___15910 = arguments.length;
+var i__8982__auto___15911 = (0);
 while(true){
-if((i__8982__auto___21634 < len__8981__auto___21633)){
-args__8988__auto__.push((arguments[i__8982__auto___21634]));
+if((i__8982__auto___15911 < len__8981__auto___15910)){
+args__8988__auto__.push((arguments[i__8982__auto___15911]));
 
-var G__21635 = (i__8982__auto___21634 + (1));
-i__8982__auto___21634 = G__21635;
+var G__15912 = (i__8982__auto___15911 + (1));
+i__8982__auto___15911 = G__15912;
 continue;
 } else {
 }
@@ -25,15 +25,15 @@ return layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic(argse
 });
 
 layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic = (function (children){
-var G__21630 = cljs.core.cst$kw$css;
-var G__21631 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$overflow,"hidden",cljs.core.cst$kw$border_DASH_radius,layout.config.border_radius_amount,cljs.core.cst$kw$_DASH_webkit_DASH_border_DASH_radius,layout.config.border_radius_amount], null);
-var G__21632 = children;
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$3(G__21630,G__21631,G__21632) : hoplon.core.div.call(null,G__21630,G__21631,G__21632));
+var G__15907 = cljs.core.cst$kw$css;
+var G__15908 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$overflow,"hidden",cljs.core.cst$kw$border_DASH_radius,layout.config.border_radius_amount,cljs.core.cst$kw$_DASH_webkit_DASH_border_DASH_radius,layout.config.border_radius_amount], null);
+var G__15909 = children;
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$3 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$3(G__15907,G__15908,G__15909) : hoplon.core.div.call(null,G__15907,G__15908,G__15909));
 });
 
 layout.rounded_corners.wrapper.cljs$lang$maxFixedArity = (0);
 
-layout.rounded_corners.wrapper.cljs$lang$applyTo = (function (seq21629){
-return layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq21629));
+layout.rounded_corners.wrapper.cljs$lang$applyTo = (function (seq15906){
+return layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq15906));
 });
 
