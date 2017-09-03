@@ -43,8 +43,8 @@ return cljs.core.seq(s.split(this$__$1));
 return cljs.core.seq(s.split(this$));
 }));
 camel_snake_kebab.internals.string_separator.classify_char = (function camel_snake_kebab$internals$string_separator$classify_char(c){
-var G__21226 = c;
-switch (G__21226) {
+var G__21218 = c;
+switch (G__21218) {
 case "0":
 case "1":
 case "2":
@@ -157,34 +157,34 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cs,current),cljs.core.cst$kw$whitespace)){
-var G__21234 = result_PLUS_new(current);
-var G__21235 = next;
-var G__21236 = next;
-result = G__21234;
-start = G__21235;
-current = G__21236;
+var G__21226 = result_PLUS_new(current);
+var G__21227 = next;
+var G__21228 = next;
+result = G__21226;
+start = G__21227;
+current = G__21228;
 continue;
 } else {
-if((function (){var vec__21231 = cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(cs,current);
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21231,(0),null);
-var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21231,(1),null);
-var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21231,(2),null);
+if((function (){var vec__21223 = cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(cs,current);
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21223,(0),null);
+var b = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21223,(1),null);
+var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21223,(2),null);
 return ((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(a,cljs.core.cst$kw$upper)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(b,cljs.core.cst$kw$upper))) || ((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(a,cljs.core.cst$kw$number)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(b,cljs.core.cst$kw$number))) || ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(a,cljs.core.cst$kw$upper)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(b,cljs.core.cst$kw$upper)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(c,cljs.core.cst$kw$lower)));
 })()){
-var G__21237 = result_PLUS_new(next);
-var G__21238 = next;
-var G__21239 = next;
-result = G__21237;
-start = G__21238;
-current = G__21239;
+var G__21229 = result_PLUS_new(next);
+var G__21230 = next;
+var G__21231 = next;
+result = G__21229;
+start = G__21230;
+current = G__21231;
 continue;
 } else {
-var G__21240 = result;
-var G__21241 = start;
-var G__21242 = next;
-result = G__21240;
-start = G__21241;
-current = G__21242;
+var G__21232 = result;
+var G__21233 = start;
+var G__21234 = next;
+result = G__21232;
+start = G__21233;
+current = G__21234;
 continue;
 
 }
@@ -194,7 +194,7 @@ break;
 }
 });
 camel_snake_kebab.internals.string_separator.generic_separator = (function (){
-if(typeof camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243 !== 'undefined'){
+if(typeof camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235 !== 'undefined'){
 } else {
 
 /**
@@ -203,49 +203,49 @@ if(typeof camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$inter
  * @implements {cljs.core.IMeta}
  * @implements {cljs.core.IWithMeta}
 */
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243 = (function (meta21244){
-this.meta21244 = meta21244;
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235 = (function (meta21236){
+this.meta21236 = meta21236;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 })
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_21245,meta21244__$1){
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_21237,meta21236__$1){
 var self__ = this;
-var _21245__$1 = this;
-return (new camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243(meta21244__$1));
+var _21237__$1 = this;
+return (new camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235(meta21236__$1));
 });
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_21245){
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_21237){
 var self__ = this;
-var _21245__$1 = this;
-return self__.meta21244;
+var _21237__$1 = this;
+return self__.meta21236;
 });
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.prototype.camel_snake_kebab$internals$string_separator$StringSeparator$ = cljs.core.PROTOCOL_SENTINEL;
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.prototype.camel_snake_kebab$internals$string_separator$StringSeparator$ = cljs.core.PROTOCOL_SENTINEL;
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.prototype.camel_snake_kebab$internals$string_separator$StringSeparator$split$arity$2 = (function (_,s){
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.prototype.camel_snake_kebab$internals$string_separator$StringSeparator$split$arity$2 = (function (_,s){
 var self__ = this;
 var ___$1 = this;
 return camel_snake_kebab.internals.string_separator.generic_split(s);
 });
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.getBasis = (function (){
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta21244], null);
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.getBasis = (function (){
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$meta21236], null);
 });
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.cljs$lang$type = true;
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.cljs$lang$type = true;
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.cljs$lang$ctorStr = "camel-snake-kebab.internals.string-separator/t_camel_snake_kebab$internals$string_separator21243";
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.cljs$lang$ctorStr = "camel-snake-kebab.internals.string-separator/t_camel_snake_kebab$internals$string_separator21235";
 
-camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243.cljs$lang$ctorPrWriter = (function (this__8417__auto__,writer__8418__auto__,opt__8419__auto__){
-return cljs.core._write(writer__8418__auto__,"camel-snake-kebab.internals.string-separator/t_camel_snake_kebab$internals$string_separator21243");
+camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235.cljs$lang$ctorPrWriter = (function (this__8417__auto__,writer__8418__auto__,opt__8419__auto__){
+return cljs.core._write(writer__8418__auto__,"camel-snake-kebab.internals.string-separator/t_camel_snake_kebab$internals$string_separator21235");
 });
 
-camel_snake_kebab.internals.string_separator.__GT_t_camel_snake_kebab$internals$string_separator21243 = (function camel_snake_kebab$internals$string_separator$__GT_t_camel_snake_kebab$internals$string_separator21243(meta21244){
-return (new camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243(meta21244));
+camel_snake_kebab.internals.string_separator.__GT_t_camel_snake_kebab$internals$string_separator21235 = (function camel_snake_kebab$internals$string_separator$__GT_t_camel_snake_kebab$internals$string_separator21235(meta21236){
+return (new camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235(meta21236));
 });
 
 }
 
-return (new camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21243(cljs.core.PersistentArrayMap.EMPTY));
+return (new camel_snake_kebab.internals.string_separator.t_camel_snake_kebab$internals$string_separator21235(cljs.core.PersistentArrayMap.EMPTY));
 })()
 ;
