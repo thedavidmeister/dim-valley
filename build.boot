@@ -10,16 +10,18 @@
     [tailrecursion/boot-jetty  "0.1.3"]
     [camel-snake-kebab "0.4.0"]
     [cljsjs/js-yaml "3.3.1-0"]
-    [thedavidmeister/wheel "0.3.0-SNAPSHOT"]]
+    [thedavidmeister/wheel "0.3.0-SNAPSHOT"]
+    [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]]
 
   :source-paths #{"src"}
   :asset-paths  #{"assets"})
 
 (require
-  '[adzerk.boot-cljs         :refer [cljs]]
-  '[adzerk.boot-reload       :refer [reload]]
-  '[hoplon.boot-hoplon       :refer [hoplon prerender]]
-  '[tailrecursion.boot-jetty :refer [serve]])
+ '[adzerk.boot-cljs :refer [cljs]]
+ '[adzerk.boot-reload :refer [reload]]
+ '[hoplon.boot-hoplon :refer [hoplon prerender]]
+ '[tailrecursion.boot-jetty :refer [serve]]
+ '[thedavidmeister.boot-github-pages :refer [github-pages]])
 
 (let [compiler-options {:foreign-libs [{:file "https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js"
                                         :provides ["lib.mapbox"]}]
@@ -36,12 +38,18 @@
    (cljs :compiler-options compiler-options)
    (serve :port 8000)))
 
- (deftask gh-pages
-  "Build for production deployment."
+ (deftask build
   []
   (comp
    (hoplon)
    (cljs
     :optimizations :advanced
-    :compiler-options compiler-options)
-   (target :dir #{"gh-pages"}))))
+    :compiler-options compiler-options)))
+
+ (deftask deploy
+  []
+  (comp
+   (build)
+   (target
+    :dir #{"gh-pages"})
+   (github-pages))))
