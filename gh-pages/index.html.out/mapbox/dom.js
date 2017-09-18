@@ -9,56 +9,56 @@ goog.require('mapbox.api');
  * @param {...*} var_args
  */
 mapbox.dom.map = (function() { 
-var mapbox$dom$map__delegate = function (args__18862__auto__){
-var vec__25480 = hoplon.core.parse_args(args__18862__auto__);
-var map__25483 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25480,(0),null);
-var map__25483__$1 = ((((!((map__25483 == null)))?((((map__25483.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25483.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25483):map__25483);
-var attributes = map__25483__$1;
-var options = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25483__$1,cljs.core.cst$kw$options);
-var marker = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25483__$1,cljs.core.cst$kw$marker);
-var marker_options = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25483__$1,cljs.core.cst$kw$marker_DASH_options);
-var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25480,(1),null);
-var el = (function (){var G__25485 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(attributes,cljs.core.cst$kw$options,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.cst$kw$marker,cljs.core.cst$kw$marker_DASH_options], 0));
-var G__25486 = children;
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__25485,G__25486) : hoplon.core.div.call(null,G__25485,G__25486));
+var mapbox$dom$map__delegate = function (args__18466__auto__){
+var vec__25084 = hoplon.core.parse_args(args__18466__auto__);
+var map__25087 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25084,(0),null);
+var map__25087__$1 = ((((!((map__25087 == null)))?((((map__25087.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25087.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25087):map__25087);
+var attributes = map__25087__$1;
+var options = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25087__$1,cljs.core.cst$kw$options);
+var marker = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25087__$1,cljs.core.cst$kw$marker);
+var marker_options = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25087__$1,cljs.core.cst$kw$marker_DASH_options);
+var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25084,(1),null);
+var el = (function (){var G__25089 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(attributes,cljs.core.cst$kw$options,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.cst$kw$marker,cljs.core.cst$kw$marker_DASH_options], 0));
+var G__25090 = children;
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__25089,G__25090) : hoplon.core.div.call(null,G__25089,G__25090));
 })();
 mapbox.api.el__GT_map_BANG_(el,options);
 
-var center_25487 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(options,"center");
-if(cljs.core.truth_((function (){var and__8626__auto__ = marker;
-if(cljs.core.truth_(and__8626__auto__)){
-return center_25487;
+var center_25091 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(options,"center");
+if(cljs.core.truth_((function (){var and__8230__auto__ = marker;
+if(cljs.core.truth_(and__8230__auto__)){
+return center_25091;
 } else {
-return and__8626__auto__;
+return and__8230__auto__;
 }
 })())){
-mapbox.api.with_marker_BANG_(el,marker,center_25487,marker_options);
+mapbox.api.with_marker_BANG_(el,marker,center_25091,marker_options);
 } else {
 }
 
 return el;
 };
 var mapbox$dom$map = function (var_args){
-var args__18862__auto__ = null;
+var args__18466__auto__ = null;
 if (arguments.length > 0) {
-var G__25488__i = 0, G__25488__a = new Array(arguments.length -  0);
-while (G__25488__i < G__25488__a.length) {G__25488__a[G__25488__i] = arguments[G__25488__i + 0]; ++G__25488__i;}
-  args__18862__auto__ = new cljs.core.IndexedSeq(G__25488__a,0,null);
+var G__25092__i = 0, G__25092__a = new Array(arguments.length -  0);
+while (G__25092__i < G__25092__a.length) {G__25092__a[G__25092__i] = arguments[G__25092__i + 0]; ++G__25092__i;}
+  args__18466__auto__ = new cljs.core.IndexedSeq(G__25092__a,0,null);
 } 
-return mapbox$dom$map__delegate.call(this,args__18862__auto__);};
+return mapbox$dom$map__delegate.call(this,args__18466__auto__);};
 mapbox$dom$map.cljs$lang$maxFixedArity = 0;
-mapbox$dom$map.cljs$lang$applyTo = (function (arglist__25489){
-var args__18862__auto__ = cljs.core.seq(arglist__25489);
-return mapbox$dom$map__delegate(args__18862__auto__);
+mapbox$dom$map.cljs$lang$applyTo = (function (arglist__25093){
+var args__18466__auto__ = cljs.core.seq(arglist__25093);
+return mapbox$dom$map__delegate(args__18466__auto__);
 });
 mapbox$dom$map.cljs$core$IFn$_invoke$arity$variadic = mapbox$dom$map__delegate;
 return mapbox$dom$map;
 })()
 ;
 mapbox.dom.stylesheet = (function mapbox$dom$stylesheet(){
-var G__25490 = cljs.core.cst$kw$href;
-var G__25491 = "https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css";
-var G__25492 = cljs.core.cst$kw$rel;
-var G__25493 = "stylesheet";
-return (hoplon.core.link.cljs$core$IFn$_invoke$arity$4 ? hoplon.core.link.cljs$core$IFn$_invoke$arity$4(G__25490,G__25491,G__25492,G__25493) : hoplon.core.link.call(null,G__25490,G__25491,G__25492,G__25493));
+var G__25094 = cljs.core.cst$kw$href;
+var G__25095 = "https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css";
+var G__25096 = cljs.core.cst$kw$rel;
+var G__25097 = "stylesheet";
+return (hoplon.core.link.cljs$core$IFn$_invoke$arity$4 ? hoplon.core.link.cljs$core$IFn$_invoke$arity$4(G__25094,G__25095,G__25096,G__25097) : hoplon.core.link.call(null,G__25094,G__25095,G__25096,G__25097));
 });

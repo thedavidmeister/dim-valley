@@ -7,23 +7,23 @@ goog.require('layout.config');
 goog.require('colours.ui_gradients');
 goog.require('layout.rounded_corners');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
-var args__9922__auto__ = [];
-var len__9915__auto___23852 = arguments.length;
-var i__9916__auto___23853 = (0);
+var args__9526__auto__ = [];
+var len__9519__auto___24441 = arguments.length;
+var i__9520__auto___24442 = (0);
 while(true){
-if((i__9916__auto___23853 < len__9915__auto___23852)){
-args__9922__auto__.push((arguments[i__9916__auto___23853]));
+if((i__9520__auto___24442 < len__9519__auto___24441)){
+args__9526__auto__.push((arguments[i__9520__auto___24442]));
 
-var G__23854 = (i__9916__auto___23853 + (1));
-i__9916__auto___23853 = G__23854;
+var G__24443 = (i__9520__auto___24442 + (1));
+i__9520__auto___24442 = G__24443;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__9923__auto__ = ((((0) < args__9922__auto__.length))?(new cljs.core.IndexedSeq(args__9922__auto__.slice((0)),(0),null)):null);
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(argseq__9923__auto__);
+var argseq__9527__auto__ = ((((0) < args__9526__auto__.length))?(new cljs.core.IndexedSeq(args__9526__auto__.slice((0)),(0),null)):null);
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(argseq__9527__auto__);
 });
 
 layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic = (function (children){
@@ -32,42 +32,42 @@ return layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic(cljs.
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_outer.cljs$lang$applyTo = (function (seq23851){
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq23851));
+layout.content_block.content_outer.cljs$lang$applyTo = (function (seq24440){
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24440));
 });
 
 layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
-var args__9922__auto__ = [];
-var len__9915__auto___23861 = arguments.length;
-var i__9916__auto___23862 = (0);
+var args__9526__auto__ = [];
+var len__9519__auto___24450 = arguments.length;
+var i__9520__auto___24451 = (0);
 while(true){
-if((i__9916__auto___23862 < len__9915__auto___23861)){
-args__9922__auto__.push((arguments[i__9916__auto___23862]));
+if((i__9520__auto___24451 < len__9519__auto___24450)){
+args__9526__auto__.push((arguments[i__9520__auto___24451]));
 
-var G__23863 = (i__9916__auto___23862 + (1));
-i__9916__auto___23862 = G__23863;
+var G__24452 = (i__9520__auto___24451 + (1));
+i__9520__auto___24451 = G__24452;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__9923__auto__ = ((((0) < args__9922__auto__.length))?(new cljs.core.IndexedSeq(args__9922__auto__.slice((0)),(0),null)):null);
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(argseq__9923__auto__);
+var argseq__9527__auto__ = ((((0) < args__9526__auto__.length))?(new cljs.core.IndexedSeq(args__9526__auto__.slice((0)),(0),null)):null);
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(argseq__9527__auto__);
 });
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
-var G__23856 = cljs.core.cst$kw$css;
-var G__23857 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
-var G__23858 = cljs.core.cst$kw$class;
-var G__23859 = "clearfix";
-var G__23860 = children;
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$5(G__23856,G__23857,G__23858,G__23859,G__23860) : hoplon.core.div.call(null,G__23856,G__23857,G__23858,G__23859,G__23860));
+var G__24445 = cljs.core.cst$kw$css;
+var G__24446 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
+var G__24447 = cljs.core.cst$kw$class;
+var G__24448 = "clearfix";
+var G__24449 = children;
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$5(G__24445,G__24446,G__24447,G__24448,G__24449) : hoplon.core.div.call(null,G__24445,G__24446,G__24447,G__24448,G__24449));
 });
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_inner.cljs$lang$applyTo = (function (seq23855){
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq23855));
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq24444){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24444));
 });
 

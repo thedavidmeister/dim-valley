@@ -15,9 +15,9 @@ wheel.dom.data.sel_QMARK_ = (function wheel$dom$data$sel_QMARK_(s){
 return cljs.spec.alpha.valid_QMARK_.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$wheel$dom_SLASH_selector,s);
 });
 wheel.dom.data.el_or_sel_QMARK_ = (function wheel$dom$data$el_or_sel_QMARK_(el_or_sel){
-var or__8638__auto__ = wheel.dom.data.el_QMARK_(el_or_sel);
-if(cljs.core.truth_(or__8638__auto__)){
-return or__8638__auto__;
+var or__8242__auto__ = wheel.dom.data.el_QMARK_(el_or_sel);
+if(cljs.core.truth_(or__8242__auto__)){
+return or__8242__auto__;
 } else {
 return wheel.dom.data.sel_QMARK_(el_or_sel);
 }

@@ -9,29 +9,29 @@ return elem.setAttributeNS(xlink,cljs.core.name(kw),val);
 }));
 hoplon.svg.mksvg = (function hoplon$svg$mksvg(tag){
 return (function() { 
-var G__20201__delegate = function (args){
-var vec__20198 = hoplon.core.parse_args(args);
-var attr = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20198,(0),null);
-var kids = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20198,(1),null);
+var G__24010__delegate = function (args){
+var vec__24007 = hoplon.core.parse_args(args);
+var attr = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24007,(0),null);
+var kids = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24007,(1),null);
 var xmlns = "http://www.w3.org/2000/svg";
 var elem = document.createElementNS(xmlns,tag);
 return (elem.cljs$core$IFn$_invoke$arity$2 ? elem.cljs$core$IFn$_invoke$arity$2(attr,kids) : elem.call(null,attr,kids));
 };
-var G__20201 = function (var_args){
+var G__24010 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__20202__i = 0, G__20202__a = new Array(arguments.length -  0);
-while (G__20202__i < G__20202__a.length) {G__20202__a[G__20202__i] = arguments[G__20202__i + 0]; ++G__20202__i;}
-  args = new cljs.core.IndexedSeq(G__20202__a,0,null);
+var G__24011__i = 0, G__24011__a = new Array(arguments.length -  0);
+while (G__24011__i < G__24011__a.length) {G__24011__a[G__24011__i] = arguments[G__24011__i + 0]; ++G__24011__i;}
+  args = new cljs.core.IndexedSeq(G__24011__a,0,null);
 } 
-return G__20201__delegate.call(this,args);};
-G__20201.cljs$lang$maxFixedArity = 0;
-G__20201.cljs$lang$applyTo = (function (arglist__20203){
-var args = cljs.core.seq(arglist__20203);
-return G__20201__delegate(args);
+return G__24010__delegate.call(this,args);};
+G__24010.cljs$lang$maxFixedArity = 0;
+G__24010.cljs$lang$applyTo = (function (arglist__24012){
+var args = cljs.core.seq(arglist__24012);
+return G__24010__delegate(args);
 });
-G__20201.cljs$core$IFn$_invoke$arity$variadic = G__20201__delegate;
-return G__20201;
+G__24010.cljs$core$IFn$_invoke$arity$variadic = G__24010__delegate;
+return G__24010;
 })()
 ;
 });
