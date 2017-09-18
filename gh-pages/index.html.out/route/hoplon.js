@@ -11,22 +11,22 @@ goog.require('wheel.route.hoplon');
  */
 route.hoplon.link = (function() { 
 var route$hoplon$link__delegate = function (args__18466__auto__){
-var vec__24663 = hoplon.core.parse_args(args__18466__auto__);
-var attributes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24663,(0),null);
-var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24663,(1),null);
+var vec__24717 = hoplon.core.parse_args(args__18466__auto__);
+var attributes = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24717,(0),null);
+var children = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24717,(1),null);
 return wheel.route.hoplon.link.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$history,route.state.history,cljs.core.cst$kw$routes,route.config.routes], null),attributes], 0)),children], 0));
 };
 var route$hoplon$link = function (var_args){
 var args__18466__auto__ = null;
 if (arguments.length > 0) {
-var G__24666__i = 0, G__24666__a = new Array(arguments.length -  0);
-while (G__24666__i < G__24666__a.length) {G__24666__a[G__24666__i] = arguments[G__24666__i + 0]; ++G__24666__i;}
-  args__18466__auto__ = new cljs.core.IndexedSeq(G__24666__a,0,null);
+var G__24720__i = 0, G__24720__a = new Array(arguments.length -  0);
+while (G__24720__i < G__24720__a.length) {G__24720__a[G__24720__i] = arguments[G__24720__i + 0]; ++G__24720__i;}
+  args__18466__auto__ = new cljs.core.IndexedSeq(G__24720__a,0,null);
 } 
 return route$hoplon$link__delegate.call(this,args__18466__auto__);};
 route$hoplon$link.cljs$lang$maxFixedArity = 0;
-route$hoplon$link.cljs$lang$applyTo = (function (arglist__24667){
-var args__18466__auto__ = cljs.core.seq(arglist__24667);
+route$hoplon$link.cljs$lang$applyTo = (function (arglist__24721){
+var args__18466__auto__ = cljs.core.seq(arglist__24721);
 return route$hoplon$link__delegate(args__18466__auto__);
 });
 route$hoplon$link.cljs$core$IFn$_invoke$arity$variadic = route$hoplon$link__delegate;
