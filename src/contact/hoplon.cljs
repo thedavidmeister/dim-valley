@@ -1,5 +1,6 @@
 (ns contact.hoplon
  (:require
+  [hoplon.core :as h]
   contact.data))
 
 (defn details

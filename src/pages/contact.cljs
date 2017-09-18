@@ -10,9 +10,9 @@
   mapbox.api
   wheel.math.geometry
   wheel.address.hoplon
-  address.config
   layout.spacer
-  wheel.phone.hoplon))
+  wheel.phone.hoplon
+  contact.hoplon))
 
 (defn dv-marker [width]
 
