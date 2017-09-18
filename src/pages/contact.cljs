@@ -62,7 +62,5 @@
   (layout.content-block/content-inner
    (h/h1 "Let's work together.")
    (h/p "If you are interested in working with us, let's talk.")
-   (h/p (h/strong "Milly: ") (wheel.phone.hoplon/phone "0403 858 811") " | meeli.jane@gmail.com")
-   (h/p (h/strong "Dave: ") (wheel.phone.hoplon/phone "0434 016 790") " | thedavidmeister@gmail.com")
-   (h/p (h/strong "We are based at ") (wheel.address.hoplon/simple address.config/address))
+   (contact.hoplon/details)
    (layout.spacer/vertical-spacer))))

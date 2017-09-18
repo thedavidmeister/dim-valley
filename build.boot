@@ -11,7 +11,8 @@
     [camel-snake-kebab "0.4.0"]
     [cljsjs/js-yaml "3.3.1-0"]
     [thedavidmeister/wheel "0.3.0-SNAPSHOT"]
-    [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]]
+    [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]
+    [thedavidmeister/privacy-policy "0.1.0-SNAPSHOT"]]
 
   :source-paths #{"src"}
   :asset-paths  #{"assets"})
