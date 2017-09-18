@@ -6,7 +6,7 @@
     [adzerk/boot-cljs          "1.7.228-2"]
     [adzerk/boot-reload        "0.4.13"]
     [hoplon/javelin            "3.9.0"]
-    [hoplon/hoplon             "7.0.1"]
+    [hoplon/hoplon "7.1.0-SNAPSHOT"]
     [tailrecursion/boot-jetty  "0.1.3"]
     [camel-snake-kebab "0.4.0"]
     [cljsjs/js-yaml "3.3.1-0"]
