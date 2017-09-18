@@ -376,7 +376,14 @@
       [NaN NaN])))
 
 (defn js-filename [stack-element]
-  (first (.split (last (.split stack-element "/out/")) ":")))
+  (let [output-dir (cljs.test/cljs-output-dir)
+        output-dir (cond-> output-dir
+                     (not (string/ends-with? output-dir "/"))
+                     (str "/"))]
+    (-> (.split stack-element output-dir)
+      last
+      (.split ":")
+      first)))
 
 (defn mapped-line-and-column [filename line column]
   (let [default [filename line column]]
@@ -432,7 +439,7 @@
 (defn run-block
   "Invoke all functions in fns with no arguments. A fn can optionally
   return
-  
+
   an async test - is invoked with a continuation running left fns
 
   a seq of fns tagged per block - are invoked immediately after fn"

@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.9.521 {:static-fns true, :optimize-constants true}
+// Compiled by ClojureScript 1.9.908 {:static-fns true, :optimize-constants true}
 goog.provide('mapbox.api');
 goog.require('cljs.core');
 goog.require('cljs.core.constants');
@@ -16,23 +16,8 @@ return (mapboxgl["accessToken"] = token);
  * Returns a mapbox LngLat object from given co-ordinates
  */
 mapbox.api.lng_lat = (function mapbox$api$lng_lat(var_args){
-var args24201 = [];
-var len__8981__auto___24208 = arguments.length;
-var i__8982__auto___24209 = (0);
-while(true){
-if((i__8982__auto___24209 < len__8981__auto___24208)){
-args24201.push((arguments[i__8982__auto___24209]));
-
-var G__24210 = (i__8982__auto___24209 + (1));
-i__8982__auto___24209 = G__24210;
-continue;
-} else {
-}
-break;
-}
-
-var G__24203 = args24201.length;
-switch (G__24203) {
+var G__25471 = arguments.length;
+switch (G__25471) {
 case 1:
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -42,15 +27,15 @@ return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argume
 
 break;
 default:
-throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1("Invalid arity: "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(args24201.length)].join('')));
+throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
 
 }
 });
 
-mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__24204){
-var vec__24205 = p__24204;
-var lng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24205,(0),null);
-var lat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24205,(1),null);
+mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__25472){
+var vec__25473 = p__25472;
+var lng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25473,(0),null);
+var lat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25473,(1),null);
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$2(lng,lat);
 });
 
@@ -81,12 +66,12 @@ return jQuery.data(el,mapbox.api.mapbox_key,m);
  */
 mapbox.api.with_marker_BANG_ = (function mapbox$api$with_marker_BANG_(map_el,marker_el,ll,marker_options){
 return hoplon.core.when_dom(map_el,(function (){
-var G__24213 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js(marker_options)));
-G__24213.setLngLat(ll);
+var G__25477 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js(marker_options)));
+G__25477.setLngLat(ll);
 
-G__24213.addTo(mapbox.api.map_el__GT_map(map_el));
+G__25477.addTo(mapbox.api.map_el__GT_map(map_el));
 
-return G__24213;
+return G__25477;
 }));
 });
 /**
@@ -95,7 +80,7 @@ return G__24213;
 mapbox.api.el__GT_map_BANG_ = (function mapbox$api$el__GT_map_BANG_(el,options){
 mapbox.api.init(mapbox.config.token);
 
-var options__$1 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 1, ["container",el], null),options], 0));
+var options__$1 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, ["container",el], null),options], 0));
 return hoplon.core.when_dom(el,((function (options__$1){
 return (function (){
 var m = (new mapboxgl.Map(cljs.core.clj__GT_js(options__$1)));
