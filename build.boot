@@ -1,8 +1,8 @@
 (set-env!
   :dependencies
   '[
-    [org.clojure/clojure "1.9.0-alpha15"]
-    [org.clojure/clojurescript "1.9.521"]
+    [org.clojure/clojure "1.9.0-alpha19"]
+    [org.clojure/clojurescript "1.9.908"]
     [adzerk/boot-cljs          "1.7.228-2"]
     [adzerk/boot-reload        "0.4.13"]
     [hoplon/javelin            "3.9.0"]
