@@ -11,8 +11,9 @@
   wheel.math.geometry
   wheel.address.hoplon
   address.config
-  layout.spacer))
-  
+  layout.spacer
+  wheel.phone.hoplon))
+
 (defn dv-marker [width]
 
  (let [; cos(45) = marker-width / line-length
@@ -61,7 +62,7 @@
   (layout.content-block/content-inner
    (h/h1 "Let's work together.")
    (h/p "If you are interested in working with us, let's talk.")
-   (h/p (h/strong "Milly: ") "0403 858 811 | meeli.jane@gmail.com")
-   (h/p (h/strong "Dave: ") "0434 016 790 | thedavidmeister@gmail.com")
+   (h/p (h/strong "Milly: ") (wheel.phone.hoplon/phone "0403 858 811") " | meeli.jane@gmail.com")
+   (h/p (h/strong "Dave: ") (wheel.phone.hoplon/phone "0434 016 790") " | thedavidmeister@gmail.com")
    (h/p (h/strong "We are based at ") (wheel.address.hoplon/simple address.config/address))
    (layout.spacer/vertical-spacer))))
