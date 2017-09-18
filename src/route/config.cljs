@@ -8,7 +8,8 @@
       "github" :github
       "work-with-us" :work-with-us
       "contact" :contact
-      "about" :about}])
+      "about" :about
+      "privacy" :privacy}])
 
 (assert (wheel.route.core/routes? routes))
 
