@@ -1,7 +1,9 @@
 (ns contact.hoplon
  (:require
   [hoplon.core :as h]
-  contact.data))
+  contact.data
+  wheel.phone.hoplon
+  wheel.address.hoplon))
 
 (defn details
  []
