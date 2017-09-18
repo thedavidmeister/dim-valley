@@ -18,7 +18,7 @@ dependencies:
     - curl -L https://github.com/boot-clj/boot-bin/releases/download/2.7.2/boot.sh -o ~/bin/boot
     - chmod +x ~/bin/boot
   override:
-    - boot gh-pages
+    - boot build
   cache_directories:
     - "~/bin"
     - "~/.m2"

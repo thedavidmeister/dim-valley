@@ -38,13 +38,18 @@
    (cljs :compiler-options compiler-options)
    (serve :port 8000)))
 
- (deftask deploy
+ (deftask build
   []
   (comp
    (hoplon)
    (cljs
     :optimizations :advanced
-    :compiler-options compiler-options)
+    :compiler-options compiler-options)))
+
+ (deftask deploy
+  []
+  (comp
+   (build)
    (target
     :dir #{"gh-pages"})
    (github-pages))))
