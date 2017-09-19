@@ -9,7 +9,7 @@
 (defn details
  []
  (let [email-subject "Dim Valley enquiry"
-       email-body "Hi,\nI saw the Dim Valley website and want to organise a time to discuss my project :)"]
+       email-body "Hi, I saw the Dim Valley website and want to organise a time to discuss my project :)"]
   [
    (h/p
     (h/strong "Milly: ")
