@@ -4,6 +4,7 @@
   layout.content-block
   contact.hoplon
   contact.data
+  wheel.email.hoplon
   thedavidmeister.privacy-policy))
 
 (defn content
@@ -15,4 +16,9 @@
     :entity-description (constantly "a modern business service consultancy owned and operated by David Meister and Amelia Schmidt.")
 
     :contact-details contact.hoplon/details
-    :unsubscribe-email-address (constantly (:email contact.data/milly))))))
+    :unsubscribe-email-address
+    (partial
+     wheel.email.hoplon/email
+     :address (:email contact.data/milly)
+     :subject "Unsubscribe from email marketing"
+     :body "Hi, as per the Dim Valley privacy policy, I would like to unsubscribe from future email marketing.")))))
