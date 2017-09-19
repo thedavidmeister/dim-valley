@@ -6,14 +6,14 @@ goog.require('camel_snake_kebab.internals.string_separator');
 goog.require('clojure.string');
 camel_snake_kebab.internals.misc.convert_case = (function camel_snake_kebab$internals$misc$convert_case(var_args){
 var args__9526__auto__ = [];
-var len__9519__auto___24115 = arguments.length;
-var i__9520__auto___24116 = (0);
+var len__9519__auto___24096 = arguments.length;
+var i__9520__auto___24097 = (0);
 while(true){
-if((i__9520__auto___24116 < len__9519__auto___24115)){
-args__9526__auto__.push((arguments[i__9520__auto___24116]));
+if((i__9520__auto___24097 < len__9519__auto___24096)){
+args__9526__auto__.push((arguments[i__9520__auto___24097]));
 
-var G__24117 = (i__9520__auto___24116 + (1));
-i__9520__auto___24116 = G__24117;
+var G__24098 = (i__9520__auto___24097 + (1));
+i__9520__auto___24097 = G__24098;
 continue;
 } else {
 }
@@ -24,37 +24,37 @@ var argseq__9527__auto__ = ((((4) < args__9526__auto__.length))?(new cljs.core.I
 return camel_snake_kebab.internals.misc.convert_case.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),argseq__9527__auto__);
 });
 
-camel_snake_kebab.internals.misc.convert_case.cljs$core$IFn$_invoke$arity$variadic = (function (first_fn,rest_fn,sep,s,p__24109){
-var map__24110 = p__24109;
-var map__24110__$1 = ((((!((map__24110 == null)))?((((map__24110.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24110.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24110):map__24110);
-var separator = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__24110__$1,cljs.core.cst$kw$separator,camel_snake_kebab.internals.string_separator.generic_separator);
-var vec__24112 = camel_snake_kebab.internals.string_separator.split(separator,s);
-var seq__24113 = cljs.core.seq(vec__24112);
-var first__24114 = cljs.core.first(seq__24113);
-var seq__24113__$1 = cljs.core.next(seq__24113);
-var first = first__24114;
-var rest = seq__24113__$1;
+camel_snake_kebab.internals.misc.convert_case.cljs$core$IFn$_invoke$arity$variadic = (function (first_fn,rest_fn,sep,s,p__24090){
+var map__24091 = p__24090;
+var map__24091__$1 = ((((!((map__24091 == null)))?((((map__24091.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__24091.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__24091):map__24091);
+var separator = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__24091__$1,cljs.core.cst$kw$separator,camel_snake_kebab.internals.string_separator.generic_separator);
+var vec__24093 = camel_snake_kebab.internals.string_separator.split(separator,s);
+var seq__24094 = cljs.core.seq(vec__24093);
+var first__24095 = cljs.core.first(seq__24094);
+var seq__24094__$1 = cljs.core.next(seq__24094);
+var first = first__24095;
+var rest = seq__24094__$1;
 return clojure.string.join.cljs$core$IFn$_invoke$arity$2(sep,cljs.core.cons((first_fn.cljs$core$IFn$_invoke$arity$1 ? first_fn.cljs$core$IFn$_invoke$arity$1(first) : first_fn.call(null,first)),cljs.core.map.cljs$core$IFn$_invoke$arity$2(rest_fn,rest)));
 });
 
 camel_snake_kebab.internals.misc.convert_case.cljs$lang$maxFixedArity = (4);
 
-camel_snake_kebab.internals.misc.convert_case.cljs$lang$applyTo = (function (seq24104){
-var G__24105 = cljs.core.first(seq24104);
-var seq24104__$1 = cljs.core.next(seq24104);
-var G__24106 = cljs.core.first(seq24104__$1);
-var seq24104__$2 = cljs.core.next(seq24104__$1);
-var G__24107 = cljs.core.first(seq24104__$2);
-var seq24104__$3 = cljs.core.next(seq24104__$2);
-var G__24108 = cljs.core.first(seq24104__$3);
-var seq24104__$4 = cljs.core.next(seq24104__$3);
-return camel_snake_kebab.internals.misc.convert_case.cljs$core$IFn$_invoke$arity$variadic(G__24105,G__24106,G__24107,G__24108,seq24104__$4);
+camel_snake_kebab.internals.misc.convert_case.cljs$lang$applyTo = (function (seq24085){
+var G__24086 = cljs.core.first(seq24085);
+var seq24085__$1 = cljs.core.next(seq24085);
+var G__24087 = cljs.core.first(seq24085__$1);
+var seq24085__$2 = cljs.core.next(seq24085__$1);
+var G__24088 = cljs.core.first(seq24085__$2);
+var seq24085__$3 = cljs.core.next(seq24085__$2);
+var G__24089 = cljs.core.first(seq24085__$3);
+var seq24085__$4 = cljs.core.next(seq24085__$3);
+return camel_snake_kebab.internals.misc.convert_case.cljs$core$IFn$_invoke$arity$variadic(G__24086,G__24087,G__24088,G__24089,seq24085__$4);
 });
 
 camel_snake_kebab.internals.misc.upper_case_http_headers = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 13, ["WWW",null,"TE",null,"CSP",null,"CPU",null,"IP",null,"WAP",null,"HTTP",null,"DNT",null,"UA",null,"ATT",null,"SSL",null,"MD5",null,"XSS",null], null), null);
 camel_snake_kebab.internals.misc.capitalize_http_header = (function camel_snake_kebab$internals$misc$capitalize_http_header(s){
-var or__8242__auto__ = (function (){var G__24119 = clojure.string.upper_case(s);
-return (camel_snake_kebab.internals.misc.upper_case_http_headers.cljs$core$IFn$_invoke$arity$1 ? camel_snake_kebab.internals.misc.upper_case_http_headers.cljs$core$IFn$_invoke$arity$1(G__24119) : camel_snake_kebab.internals.misc.upper_case_http_headers.call(null,G__24119));
+var or__8242__auto__ = (function (){var G__24100 = clojure.string.upper_case(s);
+return (camel_snake_kebab.internals.misc.upper_case_http_headers.cljs$core$IFn$_invoke$arity$1 ? camel_snake_kebab.internals.misc.upper_case_http_headers.cljs$core$IFn$_invoke$arity$1(G__24100) : camel_snake_kebab.internals.misc.upper_case_http_headers.call(null,G__24100));
 })();
 if(cljs.core.truth_(or__8242__auto__)){
 return or__8242__auto__;
