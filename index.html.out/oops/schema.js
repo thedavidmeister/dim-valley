@@ -10,8 +10,8 @@ return s.replace(/^\\([?!])/,"$1");
 });
 oops.schema.parse_selector_element_BANG_ = (function oops$schema$parse_selector_element_BANG_(element_str,arr){
 if(!(cljs.core.empty_QMARK_(element_str))){
-var G__20199 = cljs.core.first(element_str);
-switch (G__20199) {
+var G__20229 = cljs.core.first(element_str);
+switch (G__20229) {
 case "?":
 arr.push((1));
 
@@ -44,8 +44,8 @@ while(true){
 if(items){
 oops.schema.parse_selector_element_BANG_(oops.schema.unescape_dots(cljs.core.first(items)),arr);
 
-var G__20201 = cljs.core.next(items);
-items = G__20201;
+var G__20231 = cljs.core.next(items);
+items = G__20231;
 continue;
 } else {
 return null;
@@ -68,8 +68,8 @@ if(cljs.core.sequential_QMARK_(item)){
 oops.schema.coerce_key_dynamically_BANG_(item,arr);
 }
 
-var G__20202 = cljs.core.next(items);
-items = G__20202;
+var G__20232 = cljs.core.next(items);
+items = G__20232;
 continue;
 } else {
 return null;
@@ -98,8 +98,8 @@ oops.schema.merge_standalone_modifier_BANG_(arr,finger);
 } else {
 }
 
-var G__20203 = finger;
-i = G__20203;
+var G__20233 = finger;
+i = G__20233;
 continue;
 }
 break;
@@ -117,11 +117,11 @@ oops.schema.has_invalid_path_access_mode_QMARK_ = (function oops$schema$has_inva
 var items = cljs.core.seq(path);
 while(true){
 if(items){
-if(cljs.core.truth_((function (){var G__20204 = cljs.core.first(items);
-return (is_valid_QMARK_.cljs$core$IFn$_invoke$arity$1 ? is_valid_QMARK_.cljs$core$IFn$_invoke$arity$1(G__20204) : is_valid_QMARK_.call(null,G__20204));
+if(cljs.core.truth_((function (){var G__20234 = cljs.core.first(items);
+return (is_valid_QMARK_.cljs$core$IFn$_invoke$arity$1 ? is_valid_QMARK_.cljs$core$IFn$_invoke$arity$1(G__20234) : is_valid_QMARK_.call(null,G__20234));
 })())){
-var G__20205 = cljs.core.next(cljs.core.next(items));
-items = G__20205;
+var G__20235 = cljs.core.next(cljs.core.next(items));
+items = G__20235;
 continue;
 } else {
 return true;
@@ -138,13 +138,13 @@ oops.schema.check_dynamic_path_BANG_ = (function oops$schema$check_dynamic_path_
 if(cljs.core.empty_QMARK_(path)){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$unexpected_DASH_empty_DASH_selector], null);
 } else {
-var G__20208 = op;
-switch (G__20208) {
+var G__20238 = op;
+switch (G__20238) {
 case (0):
-if(cljs.core.truth_(oops.schema.has_invalid_path_access_mode_QMARK_(path,((function (G__20208){
-return (function (p1__20206_SHARP_){
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__20206_SHARP_,(2));
-});})(G__20208))
+if(cljs.core.truth_(oops.schema.has_invalid_path_access_mode_QMARK_(path,((function (G__20238){
+return (function (p1__20236_SHARP_){
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__20236_SHARP_,(2));
+});})(G__20238))
 ))){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$unexpected_DASH_punching_DASH_selector], null);
 } else {
@@ -153,10 +153,10 @@ return null;
 
 break;
 case (1):
-if(cljs.core.truth_(oops.schema.has_invalid_path_access_mode_QMARK_(path,((function (G__20208){
-return (function (p1__20207_SHARP_){
-return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__20207_SHARP_,(1));
-});})(G__20208))
+if(cljs.core.truth_(oops.schema.has_invalid_path_access_mode_QMARK_(path,((function (G__20238){
+return (function (p1__20237_SHARP_){
+return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(p1__20237_SHARP_,(1));
+});})(G__20238))
 ))){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$unexpected_DASH_soft_DASH_selector], null);
 } else {
@@ -165,7 +165,7 @@ return null;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__20208)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__20238)].join('')));
 
 }
 }
