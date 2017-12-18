@@ -33,7 +33,7 @@
  (h/div
   :css {
         :width "100%"
-        :overflow-y "hidden"}
+        :overflow "hidden"}
   (spacer)
   (content-div
    :css {:overflow-x "visible"}

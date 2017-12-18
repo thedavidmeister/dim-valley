@@ -19,17 +19,19 @@
         :css (j/cell=
               (merge
                {
-                :transition (str "transform " transition-length "s " (:ease-out-quart animation.easings/easings) " " (if open? transition-length 0) "s")
+                :transition (str "all " transition-length "s " (:ease-out-quart animation.easings/easings) " " (if open? transition-length 0) "s")
                 :transform (str "translateX(90vw)")
                 :z-index 0
                 :position "absolute"
                 :width "100%"
                 :top 0
-                :left 0}
+                :left 0
+                :opacity 0}
                (when open?
                 {:position "relative"
                  :z-index 1
-                 :transform "translateX(0px)"})))
+                 :transform "translateX(0px)"
+                 :opacity 1})))
         (h/div
          :class "clearfix"
          :position "relative"
