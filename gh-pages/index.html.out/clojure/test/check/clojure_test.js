@@ -4,26 +4,26 @@ goog.require('cljs.core');
 goog.require('cljs.core.constants');
 goog.require('cljs.test');
 goog.require('clojure.test.check.impl');
-clojure.test.check.clojure_test.assert_check = (function clojure$test$check$clojure_test$assert_check(p__17629){
-var map__17630 = p__17629;
-var map__17630__$1 = ((((!((map__17630 == null)))?((((map__17630.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17630.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17630):map__17630);
-var m = map__17630__$1;
-var result = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__17630__$1,cljs.core.cst$kw$result);
+clojure.test.check.clojure_test.assert_check = (function clojure$test$check$clojure_test$assert_check(p__18791){
+var map__18792 = p__18791;
+var map__18792__$1 = ((((!((map__18792 == null)))?((((map__18792.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18792.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18792):map__18792);
+var m = map__18792__$1;
+var result = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18792__$1,cljs.core.cst$kw$result);
 cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([m], 0));
 
 if(cljs.core.truth_(clojure.test.check.impl.exception_like_QMARK_(result))){
 throw result;
 } else {
-try{var value__17368__auto__ = result;
-if(cljs.core.truth_(value__17368__auto__)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.cst$sym$result,cljs.core.cst$kw$actual,value__17368__auto__,cljs.core.cst$kw$message,null], null));
+try{var value__18530__auto__ = result;
+if(cljs.core.truth_(value__18530__auto__)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.cst$sym$result,cljs.core.cst$kw$actual,value__18530__auto__,cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.cst$sym$result,cljs.core.cst$kw$actual,value__17368__auto__,cljs.core.cst$kw$message,null], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.cst$sym$result,cljs.core.cst$kw$actual,value__18530__auto__,cljs.core.cst$kw$message,null], null));
 }
 
-return value__17368__auto__;
-}catch (e17632){var t__17410__auto__ = e17632;
-return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.cst$sym$result,cljs.core.cst$kw$actual,t__17410__auto__,cljs.core.cst$kw$message,null], null));
+return value__18530__auto__;
+}catch (e18794){var t__18572__auto__ = e18794;
+return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.cst$sym$result,cljs.core.cst$kw$actual,t__18572__auto__,cljs.core.cst$kw$message,null], null));
 }}
 });
 clojure.test.check.clojure_test._STAR_default_test_count_STAR_ = (100);
@@ -76,23 +76,23 @@ clojure.test.check.clojure_test._STAR_report_shrinking_STAR_ = false;
  */
 clojure.test.check.clojure_test._STAR_trial_report_period_STAR_ = (10000);
 clojure.test.check.clojure_test.last_trial_report = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
-var begin_test_var_method_17634 = cljs.core.get_method(cljs.test.report,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$cljs$test_SLASH_default,cljs.core.cst$kw$begin_DASH_test_DASH_var], null));
-cljs.test.report.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$cljs$test_SLASH_default,cljs.core.cst$kw$begin_DASH_test], null),((function (begin_test_var_method_17634){
+var begin_test_var_method_18796 = cljs.core.get_method(cljs.test.report,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$cljs$test_SLASH_default,cljs.core.cst$kw$begin_DASH_test_DASH_var], null));
+cljs.test.report.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$cljs$test_SLASH_default,cljs.core.cst$kw$begin_DASH_test], null),((function (begin_test_var_method_18796){
 return (function (m){
 cljs.core.reset_BANG_(clojure.test.check.clojure_test.last_trial_report,clojure.test.check.impl.get_current_time_millis());
 
-if(cljs.core.truth_(begin_test_var_method_17634)){
-return (begin_test_var_method_17634.cljs$core$IFn$_invoke$arity$1 ? begin_test_var_method_17634.cljs$core$IFn$_invoke$arity$1(m) : begin_test_var_method_17634.call(null,m));
+if(cljs.core.truth_(begin_test_var_method_18796)){
+return (begin_test_var_method_18796.cljs$core$IFn$_invoke$arity$1 ? begin_test_var_method_18796.cljs$core$IFn$_invoke$arity$1(m) : begin_test_var_method_18796.call(null,m));
 } else {
 return null;
 }
-});})(begin_test_var_method_17634))
+});})(begin_test_var_method_18796))
 );
-clojure.test.check.clojure_test.get_property_name = (function clojure$test$check$clojure_test$get_property_name(p__17635){
-var map__17636 = p__17635;
-var map__17636__$1 = ((((!((map__17636 == null)))?((((map__17636.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17636.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17636):map__17636);
-var report_map = map__17636__$1;
-var property_fun = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__17636__$1,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_property);
+clojure.test.check.clojure_test.get_property_name = (function clojure$test$check$clojure_test$get_property_name(p__18797){
+var map__18798 = p__18797;
+var map__18798__$1 = ((((!((map__18798 == null)))?((((map__18798.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18798.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18798):map__18798);
+var report_map = map__18798__$1;
+var property_fun = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18798__$1,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_property);
 var or__8242__auto__ = cljs.core.cst$kw$name.cljs$core$IFn$_invoke$arity$1(cljs.core.meta(property_fun));
 if(cljs.core.truth_(or__8242__auto__)){
 return or__8242__auto__;
@@ -127,12 +127,12 @@ return null;
  * Intended to be bound as the value of `*report-trials*`; will emit a single
  *   dot every 1000 trials reported.
  */
-clojure.test.check.clojure_test.trial_report_dots = (function clojure$test$check$clojure_test$trial_report_dots(p__17638){
-var map__17639 = p__17638;
-var map__17639__$1 = ((((!((map__17639 == null)))?((((map__17639.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17639.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17639):map__17639);
-var vec__17640 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__17639__$1,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_trial);
-var so_far = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__17640,(0),null);
-var total = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__17640,(1),null);
+clojure.test.check.clojure_test.trial_report_dots = (function clojure$test$check$clojure_test$trial_report_dots(p__18800){
+var map__18801 = p__18800;
+var map__18801__$1 = ((((!((map__18801 == null)))?((((map__18801.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18801.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18801):map__18801);
+var vec__18802 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18801__$1,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_trial);
+var so_far = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18802,(0),null);
+var total = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18802,(1),null);
 if((so_far > (0))){
 if((cljs.core.mod(so_far,(1000)) === (0))){
 cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["."], 0));
@@ -179,10 +179,10 @@ return null;
 }
 }));
 clojure.test.check.clojure_test.report_trial = (function clojure$test$check$clojure_test$report_trial(property_fun,so_far,num_tests){
-var G__17644 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_trial,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_property,property_fun,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_trial,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [so_far,num_tests], null)], null);
-return (cljs.test.report.cljs$core$IFn$_invoke$arity$1 ? cljs.test.report.cljs$core$IFn$_invoke$arity$1(G__17644) : cljs.test.report.call(null,G__17644));
+var G__18806 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_trial,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_property,property_fun,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_trial,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [so_far,num_tests], null)], null);
+return (cljs.test.report.cljs$core$IFn$_invoke$arity$1 ? cljs.test.report.cljs$core$IFn$_invoke$arity$1(G__18806) : cljs.test.report.call(null,G__18806));
 });
 clojure.test.check.clojure_test.report_failure = (function clojure$test$check$clojure_test$report_failure(property_fun,result,trial_number,failing_params){
-var G__17645 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_shrinking,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_property,property_fun,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_params,cljs.core.vec(failing_params)], null);
-return (cljs.test.report.cljs$core$IFn$_invoke$arity$1 ? cljs.test.report.cljs$core$IFn$_invoke$arity$1(G__17645) : cljs.test.report.call(null,G__17645));
+var G__18807 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$type,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_shrinking,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_property,property_fun,cljs.core.cst$kw$clojure$test$check$clojure_DASH_test_SLASH_params,cljs.core.vec(failing_params)], null);
+return (cljs.test.report.cljs$core$IFn$_invoke$arity$1 ? cljs.test.report.cljs$core$IFn$_invoke$arity$1(G__18807) : cljs.test.report.call(null,G__18807));
 });
