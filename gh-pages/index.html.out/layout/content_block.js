@@ -7,6 +7,7 @@ goog.require('layout.config');
 goog.require('colours.ui_gradients');
 goog.require('layout.rounded_corners');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
+<<<<<<< HEAD
 var args__9524__auto__ = [];
 var len__9517__auto___24572 = arguments.length;
 var i__9518__auto___24573 = (0);
@@ -16,6 +17,17 @@ args__9524__auto__.push((arguments[i__9518__auto___24573]));
 
 var G__24574 = (i__9518__auto___24573 + (1));
 i__9518__auto___24573 = G__24574;
+=======
+var args__9526__auto__ = [];
+var len__9519__auto___24467 = arguments.length;
+var i__9520__auto___24468 = (0);
+while(true){
+if((i__9520__auto___24468 < len__9519__auto___24467)){
+args__9526__auto__.push((arguments[i__9520__auto___24468]));
+
+var G__24469 = (i__9520__auto___24468 + (1));
+i__9520__auto___24468 = G__24469;
+>>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 continue;
 } else {
 }
@@ -32,6 +44,7 @@ return layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic(cljs.
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
 
+<<<<<<< HEAD
 layout.content_block.content_outer.cljs$lang$applyTo = (function (seq24571){
 return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24571));
 });
@@ -46,6 +59,22 @@ args__9524__auto__.push((arguments[i__9518__auto___24582]));
 
 var G__24583 = (i__9518__auto___24582 + (1));
 i__9518__auto___24582 = G__24583;
+=======
+layout.content_block.content_outer.cljs$lang$applyTo = (function (seq24466){
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24466));
+});
+
+layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
+var args__9526__auto__ = [];
+var len__9519__auto___24476 = arguments.length;
+var i__9520__auto___24477 = (0);
+while(true){
+if((i__9520__auto___24477 < len__9519__auto___24476)){
+args__9526__auto__.push((arguments[i__9520__auto___24477]));
+
+var G__24478 = (i__9520__auto___24477 + (1));
+i__9520__auto___24477 = G__24478;
+>>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 continue;
 } else {
 }
@@ -57,17 +86,31 @@ return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(a
 });
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
+<<<<<<< HEAD
 var G__24576 = cljs.core.cst$kw$css;
 var G__24577 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
 var G__24578 = cljs.core.cst$kw$class;
 var G__24579 = "clearfix";
 var G__24580 = children;
 return (hoplon.core.div.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$5(G__24576,G__24577,G__24578,G__24579,G__24580) : hoplon.core.div.call(null,G__24576,G__24577,G__24578,G__24579,G__24580));
+=======
+var G__24471 = cljs.core.cst$kw$css;
+var G__24472 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
+var G__24473 = cljs.core.cst$kw$class;
+var G__24474 = "clearfix";
+var G__24475 = children;
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$5(G__24471,G__24472,G__24473,G__24474,G__24475) : hoplon.core.div.call(null,G__24471,G__24472,G__24473,G__24474,G__24475));
+>>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 });
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
+<<<<<<< HEAD
 layout.content_block.content_inner.cljs$lang$applyTo = (function (seq24575){
 return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24575));
+=======
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq24470){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24470));
+>>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 });
 
