@@ -16,14 +16,20 @@
  (let [transition-length menu.config/transition-length]
   (j/with-let
    [el (h/div
-        :css (j/cell= {
-                       :transition (str "transform " transition-length "s " (:ease-out-quart animation.easings/easings) " " (if open? transition-length 0) "s")
-                       :transform (str "translateX(" (if open? "0px" offset) ")")
-                       :z-index (if open? 1 0)
-                       :position (if open? "relative" "absolute")
-                       :width "100%"
-                       :top 0
-                       :left 0})
+        :css (j/cell=
+              (merge
+               {
+                :transition (str "transform " transition-length "s " (:ease-out-quart animation.easings/easings) " " (if open? transition-length 0) "s")
+                :transform (str "translateX(90vw)")
+                :z-index 0
+                :position "absolute"
+                :width "100%"
+                :top 0
+                :left 0}
+               (when open?
+                {:position "relative"
+                 :z-index 1
+                 :transform "translateX(0px)"})))
         (h/div
          :class "clearfix"
          :position "relative"

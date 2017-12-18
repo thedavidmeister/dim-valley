@@ -3,20 +3,48 @@
   [hoplon.core :as h]
   layout.config))
 
-(defn spacer-td []
- (h/td
-  :css {:width "25vw"
-        :height "10vh"}))
+(def content-percent 50)
+(def spacer-percent (* 0.5 (- 100 content-percent)))
 
-(defn spacer-tr [] (h/tr (spacer-td) (h/td)))
-(defn content-tr [content] (h/tr (spacer-td) (h/td content) (spacer-td)))
+(defn spacer
+ []
+ (h/div
+  :class "layout-spacer"
+  :css {:width (str spacer-percent "vw")
+        :height "10vh"
+        :float "left"}))
+
+(h/defelem content-div
+ [_ children]
+ (h/div
+  :css {:width (str content-percent "vw")
+        :float "left"}
+  children))
+
+(defn spacer-row
+ []
+ (h/div
+  :css {:height "10vh"
+        :width "100%"
+        :float "left"
+        :clear "both"}))
+(defn content-row
+ [content]
+ (h/div
+  :css {
+        :width "100%"
+        :overflow-y "hidden"}
+  (spacer)
+  (content-div
+   :css {:overflow-x "visible"}
+   content)))
 
 (defn middle-right
  [children]
- (h/table
-  :cellpadding 0
-  :cellspacing 0
-  :css {:width "100%"}
-  (spacer-tr)
-  (content-tr children)
-  (spacer-tr)))
+ (let [content-percent 50
+       spacer-percent (- 100 (* 2 content-percent))]
+  (h/div
+   :css {:width "100%"}
+   (spacer-row)
+   (content-row children)
+   (spacer-row))))
