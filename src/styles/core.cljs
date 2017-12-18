@@ -84,6 +84,7 @@ svg:hover {
 
 a {
  color: black;
+ display: inline-block;
 }
 
 a:hover {
