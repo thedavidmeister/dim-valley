@@ -631,13 +631,8 @@ return (new cljs.tools.reader.reader_types.StringReader(s,cljs.core.count(s),(0)
  * Creates a PushbackReader from a given string
  */
 cljs.tools.reader.reader_types.string_push_back_reader = (function cljs$tools$reader$reader_types$string_push_back_reader(var_args){
-<<<<<<< HEAD
 var G__17898 = arguments.length;
 switch (G__17898) {
-=======
-var G__19062 = arguments.length;
-switch (G__19062) {
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 case 1:
 return cljs.tools.reader.reader_types.string_push_back_reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -669,13 +664,8 @@ return (new cljs.tools.reader.reader_types.PushbackReader((new cljs.tools.reader
  * Creates an IndexingPushbackReader from a given string or PushbackReader
  */
 cljs.tools.reader.reader_types.indexing_push_back_reader = (function cljs$tools$reader$reader_types$indexing_push_back_reader(var_args){
-<<<<<<< HEAD
 var G__17901 = arguments.length;
 switch (G__17901) {
-=======
-var G__19065 = arguments.length;
-switch (G__19065) {
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 case 1:
 return cljs.tools.reader.reader_types.indexing_push_back_reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -712,13 +702,8 @@ cljs.tools.reader.reader_types.indexing_push_back_reader.cljs$lang$maxFixedArity
  * Creates a SourceLoggingPushbackReader from a given string or PushbackReader
  */
 cljs.tools.reader.reader_types.source_logging_push_back_reader = (function cljs$tools$reader$reader_types$source_logging_push_back_reader(var_args){
-<<<<<<< HEAD
 var G__17904 = arguments.length;
 switch (G__17904) {
-=======
-var G__19068 = arguments.length;
-switch (G__19068) {
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 case 1:
 return cljs.tools.reader.reader_types.source_logging_push_back_reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -761,17 +746,10 @@ while(true){
 if(cljs.tools.reader.impl.utils.newline_QMARK_(c)){
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('');
 } else {
-<<<<<<< HEAD
 var G__17906 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 var G__17907 = s.append(c);
 c = G__17906;
 s = G__17907;
-=======
-var G__19070 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-var G__19071 = s.append(c);
-c = G__19070;
-s = G__19071;
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 continue;
 }
 break;
