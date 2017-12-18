@@ -127,8 +127,13 @@ return cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.
  * the inspection.
  */
 cljs.tools.reader.impl.inspect.inspect = (function cljs$tools$reader$impl$inspect$inspect(var_args){
+<<<<<<< HEAD
 var G__17912 = arguments.length;
 switch (G__17912) {
+=======
+var G__19076 = arguments.length;
+switch (G__19076) {
+>>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 case 1:
 return cljs.tools.reader.impl.inspect.inspect.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
