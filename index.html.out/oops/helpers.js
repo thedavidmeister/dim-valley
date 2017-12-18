@@ -40,13 +40,8 @@ if(!((items == null))){
 var item = cljs.core._first(items);
 arr.push(item);
 
-<<<<<<< HEAD
 var G__19938 = cljs.core.next(items);
 items = G__19938;
-=======
-var G__20350 = cljs.core.next(items);
-items = G__20350;
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 continue;
 } else {
 return arr;
@@ -60,17 +55,10 @@ oops.helpers.repurpose_error = (function oops$helpers$repurpose_error(error,msg,
 
 error.message = msg;
 
-<<<<<<< HEAD
 var x19939 = error;
 x19939.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL;
 
 x19939.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = ((function (x19939){
-=======
-var x20351 = error;
-x20351.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL;
-
-x20351.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = ((function (x20351){
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 return (function (_obj,writer,opts){
 var _obj__$1 = this;
 cljs.core._write(writer,msg);
@@ -82,15 +70,8 @@ return cljs.core.pr_writer(info,writer,opts);
 } else {
 return null;
 }
-<<<<<<< HEAD
 });})(x19939))
 ;
 
 return x19939;
-=======
-});})(x20351))
-;
-
-return x20351;
->>>>>>> 84b1f3c9136f6022950f77a8e7c9302fda7c28c0
 });
