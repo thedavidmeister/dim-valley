@@ -9,8 +9,8 @@ goog.require('mapbox.api');
  * @param {...*} var_args
  */
 mapbox.dom.map = (function() { 
-var mapbox$dom$map__delegate = function (args__18466__auto__){
-var vec__25235 = hoplon.core.parse_args(args__18466__auto__);
+var mapbox$dom$map__delegate = function (args__19628__auto__){
+var vec__25235 = hoplon.core.parse_args(args__19628__auto__);
 var map__25238 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25235,(0),null);
 var map__25238__$1 = ((((!((map__25238 == null)))?((((map__25238.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25238.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25238):map__25238);
 var attributes = map__25238__$1;
@@ -39,17 +39,17 @@ mapbox.api.with_marker_BANG_(el,marker,center_25242,marker_options);
 return el;
 };
 var mapbox$dom$map = function (var_args){
-var args__18466__auto__ = null;
+var args__19628__auto__ = null;
 if (arguments.length > 0) {
 var G__25243__i = 0, G__25243__a = new Array(arguments.length -  0);
 while (G__25243__i < G__25243__a.length) {G__25243__a[G__25243__i] = arguments[G__25243__i + 0]; ++G__25243__i;}
-  args__18466__auto__ = new cljs.core.IndexedSeq(G__25243__a,0,null);
+  args__19628__auto__ = new cljs.core.IndexedSeq(G__25243__a,0,null);
 } 
-return mapbox$dom$map__delegate.call(this,args__18466__auto__);};
+return mapbox$dom$map__delegate.call(this,args__19628__auto__);};
 mapbox$dom$map.cljs$lang$maxFixedArity = 0;
 mapbox$dom$map.cljs$lang$applyTo = (function (arglist__25244){
-var args__18466__auto__ = cljs.core.seq(arglist__25244);
-return mapbox$dom$map__delegate(args__18466__auto__);
+var args__19628__auto__ = cljs.core.seq(arglist__25244);
+return mapbox$dom$map__delegate(args__19628__auto__);
 });
 mapbox$dom$map.cljs$core$IFn$_invoke$arity$variadic = mapbox$dom$map__delegate;
 return mapbox$dom$map;

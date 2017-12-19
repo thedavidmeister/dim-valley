@@ -32,14 +32,14 @@ throw cljs.core.missing_protocol("AlterName.alter-name",this$);
 
 goog.object.set(camel_snake_kebab.internals.alter_name.AlterName,"string",true);
 
-var G__24204_24209 = camel_snake_kebab.internals.alter_name.alter_name;
-var G__24205_24210 = "string";
-var G__24206_24211 = ((function (G__24204_24209,G__24205_24210){
+var G__13879_13884 = camel_snake_kebab.internals.alter_name.alter_name;
+var G__13880_13885 = "string";
+var G__13881_13886 = ((function (G__13879_13884,G__13880_13885){
 return (function (this$,f){
 return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(this$) : f.call(null,this$));
-});})(G__24204_24209,G__24205_24210))
+});})(G__13879_13884,G__13880_13885))
 ;
-goog.object.set(G__24204_24209,G__24205_24210,G__24206_24211);
+goog.object.set(G__13879_13884,G__13880_13885,G__13881_13886);
 
 cljs.core.Keyword.prototype.camel_snake_kebab$internals$alter_name$AlterName$ = cljs.core.PROTOCOL_SENTINEL;
 
@@ -48,8 +48,8 @@ var this$__$1 = this;
 if(cljs.core.truth_(cljs.core.namespace(this$__$1))){
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Namespaced keywords are not supported",new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$input,this$__$1], null));
 } else {
-return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__24207 = cljs.core.name(this$__$1);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24207) : f.call(null,G__24207));
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__13882 = cljs.core.name(this$__$1);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__13882) : f.call(null,G__13882));
 })());
 }
 });
@@ -61,8 +61,8 @@ var this$__$1 = this;
 if(cljs.core.truth_(cljs.core.namespace(this$__$1))){
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Namespaced symbols are not supported",new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$input,this$__$1], null));
 } else {
-return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1((function (){var G__24208 = cljs.core.name(this$__$1);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24208) : f.call(null,G__24208));
+return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1((function (){var G__13883 = cljs.core.name(this$__$1);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__13883) : f.call(null,G__13883));
 })());
 }
 });
