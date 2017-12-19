@@ -26,7 +26,7 @@
   (layout.content-block/content-inner
    (h/h2 "Multidisciplinary team of two")
    (layout.body-text/p
-    "We are a team of two: "
+    "We are "
     (route.hoplon/link
      :handler :milly
      "Milly Schmidt")
