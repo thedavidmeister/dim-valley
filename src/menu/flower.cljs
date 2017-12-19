@@ -126,7 +126,6 @@
                    items))
        total-transition-length menu.config/transition-length
        base-transition-length (j/cell= (/ total-transition-length (count items)))]
-
   (outer-wrapper
    radius
    open?
@@ -137,7 +136,6 @@
     :css {:position "relative"
           :z-index 1}
     (open-button open? button-hover? item-radius total-transition-length))
-
    (h/div
     :css {:z-index 0}
     (h/for-tpl [[i [x y] item] i-xy-item]
