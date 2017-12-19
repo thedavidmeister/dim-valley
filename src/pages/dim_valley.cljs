@@ -67,7 +67,7 @@
     "We have embraced a business-first approach to technology and a human-first approach to product development.")
 
    (layout.body-text/p
-    "We work with clients in an honest and bespoke manner, leveraging our unique expertise to tackle their unique problems.")
+    "We work with our clients in an honest and bespoke manner, leveraging our unique expertise to tackle their unique problems.")
 
    (layout.body-text/p
     "Specific commercial services that we offer (in no particular order) include:"
