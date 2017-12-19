@@ -3,7 +3,9 @@
   [hoplon.core :as h]
   layout.header-block
   layout.content-block
-  layout.spacer))
+  layout.spacer
+  our-services.hoplon
+  layout.body-text))
 
 (defn content []
  []
@@ -69,15 +71,7 @@
    (layout.body-text/p
     "We work with our clients in an honest and bespoke manner, leveraging our unique expertise to tackle their unique problems.")
 
-   (layout.body-text/p
-    "Specific commercial services that we offer (in no particular order) include:"
-    (h/ul
-     (h/li "Copywriting and editing")
-     (h/li "Full stack web development")
-     (h/li "User experience (UX) research, consolidation, interpretation, advocacy and advice")
-     (h/li "Corporate/community workshops and training")
-     (h/li "Technical planning and documentation")
-     (h/li "Product development strategy")))
+   (our-services.hoplon/service-list)
 
    (layout.body-text/p)
    (route.hoplon/link
