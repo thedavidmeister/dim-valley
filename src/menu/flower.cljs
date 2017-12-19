@@ -15,13 +15,15 @@
 
 (def big-scale 1.3)
 
+(def n->px-rounded (comp u/n->px Math/round))
+
 (defn outer-wrapper
  [outer-radius open? button-hover? transition-length & children]
  (let [transition-length (/ transition-length 2)]
   (h/div
    :css (j/cell= {:position "fixed"
-                  :left (u/n->px (.round js/Math outer-radius))
-                  :bottom (u/n->px (.round js/Math outer-radius))
+                  :left (n->px-rounded outer-radius)
+                  :bottom (n->px-rounded outer-radius)
                   :overflow "visible"
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")
@@ -43,16 +45,16 @@
                   ; when the circles are stacked in the z-axis.
                   :width (* radius 2)
                   :height (* radius 2)
-                  :border-radius (u/n->px (.round js/Math radius))
+                  :border-radius (n->px-rounded radius)
                   :position "absolute"
-                  :left (u/n->px (.round js/Math (- radius)))
-                  :bottom (u/n->px (.round js/Math (- radius)))
+                  :left (n->px-rounded (- radius))
+                  :bottom (n->px-rounded (- radius))
                   :z-index 1
                   :cursor "pointer"
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
-   (let [width (j/cell= (/ radius 2))
+   (let [width (j/cell= (* radius 0.5))
          ; sin(PI/4) = rotated-offset / width
          ; rotated-offset = (width x sin(PI /4))
          rotated-offset (j/cell= (/ (* width
@@ -60,13 +62,13 @@
                                     2))
          height (j/cell= (/ radius 12))
          ; rotated-offset (j/cell= (* 2 width))
-         left (j/cell= (.round js/Math (+ radius (- (/ width 2)))))
-         top (j/cell= (.round js/Math (+ radius (- (/ height 2)))))
+         left (j/cell= (+ radius (* width -0.5)))
+         top (j/cell= (+ radius (* height -0.5)))
          color (j/cell= (last (colours.ui-gradients/stops)))
 
-         default-css (j/cell= {:width (u/n->px (.round js/Math width))
-                               :height (u/n->px (.round js/Math height))
-                               :left (u/n->px (.round js/Math left))
+         default-css (j/cell= {:width (n->px-rounded width)
+                               :height (n->px-rounded height)
+                               :left (n->px-rounded left)
                                :background-color color
                                :position "absolute"
                                :transition (str "transform " transition-length "s ease, "
@@ -76,9 +78,9 @@
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (u/n->px (.round js/Math (- top (* 2 height))))
+                     {:top (n->px-rounded (- top (* 2 height)))
                       :transform (str
-                                      "translate3d(0px, " (if open? (.round js/Math rotated-offset) 0) "px, 0px)"
+                                      "translate3d(0px, " (if open? (Math/round rotated-offset) 0) "px, 0px)"
                                       "rotate(" (if open? "45deg" "0deg") ") ")}
                      (when open? {:background-color "white"}))))
 
@@ -87,14 +89,14 @@
       :css (j/cell= (merge
                      default-css
                      {
-                      :top (u/n->px (.round js/Math top))
+                      :top (n->px-rounded top)
                       :transform (str "scale(" (if open? 0 1) ")")})))
 
      ; bottom line
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (u/n->px (.round js/Math (+ top (* 2 height))))
+                     {:top (n->px-rounded (+ top (* 2 height)))
                       :transform (str
                                       "translate3d(0px, -" (if open? rotated-offset 0) "px, 0px)"
                                       "rotate(" (if open? "-45deg" "0deg") ") ")}
@@ -172,9 +174,9 @@
                   true)
          :css (j/cell= {:transition (str "transform " (/ total-transition-length 2) "s " menu.config/easing)
                         :transform (str "scale(" (if interacting? big-scale 1) ")")
-                        :width (* 2 (.round js/Math item-radius))
-                        :height (* 2 (.round js/Math item-radius))
-                        :border-radius (u/n->px (.round js/Math item-radius))
+                        :width (n->px-rounded (* 2 item-radius))
+                        :height (n->px-rounded (* 2 item-radius))
+                        :border-radius (n->px-rounded item-radius)
                         :border "4px solid"
                         :background-image (when url (str "url('" url "')"))
                         :background-size "contain"
@@ -183,8 +185,8 @@
                         :background-color "white"
                         :position "absolute"
                         :overflow "hidden"
-                        :left (u/n->px (.round js/Math (- item-radius)))
-                        :bottom (u/n->px (.round js/Math (- item-radius)))
+                        :left (n->px-rounded (- item-radius))
+                        :bottom (n->px-rounded (- item-radius))
                         :cursor "pointer"})
 
          (h/when-tpl text
