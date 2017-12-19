@@ -53,8 +53,6 @@
        (menu.drawers/drawer
         (j/cell= (= (wheel.route.core/path->bidi route.state/history route.config/routes route.config/fallback-handler)
                     (select-keys item [:handler])))
-        "calc(75vw + 4px)"
-
         (layout.content-block/content-outer
          (h/div
           (h/div (j/cell= ((:f item))))))))))])))
