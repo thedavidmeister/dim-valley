@@ -43,85 +43,85 @@ wheel.font.google.core._QMARK__QMARK_font__GT_uri_str = (function wheel$font$goo
 return cljs.test.test_var(wheel.font.google.core._QMARK__QMARK_font__GT_uri_str.cljs$lang$var);
 });
 wheel.font.google.core._QMARK__QMARK_font__GT_uri_str.cljs$lang$test = (function (){
-var seq__25289 = cljs.core.seq(wheel.font.config.test_examples);
-var chunk__25290 = null;
-var count__25291 = (0);
-var i__25292 = (0);
+var seq__25368 = cljs.core.seq(wheel.font.config.test_examples);
+var chunk__25369 = null;
+var count__25370 = (0);
+var i__25371 = (0);
 while(true){
-if((i__25292 < count__25291)){
-var vec__25293 = chunk__25290.cljs$core$IIndexed$_nth$arity$2(null,i__25292);
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25293,(0),null);
-var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25293,(1),null);
-try{var values__18527__auto___25301 = (function (){var x__9196__auto__ = o;
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.font__GT_uri_str(i);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+if((i__25371 < count__25370)){
+var vec__25372 = chunk__25369.cljs$core$IIndexed$_nth$arity$2(null,i__25371);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25372,(0),null);
+var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25372,(1),null);
+try{var values__17363__auto___25380 = (function (){var x__9194__auto__ = o;
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.font__GT_uri_str(i);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto___25302 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto___25301);
-if(cljs.core.truth_(result__18528__auto___25302)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto___25301),cljs.core.cst$kw$message,null], null));
+var result__17364__auto___25381 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___25380);
+if(cljs.core.truth_(result__17364__auto___25381)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___25380),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto___25301);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___25380);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25296){var t__18572__auto___25303 = e25296;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,t__18572__auto___25303,cljs.core.cst$kw$message,null], null));
+}catch (e25375){var t__17408__auto___25382 = e25375;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,t__17408__auto___25382,cljs.core.cst$kw$message,null], null));
 }
-var G__25304 = seq__25289;
-var G__25305 = chunk__25290;
-var G__25306 = count__25291;
-var G__25307 = (i__25292 + (1));
-seq__25289 = G__25304;
-chunk__25290 = G__25305;
-count__25291 = G__25306;
-i__25292 = G__25307;
+var G__25383 = seq__25368;
+var G__25384 = chunk__25369;
+var G__25385 = count__25370;
+var G__25386 = (i__25371 + (1));
+seq__25368 = G__25383;
+chunk__25369 = G__25384;
+count__25370 = G__25385;
+i__25371 = G__25386;
 continue;
 } else {
-var temp__5290__auto__ = cljs.core.seq(seq__25289);
+var temp__5290__auto__ = cljs.core.seq(seq__25368);
 if(temp__5290__auto__){
-var seq__25289__$1 = temp__5290__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__25289__$1)){
-var c__9173__auto__ = cljs.core.chunk_first(seq__25289__$1);
-var G__25308 = cljs.core.chunk_rest(seq__25289__$1);
-var G__25309 = c__9173__auto__;
-var G__25310 = cljs.core.count(c__9173__auto__);
-var G__25311 = (0);
-seq__25289 = G__25308;
-chunk__25290 = G__25309;
-count__25291 = G__25310;
-i__25292 = G__25311;
+var seq__25368__$1 = temp__5290__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__25368__$1)){
+var c__9171__auto__ = cljs.core.chunk_first(seq__25368__$1);
+var G__25387 = cljs.core.chunk_rest(seq__25368__$1);
+var G__25388 = c__9171__auto__;
+var G__25389 = cljs.core.count(c__9171__auto__);
+var G__25390 = (0);
+seq__25368 = G__25387;
+chunk__25369 = G__25388;
+count__25370 = G__25389;
+i__25371 = G__25390;
 continue;
 } else {
-var vec__25297 = cljs.core.first(seq__25289__$1);
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25297,(0),null);
-var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25297,(1),null);
-try{var values__18527__auto___25312 = (function (){var x__9196__auto__ = o;
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.font__GT_uri_str(i);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+var vec__25376 = cljs.core.first(seq__25368__$1);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25376,(0),null);
+var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25376,(1),null);
+try{var values__17363__auto___25391 = (function (){var x__9194__auto__ = o;
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.font__GT_uri_str(i);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto___25313 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto___25312);
-if(cljs.core.truth_(result__18528__auto___25313)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto___25312),cljs.core.cst$kw$message,null], null));
+var result__17364__auto___25392 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___25391);
+if(cljs.core.truth_(result__17364__auto___25392)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___25391),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto___25312);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___25391);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25300){var t__18572__auto___25314 = e25300;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,t__18572__auto___25314,cljs.core.cst$kw$message,null], null));
+}catch (e25379){var t__17408__auto___25393 = e25379;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$font_DASH__GT_uri_DASH_str,cljs.core.cst$sym$i)),cljs.core.cst$kw$actual,t__17408__auto___25393,cljs.core.cst$kw$message,null], null));
 }
-var G__25315 = cljs.core.next(seq__25289__$1);
-var G__25316 = null;
-var G__25317 = (0);
-var G__25318 = (0);
-seq__25289 = G__25315;
-chunk__25290 = G__25316;
-count__25291 = G__25317;
-i__25292 = G__25318;
+var G__25394 = cljs.core.next(seq__25368__$1);
+var G__25395 = null;
+var G__25396 = (0);
+var G__25397 = (0);
+seq__25368 = G__25394;
+chunk__25369 = G__25395;
+count__25370 = G__25396;
+i__25371 = G__25397;
 continue;
 }
 } else {
@@ -132,136 +132,136 @@ break;
 }
 });
 
-wheel.font.google.core._QMARK__QMARK_font__GT_uri_str.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.google.core._QMARK__QMARK_font__GT_uri_str;},cljs.core.cst$sym$wheel$font$google$core_SLASH__QMARK__QMARK_font_DASH__GT_uri_DASH_str,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$google$core,cljs.core.cst$sym$_QMARK__QMARK_font_DASH__GT_uri_DASH_str,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/erv/i688ot/index.html.out/wheel/font/google/core.cljc",25,1,34,34,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.google.core._QMARK__QMARK_font__GT_uri_str)?wheel.font.google.core._QMARK__QMARK_font__GT_uri_str.cljs$lang$test:null)]));
+wheel.font.google.core._QMARK__QMARK_font__GT_uri_str.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.google.core._QMARK__QMARK_font__GT_uri_str;},cljs.core.cst$sym$wheel$font$google$core_SLASH__QMARK__QMARK_font_DASH__GT_uri_DASH_str,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$google$core,cljs.core.cst$sym$_QMARK__QMARK_font_DASH__GT_uri_DASH_str,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/trb/ari3q5/index.html.out/wheel/font/google/core.cljc",25,1,34,34,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.google.core._QMARK__QMARK_font__GT_uri_str)?wheel.font.google.core._QMARK__QMARK_font__GT_uri_str.cljs$lang$test:null)]));
 wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str = (function wheel$font$google$core$_QMARK__QMARK_fonts__GT_uri_str(){
 return cljs.test.test_var(wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str.cljs$lang$var);
 });
 wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str.cljs$lang$test = (function (){
-try{var values__18527__auto___25331 = cljs.core._conj((function (){var x__9196__auto__ = wheel.font.google.core.fonts__GT_uri_str(cljs.core.PersistentVector.EMPTY);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+try{var values__17363__auto___25410 = cljs.core._conj((function (){var x__9194__auto__ = wheel.font.google.core.fonts__GT_uri_str(cljs.core.PersistentVector.EMPTY);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),"");
-var result__18528__auto___25332 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto___25331);
-if(cljs.core.truth_(result__18528__auto___25332)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"",cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto___25331),cljs.core.cst$kw$message,null], null));
+var result__17364__auto___25411 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___25410);
+if(cljs.core.truth_(result__17364__auto___25411)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"",cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___25410),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"",cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto___25331);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"",cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___25410);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25319){var t__18572__auto___25333 = e25319;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"",cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,t__18572__auto___25333,cljs.core.cst$kw$message,null], null));
+}catch (e25398){var t__17408__auto___25412 = e25398;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"",cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,t__17408__auto___25412,cljs.core.cst$kw$message,null], null));
 }
-var vec__25320_25334 = cljs.core.rand_nth(wheel.font.config.test_examples);
-var i_25335 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25320_25334,(0),null);
-var o_25336 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25320_25334,(1),null);
-try{var values__18527__auto___25337 = (function (){var x__9196__auto__ = o_25336;
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.fonts__GT_uri_str(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [i_25335], null));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+var vec__25399_25413 = cljs.core.rand_nth(wheel.font.config.test_examples);
+var i_25414 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25399_25413,(0),null);
+var o_25415 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25399_25413,(1),null);
+try{var values__17363__auto___25416 = (function (){var x__9194__auto__ = o_25415;
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.fonts__GT_uri_str(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [i_25414], null));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto___25338 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto___25337);
-if(cljs.core.truth_(result__18528__auto___25338)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto___25337),cljs.core.cst$kw$message,null], null));
+var result__17364__auto___25417 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___25416);
+if(cljs.core.truth_(result__17364__auto___25417)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___25416),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto___25337);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___25416);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25323){var t__18572__auto___25339 = e25323;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,t__18572__auto___25339,cljs.core.cst$kw$message,null], null));
+}catch (e25402){var t__17408__auto___25418 = e25402;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$o,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,t__17408__auto___25418,cljs.core.cst$kw$message,null], null));
 }
-var vec__25324 = cljs.core.rand_nth(wheel.font.config.test_examples);
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25324,(0),null);
-var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25324,(1),null);
-var vec__25327 = cljs.core.rand_nth(wheel.font.config.test_examples);
-var i_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25327,(0),null);
-var o_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25327,(1),null);
-try{var values__18527__auto__ = (function (){var x__9196__auto__ = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(o),"|",cljs.core.str.cljs$core$IFn$_invoke$arity$1(o_SINGLEQUOTE_)].join('');
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.fonts__GT_uri_str(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [i,i_SINGLEQUOTE_], null));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+var vec__25403 = cljs.core.rand_nth(wheel.font.config.test_examples);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25403,(0),null);
+var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25403,(1),null);
+var vec__25406 = cljs.core.rand_nth(wheel.font.config.test_examples);
+var i_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25406,(0),null);
+var o_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25406,(1),null);
+try{var values__17363__auto__ = (function (){var x__9194__auto__ = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(o),"|",cljs.core.str.cljs$core$IFn$_invoke$arity$1(o_SINGLEQUOTE_)].join('');
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.fonts__GT_uri_str(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [i,i_SINGLEQUOTE_], null));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto__);
-if(cljs.core.truth_(result__18528__auto__)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto__),cljs.core.cst$kw$message,null], null));
+var result__17364__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto__);
+if(cljs.core.truth_(result__17364__auto__)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto__),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto__);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto__);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-return result__18528__auto__;
-}catch (e25330){var t__18572__auto__ = e25330;
-return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,t__18572__auto__,cljs.core.cst$kw$message,null], null));
+return result__17364__auto__;
+}catch (e25409){var t__17408__auto__ = e25409;
+return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_uri_DASH_str,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,t__17408__auto__,cljs.core.cst$kw$message,null], null));
 }});
 
-wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str;},cljs.core.cst$sym$wheel$font$google$core_SLASH__QMARK__QMARK_fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$google$core,cljs.core.cst$sym$_QMARK__QMARK_fonts_DASH__GT_uri_DASH_str,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/erv/i688ot/index.html.out/wheel/font/google/core.cljc",26,1,39,39,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str)?wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str.cljs$lang$test:null)]));
+wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str;},cljs.core.cst$sym$wheel$font$google$core_SLASH__QMARK__QMARK_fonts_DASH__GT_uri_DASH_str,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$google$core,cljs.core.cst$sym$_QMARK__QMARK_fonts_DASH__GT_uri_DASH_str,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/trb/ari3q5/index.html.out/wheel/font/google/core.cljc",26,1,39,39,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str)?wheel.font.google.core._QMARK__QMARK_fonts__GT_uri_str.cljs$lang$test:null)]));
 wheel.font.google.core._QMARK__QMARK_fonts__GT_url = (function wheel$font$google$core$_QMARK__QMARK_fonts__GT_url(){
 return cljs.test.test_var(wheel.font.google.core._QMARK__QMARK_fonts__GT_url.cljs$lang$var);
 });
 wheel.font.google.core._QMARK__QMARK_fonts__GT_url.cljs$lang$test = (function (){
-try{var values__18527__auto___25352 = (function (){var x__9196__auto__ = wheel.font.google.config.base_url;
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.fonts__GT_url(cljs.core.PersistentVector.EMPTY);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+try{var values__17363__auto___25431 = (function (){var x__9194__auto__ = wheel.font.google.config.base_url;
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.fonts__GT_url(cljs.core.PersistentVector.EMPTY);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto___25353 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto___25352);
-if(cljs.core.truth_(result__18528__auto___25353)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto___25352),cljs.core.cst$kw$message,null], null));
+var result__17364__auto___25432 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___25431);
+if(cljs.core.truth_(result__17364__auto___25432)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___25431),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto___25352);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___25431);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25340){var t__18572__auto___25354 = e25340;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,t__18572__auto___25354,cljs.core.cst$kw$message,null], null));
+}catch (e25419){var t__17408__auto___25433 = e25419;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,cljs.core.PersistentVector.EMPTY)),cljs.core.cst$kw$actual,t__17408__auto___25433,cljs.core.cst$kw$message,null], null));
 }
-var vec__25341_25355 = cljs.core.rand_nth(wheel.font.config.test_examples);
-var i_25356 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25341_25355,(0),null);
-var o_25357 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25341_25355,(1),null);
-try{var values__18527__auto___25358 = (function (){var x__9196__auto__ = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(wheel.font.google.config.base_url),cljs.core.str.cljs$core$IFn$_invoke$arity$1(o_25357)].join('');
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.fonts__GT_url(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [i_25356], null));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+var vec__25420_25434 = cljs.core.rand_nth(wheel.font.config.test_examples);
+var i_25435 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25420_25434,(0),null);
+var o_25436 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25420_25434,(1),null);
+try{var values__17363__auto___25437 = (function (){var x__9194__auto__ = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(wheel.font.google.config.base_url),cljs.core.str.cljs$core$IFn$_invoke$arity$1(o_25436)].join('');
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.fonts__GT_url(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [i_25435], null));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto___25359 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto___25358);
-if(cljs.core.truth_(result__18528__auto___25359)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto___25358),cljs.core.cst$kw$message,null], null));
+var result__17364__auto___25438 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___25437);
+if(cljs.core.truth_(result__17364__auto___25438)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___25437),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto___25358);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___25437);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25344){var t__18572__auto___25360 = e25344;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,t__18572__auto___25360,cljs.core.cst$kw$message,null], null));
+}catch (e25423){var t__17408__auto___25439 = e25423;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i], null))),cljs.core.cst$kw$actual,t__17408__auto___25439,cljs.core.cst$kw$message,null], null));
 }
-var vec__25345 = cljs.core.rand_nth(wheel.font.config.test_examples);
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25345,(0),null);
-var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25345,(1),null);
-var vec__25348 = cljs.core.rand_nth(wheel.font.config.test_examples);
-var i_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25348,(0),null);
-var o_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25348,(1),null);
-try{var values__18527__auto__ = (function (){var x__9196__auto__ = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(wheel.font.google.config.base_url),cljs.core.str.cljs$core$IFn$_invoke$arity$1(o),"|",cljs.core.str.cljs$core$IFn$_invoke$arity$1(o_SINGLEQUOTE_)].join('');
-return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.font.google.core.fonts__GT_url(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [i,i_SINGLEQUOTE_], null));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
-})(),x__9196__auto__);
+var vec__25424 = cljs.core.rand_nth(wheel.font.config.test_examples);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25424,(0),null);
+var o = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25424,(1),null);
+var vec__25427 = cljs.core.rand_nth(wheel.font.config.test_examples);
+var i_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25427,(0),null);
+var o_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25427,(1),null);
+try{var values__17363__auto__ = (function (){var x__9194__auto__ = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(wheel.font.google.config.base_url),cljs.core.str.cljs$core$IFn$_invoke$arity$1(o),"|",cljs.core.str.cljs$core$IFn$_invoke$arity$1(o_SINGLEQUOTE_)].join('');
+return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.font.google.core.fonts__GT_url(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [i,i_SINGLEQUOTE_], null));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
+})(),x__9194__auto__);
 })();
-var result__18528__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18527__auto__);
-if(cljs.core.truth_(result__18528__auto__)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18527__auto__),cljs.core.cst$kw$message,null], null));
+var result__17364__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto__);
+if(cljs.core.truth_(result__17364__auto__)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto__),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18527__auto__);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto__);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-return result__18528__auto__;
-}catch (e25351){var t__18572__auto__ = e25351;
-return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,t__18572__auto__,cljs.core.cst$kw$message,null], null));
+return result__17364__auto__;
+}catch (e25430){var t__17408__auto__ = e25430;
+return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.list(cljs.core.cst$sym$str,cljs.core.cst$sym$wheel$font$google$config_SLASH_base_DASH_url,cljs.core.cst$sym$o,"|",cljs.core.cst$sym$o_SINGLEQUOTE_),cljs.core.list(cljs.core.cst$sym$fonts_DASH__GT_url,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$sym$i,cljs.core.cst$sym$i_SINGLEQUOTE_], null))),cljs.core.cst$kw$actual,t__17408__auto__,cljs.core.cst$kw$message,null], null));
 }});
 
-wheel.font.google.core._QMARK__QMARK_fonts__GT_url.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.google.core._QMARK__QMARK_fonts__GT_url;},cljs.core.cst$sym$wheel$font$google$core_SLASH__QMARK__QMARK_fonts_DASH__GT_url,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$google$core,cljs.core.cst$sym$_QMARK__QMARK_fonts_DASH__GT_url,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/erv/i688ot/index.html.out/wheel/font/google/core.cljc",22,1,48,48,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.google.core._QMARK__QMARK_fonts__GT_url)?wheel.font.google.core._QMARK__QMARK_fonts__GT_url.cljs$lang$test:null)]));
+wheel.font.google.core._QMARK__QMARK_fonts__GT_url.cljs$lang$var = new cljs.core.Var(function(){return wheel.font.google.core._QMARK__QMARK_fonts__GT_url;},cljs.core.cst$sym$wheel$font$google$core_SLASH__QMARK__QMARK_fonts_DASH__GT_url,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$font$google$core,cljs.core.cst$sym$_QMARK__QMARK_fonts_DASH__GT_url,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/trb/ari3q5/index.html.out/wheel/font/google/core.cljc",22,1,48,48,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.font.google.core._QMARK__QMARK_fonts__GT_url)?wheel.font.google.core._QMARK__QMARK_fonts__GT_url.cljs$lang$test:null)]));

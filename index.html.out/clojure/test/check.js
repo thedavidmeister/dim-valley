@@ -25,11 +25,11 @@ return new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$result,true,c
  * True if the value is not falsy or an exception
  */
 clojure.test.check.not_falsey_or_exception_QMARK_ = (function clojure$test$check$not_falsey_or_exception_QMARK_(value){
-var and__8230__auto__ = value;
-if(cljs.core.truth_(and__8230__auto__)){
+var and__8228__auto__ = value;
+if(cljs.core.truth_(and__8228__auto__)){
 return cljs.core.not(clojure.test.check.impl.exception_like_QMARK_(value));
 } else {
-return and__8230__auto__;
+return and__8228__auto__;
 }
 });
 /**
@@ -49,33 +49,33 @@ return and__8230__auto__;
  *   
  */
 clojure.test.check.quick_check = (function clojure$test$check$quick_check(var_args){
-var args__9526__auto__ = [];
-var len__9519__auto___18825 = arguments.length;
-var i__9520__auto___18826 = (0);
+var args__9524__auto__ = [];
+var len__9517__auto___17661 = arguments.length;
+var i__9518__auto___17662 = (0);
 while(true){
-if((i__9520__auto___18826 < len__9519__auto___18825)){
-args__9526__auto__.push((arguments[i__9520__auto___18826]));
+if((i__9518__auto___17662 < len__9517__auto___17661)){
+args__9524__auto__.push((arguments[i__9518__auto___17662]));
 
-var G__18827 = (i__9520__auto___18826 + (1));
-i__9520__auto___18826 = G__18827;
+var G__17663 = (i__9518__auto___17662 + (1));
+i__9518__auto___17662 = G__17663;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__9527__auto__ = ((((2) < args__9526__auto__.length))?(new cljs.core.IndexedSeq(args__9526__auto__.slice((2)),(0),null)):null);
-return clojure.test.check.quick_check.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__9527__auto__);
+var argseq__9525__auto__ = ((((2) < args__9524__auto__.length))?(new cljs.core.IndexedSeq(args__9524__auto__.slice((2)),(0),null)):null);
+return clojure.test.check.quick_check.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__9525__auto__);
 });
 
-clojure.test.check.quick_check.cljs$core$IFn$_invoke$arity$variadic = (function (num_tests,property,p__18813){
-var map__18814 = p__18813;
-var map__18814__$1 = ((((!((map__18814 == null)))?((((map__18814.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18814.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18814):map__18814);
-var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18814__$1,cljs.core.cst$kw$seed);
-var max_size = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__18814__$1,cljs.core.cst$kw$max_DASH_size,(200));
-var vec__18816 = clojure.test.check.make_rng(seed);
-var created_seed = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18816,(0),null);
-var rng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18816,(1),null);
+clojure.test.check.quick_check.cljs$core$IFn$_invoke$arity$variadic = (function (num_tests,property,p__17649){
+var map__17650 = p__17649;
+var map__17650__$1 = ((((!((map__17650 == null)))?((((map__17650.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17650.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17650):map__17650);
+var seed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__17650__$1,cljs.core.cst$kw$seed);
+var max_size = cljs.core.get.cljs$core$IFn$_invoke$arity$3(map__17650__$1,cljs.core.cst$kw$max_DASH_size,(200));
+var vec__17652 = clojure.test.check.make_rng(seed);
+var created_seed = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__17652,(0),null);
+var rng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__17652,(1),null);
 var size_seq = clojure.test.check.generators.make_size_range_seq(max_size);
 var so_far = (0);
 var size_seq__$1 = size_seq;
@@ -84,15 +84,15 @@ while(true){
 if((so_far === num_tests)){
 return clojure.test.check.complete(property,num_tests,created_seed);
 } else {
-var vec__18819 = size_seq__$1;
-var seq__18820 = cljs.core.seq(vec__18819);
-var first__18821 = cljs.core.first(seq__18820);
-var seq__18820__$1 = cljs.core.next(seq__18820);
-var size = first__18821;
-var rest_size_seq = seq__18820__$1;
-var vec__18822 = clojure.test.check.random.split(rstate);
-var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18822,(0),null);
-var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18822,(1),null);
+var vec__17655 = size_seq__$1;
+var seq__17656 = cljs.core.seq(vec__17655);
+var first__17657 = cljs.core.first(seq__17656);
+var seq__17656__$1 = cljs.core.next(seq__17656);
+var size = first__17657;
+var rest_size_seq = seq__17656__$1;
+var vec__17658 = clojure.test.check.random.split(rstate);
+var r1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__17658,(0),null);
+var r2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__17658,(1),null);
 var result_map_rose = clojure.test.check.generators.call_gen(property,r1,size);
 var result_map = clojure.test.check.rose_tree.root(result_map_rose);
 var result = cljs.core.cst$kw$result.cljs$core$IFn$_invoke$arity$1(result_map);
@@ -100,12 +100,12 @@ var args = cljs.core.cst$kw$args.cljs$core$IFn$_invoke$arity$1(result_map);
 if(cljs.core.truth_(clojure.test.check.not_falsey_or_exception_QMARK_(result))){
 clojure.test.check.clojure_test.report_trial(property,so_far,num_tests);
 
-var G__18828 = (so_far + (1));
-var G__18829 = rest_size_seq;
-var G__18830 = r2;
-so_far = G__18828;
-size_seq__$1 = G__18829;
-rstate = G__18830;
+var G__17664 = (so_far + (1));
+var G__17665 = rest_size_seq;
+var G__17666 = r2;
+so_far = G__17664;
+size_seq__$1 = G__17665;
+rstate = G__17666;
 continue;
 } else {
 return (clojure.test.check.failure.cljs$core$IFn$_invoke$arity$5 ? clojure.test.check.failure.cljs$core$IFn$_invoke$arity$5(property,result_map_rose,so_far,size,created_seed) : clojure.test.check.failure.call(null,property,result_map_rose,so_far,size,created_seed));
@@ -117,12 +117,12 @@ break;
 
 clojure.test.check.quick_check.cljs$lang$maxFixedArity = (2);
 
-clojure.test.check.quick_check.cljs$lang$applyTo = (function (seq18810){
-var G__18811 = cljs.core.first(seq18810);
-var seq18810__$1 = cljs.core.next(seq18810);
-var G__18812 = cljs.core.first(seq18810__$1);
-var seq18810__$2 = cljs.core.next(seq18810__$1);
-return clojure.test.check.quick_check.cljs$core$IFn$_invoke$arity$variadic(G__18811,G__18812,seq18810__$2);
+clojure.test.check.quick_check.cljs$lang$applyTo = (function (seq17646){
+var G__17647 = cljs.core.first(seq17646);
+var seq17646__$1 = cljs.core.next(seq17646);
+var G__17648 = cljs.core.first(seq17646__$1);
+var seq17646__$2 = cljs.core.next(seq17646__$1);
+return clojure.test.check.quick_check.cljs$core$IFn$_invoke$arity$variadic(G__17647,G__17648,seq17646__$2);
 });
 
 clojure.test.check.smallest_shrink = (function clojure$test$check$smallest_shrink(total_nodes_visited,depth,smallest){
@@ -151,45 +151,45 @@ while(true){
 if(cljs.core.empty_QMARK_(nodes)){
 return clojure.test.check.smallest_shrink(total_nodes_visited,depth,current_smallest);
 } else {
-var vec__18831 = nodes;
-var seq__18832 = cljs.core.seq(vec__18831);
-var first__18833 = cljs.core.first(seq__18832);
-var seq__18832__$1 = cljs.core.next(seq__18832);
-var head = first__18833;
-var tail = seq__18832__$1;
+var vec__17667 = nodes;
+var seq__17668 = cljs.core.seq(vec__17667);
+var first__17669 = cljs.core.first(seq__17668);
+var seq__17668__$1 = cljs.core.next(seq__17668);
+var head = first__17669;
+var tail = seq__17668__$1;
 var result = cljs.core.cst$kw$result.cljs$core$IFn$_invoke$arity$1(clojure.test.check.rose_tree.root(head));
 if(cljs.core.truth_(clojure.test.check.not_falsey_or_exception_QMARK_(result))){
-var G__18834 = tail;
-var G__18835 = current_smallest;
-var G__18836 = (total_nodes_visited + (1));
-var G__18837 = depth;
-nodes = G__18834;
-current_smallest = G__18835;
-total_nodes_visited = G__18836;
-depth = G__18837;
+var G__17670 = tail;
+var G__17671 = current_smallest;
+var G__17672 = (total_nodes_visited + (1));
+var G__17673 = depth;
+nodes = G__17670;
+current_smallest = G__17671;
+total_nodes_visited = G__17672;
+depth = G__17673;
 continue;
 } else {
 var temp__5288__auto__ = cljs.core.seq(clojure.test.check.rose_tree.children(head));
 if(temp__5288__auto__){
 var children = temp__5288__auto__;
-var G__18838 = children;
-var G__18839 = clojure.test.check.rose_tree.root(head);
-var G__18840 = (total_nodes_visited + (1));
-var G__18841 = (depth + (1));
-nodes = G__18838;
-current_smallest = G__18839;
-total_nodes_visited = G__18840;
-depth = G__18841;
+var G__17674 = children;
+var G__17675 = clojure.test.check.rose_tree.root(head);
+var G__17676 = (total_nodes_visited + (1));
+var G__17677 = (depth + (1));
+nodes = G__17674;
+current_smallest = G__17675;
+total_nodes_visited = G__17676;
+depth = G__17677;
 continue;
 } else {
-var G__18842 = tail;
-var G__18843 = clojure.test.check.rose_tree.root(head);
-var G__18844 = (total_nodes_visited + (1));
-var G__18845 = depth;
-nodes = G__18842;
-current_smallest = G__18843;
-total_nodes_visited = G__18844;
-depth = G__18845;
+var G__17678 = tail;
+var G__17679 = clojure.test.check.rose_tree.root(head);
+var G__17680 = (total_nodes_visited + (1));
+var G__17681 = depth;
+nodes = G__17678;
+current_smallest = G__17679;
+total_nodes_visited = G__17680;
+depth = G__17681;
 continue;
 }
 }
