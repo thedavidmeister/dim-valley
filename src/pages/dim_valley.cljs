@@ -55,12 +55,12 @@
    (layout.body-text/p
     (route.hoplon/link
      :handler :milly
-     "Read more about Milly's focus and expertise"))
+     "Read more about Milly's focus and expertise."))
 
    (layout.body-text/p
     (route.hoplon/link
      :handler :dave
-     "Read more about Dave's focus and expertise"))
+     "Read more about Dave's focus and expertise."))
 
    (h/h2 "Modern business services")
    (layout.body-text/p
