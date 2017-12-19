@@ -2,10 +2,10 @@
  (:require
   [hoplon.core :as h]
   [javelin.core :as j]
-  fonts.config
-  colours.ui-gradients
-  menu.config
   [unit.conversion :as u]
+  fonts.config
+  menu.config
+  colours.ui-gradients
   wheel.math.geometry
   wheel.font.core
   route.hoplon))
@@ -52,17 +52,19 @@
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
-   (let [width (j/cell= (/ radius 2))
-         ; sin(PI/4) = rotated-offset / width
-         ; rotated-offset = (width x sin(PI /4))
-         rotated-offset (j/cell= (/ (* width
-                                       (.sin js/Math (wheel.math.geometry/degrees->radians 45)))
-                                    2))
-         height (j/cell= (/ radius 12))
+   (let [; round the height and width to avoid rendering bugs
+         width (j/cell= (Math/round (* radius 0.5)))
+         height (j/cell= (Math/round (/ radius 12)))
+
+         left (j/cell= (+ radius (* width -0.5)))
+         top (j/cell= (+ radius (* height -0.5)))
+
+         offset (j/cell= (* height 2))
+
          ; rotated-offset (j/cell= (* 2 width))
-         left (j/cell= (+ radius (- (/ width 2))))
-         top (j/cell= (+ radius (- (/ height 2))))
+
          color (j/cell= (last (colours.ui-gradients/stops)))
+
          default-css (j/cell= {:width (u/n->px width)
                                :height (u/n->px height)
                                :left (u/n->px left)
@@ -75,9 +77,9 @@
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (u/n->px (- top (* 2 height)))
+                     {:top (u/n->px (- top offset))
                       :transform (str
-                                      "translate3d(0px, " (if open? rotated-offset 0) "px, 0px)"
+                                      "translate3d(0px, " (if open? offset 0) "px, 0px)"
                                       "rotate(" (if open? "45deg" "0deg") ") ")}
                      (when open? {:background-color "white"}))))
 
@@ -95,7 +97,7 @@
                      default-css
                      {:top (u/n->px (+ top (* 2 height)))
                       :transform (str
-                                      "translate3d(0px, -" (if open? rotated-offset 0) "px, 0px)"
+                                      "translate3d(0px, -" (if open? offset 0) "px, 0px)"
                                       "rotate(" (if open? "-45deg" "0deg") ") ")}
                      (when open? {:background-color "white"}))))]))))
 
