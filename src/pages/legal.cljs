@@ -30,7 +30,7 @@
    (h/h3 "Intellectual property (IP)")
    (layout.body-text/p "Please do not expect us to transfer any IP before full payment of invoices has been made.")
    (layout.body-text/p "Don't expect us to review or warrant the legality of licenses in open source code we recommend or use. We prefer standard open source licenses such as LGPL/MIT/Eclipse where available but we are not lawyers and do not extensively review transitive dependencies.")
-   (layout.body-text/p "We will only transfer intellectual property rights for code/documents delivered directly to your organisation's standard code/document repositories.")
+   (layout.body-text/p "We will only transfer IP for code/documents delivered directly to your organisation's standard code/document repositories.")
 
    (h/h3 "Payment")
    (layout.body-text/p "We work and charge for time and materials " (h/em "de facto") ". Time includes any and all time tracked. Materials includes reasonable travel expenses (among other things). Other payment schedules, such as fixed fee, must be explicitly discussed and agreed to.")
