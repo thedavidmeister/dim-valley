@@ -7,6 +7,7 @@
 
 (defn content []
  (h/div
+  (image.hoplon/default-header)
   (layout.content-block/content-inner
    (h/h1 "Dim Valley Pty. Ltd.")
    (h/p

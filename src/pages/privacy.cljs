@@ -10,6 +10,7 @@
 (defn content
  []
  (h/div
+  (image.hoplon/default-header)
   (layout.content-block/content-inner
    (thedavidmeister.privacy-policy/policy
     :entity-name (constantly "Dim Valley")

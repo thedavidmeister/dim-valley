@@ -10,11 +10,8 @@
 
 (defn content []
  (h/div
-  (image.hoplon/cropped
-   :src "https://s3-ap-southeast-2.amazonaws.com/estimatework/collab.jpeg"
-   :width "100%"
-   :height "400px"
-   :css {:margin-bottom "4px"})
+  (image.hoplon/header
+   :src "https://s3-ap-southeast-2.amazonaws.com/estimatework/collab.jpeg")
 
   (layout.header-block/header
    "Work with us"
