@@ -173,8 +173,8 @@
                   true)
          :css (j/cell= {:transition (str "transform " (/ total-transition-length 2) "s " menu.config/easing)
                         :transform (str "scale(" (if interacting? big-scale 1) ")")
-                        :width (u/n->px (* 2 item-radius))
-                        :height (u/n->px (* 2 item-radius))
+                        :width (* 2 item-radius)
+                        :height (* 2 item-radius)
                         :border-radius (u/n->px item-radius)
                         :border "4px solid"
                         :background-image (when url (str "url('" url "')"))
