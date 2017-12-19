@@ -37,7 +37,7 @@
     ".")
 
    (layout.body-text/p
-    "We have been working together for nearly a decade, across many businesses, roles, jobs and projects - sometimes 1:1 and other times as part of a larger team.")
+    "We have worked together for nearly a decade across many businesses, roles, jobs and projects.")
 
    (layout.body-text/p
     "Our skills and experience have grown symbiotically together; between us we offer end-to-end web and product services, from ideation and research through to delivery and optimisation.")
