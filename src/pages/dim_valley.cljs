@@ -10,12 +10,8 @@
  (h/div
   (h/div
    :css {:position "relative"}
-   (image.hoplon/cropped
-    :src "https://c1.staticflickr.com/5/4147/5171955995_e22e6c41d4_b.jpg"
-    :width "100%"
-    :height "400px"
-    :css {:margin-bottom "4px"
-          :filter "saturate(0)"})
+   (image.hoplon/default-header)
+
    (h/h1 "dim valley"
     :css {:position "absolute"
           :color "white"
