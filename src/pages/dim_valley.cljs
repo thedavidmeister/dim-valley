@@ -86,7 +86,7 @@
 
    (h/h2 "Some light wordplay")
    (layout.body-text/p
-    "Dim Valley is a tongue-in-cheek twist on our names.")
+    "Dim Valley is a tongue-in-cheek anagram on our names.")
    (layout.body-text/p
     "Other potentially great options include "
     (h/em "evilly mad")
