@@ -8,6 +8,12 @@
   layout.body-text
   wheel.link.hoplon))
 
+(defn link
+ []
+ (route.hoplon/link
+  :handler :work-with-us
+  "Check our current rates and availability."))
+
 (defn content []
  (h/div
   (image.hoplon/header

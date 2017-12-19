@@ -74,9 +74,7 @@
    (our-services.hoplon/service-list)
 
    (layout.body-text/p)
-   (route.hoplon/link
-    :handler :work-with-us
-    "Check our current rates and availability.")
+   (pages.work-with-us/link)
 
    (h/h2 "Some light wordplay")
    (layout.body-text/p
