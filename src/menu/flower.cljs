@@ -55,15 +55,15 @@
                   :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
    (let [width (j/cell= (* radius 0.5))
-         ; sin(PI/4) = rotated-offset / width
-         ; rotated-offset = (width x sin(PI /4))
-         rotated-offset (j/cell= (/ (* width
-                                       (.sin js/Math (wheel.math.geometry/degrees->radians 45)))
-                                    2))
          height (j/cell= (/ radius 12))
-         ; rotated-offset (j/cell= (* 2 width))
+
          left (j/cell= (+ radius (* width -0.5)))
          top (j/cell= (+ radius (* height -0.5)))
+
+         offset (j/cell= (* height 2))
+
+         ; rotated-offset (j/cell= (* 2 width))
+
          color (j/cell= (last (colours.ui-gradients/stops)))
 
          default-css (j/cell= {:width (n->px-rounded width)
@@ -78,9 +78,9 @@
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (n->px-rounded (- top (* 2 height)))
+                     {:top (n->px-rounded (- top offset))
                       :transform (str
-                                      "translate3d(0px, " (if open? (Math/round rotated-offset) 0) "px, 0px)"
+                                      "translate3d(0px, " (if open? (Math/round offset) 0) "px, 0px)"
                                       "rotate(" (if open? "45deg" "0deg") ") ")}
                      (when open? {:background-color "white"}))))
 
@@ -98,7 +98,7 @@
                      default-css
                      {:top (n->px-rounded (+ top (* 2 height)))
                       :transform (str
-                                      "translate3d(0px, -" (if open? rotated-offset 0) "px, 0px)"
+                                      "translate3d(0px, -" (if open? offset 0) "px, 0px)"
                                       "rotate(" (if open? "-45deg" "0deg") ") ")}
                      (when open? {:background-color "white"}))))]))))
 
