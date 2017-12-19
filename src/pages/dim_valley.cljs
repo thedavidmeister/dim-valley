@@ -7,7 +7,8 @@
 
 (defn content []
  []
- [(h/div
+ (h/div
+  (h/div
    :css {:position "relative"}
    (image.hoplon/cropped
     :src "https://c1.staticflickr.com/5/4147/5171955995_e22e6c41d4_b.jpg"
@@ -29,4 +30,4 @@
   (layout.content-block/content-inner
    (h/h2 "A modern business service consultancy")
    (layout.body-text/p "Milly Schmidt and Dave Meister have developed a business-first approach to technology. We work with organisations in an honest and bespoke manner, leveraging various approaches, patterns, technologies and tools to solve their unique problems.")
-   (layout.spacer/vertical-spacer))])
+   (layout.spacer/vertical-spacer))))

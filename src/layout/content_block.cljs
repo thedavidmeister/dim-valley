@@ -2,10 +2,11 @@
  (:require
   [hoplon.core :as h]
   layout.config
-  colours.ui-gradients))
+  colours.ui-gradients
+  layout.rounded-corners))
 
 (defn content-outer [& children]
- (h/div
+ (layout.rounded-corners/wrapper
   children))
 
 (defn content-inner [& children]

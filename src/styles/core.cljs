@@ -38,7 +38,7 @@ body > table:after {
  top: 0;
  left: 0;
  right: 0;
- background-image: url('http://www.supercoloring.com/sites/default/files/silhouettes/2015/05/mountain-range-outline-silhouette.svg');
+ background-image: url('https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/mountain-range-outline-silhouette.svg');
  background-position: bottom;
  z-index: -1;
  background-repeat-y: no-repeat;
@@ -84,6 +84,7 @@ svg:hover {
 
 a {
  color: black;
+ display: inline-block;
 }
 
 a:hover {

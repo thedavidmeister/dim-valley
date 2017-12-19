@@ -159,7 +159,8 @@
 
        (route.hoplon/link
         :handler handler
-        :css (j/cell= {:color (if interacting? "black" colours.ui-gradients/base-colour)})
+        :css (j/cell= {:color (if interacting? "black" colours.ui-gradients/base-colour)
+                       :display "inline"})
 
         ; Inner div handles interations with the petal.
         (h/div

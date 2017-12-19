@@ -18,6 +18,7 @@
   pages.work-with-us
   pages.github
   pages.dave
+  pages.privacy
   styles.core
   mapbox.dom))
 
@@ -27,13 +28,15 @@
   (styles.core/style)
   (mapbox.dom/stylesheet))
  (h/body
-  :css {:background (str "linear-gradient(to left, " (clojure.string/join ", " (colours.ui-gradients/stops)) ")")
+  :css {:background (str "linear-gradient(135deg, " (clojure.string/join ", " (colours.ui-gradients/stops)) ")")
         :min-height "100vh"
         :width "100vw"
-        :overflow-x "hidden"}
+        :overflow-x "hidden"
+        :background-attachment "fixed"}
 
   (let [items [{:text "about" :f pages.dim-valley/content :handler :about}
                {:text "legal" :f pages.legal/content :handler :legal}
+               {:text "privacy" :f pages.privacy/content :handler :privacy}
                {:text "contact" :f pages.contact/content :handler :contact}
                {:text "work with us" :f pages.work-with-us/content :handler :work-with-us}
                ; {:url "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/octocat.jpg" :f pages.github/content :handler :github}

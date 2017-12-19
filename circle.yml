@@ -15,10 +15,10 @@ machine:
 
 dependencies:
   pre:
-    - curl -L https://github.com/boot-clj/boot-bin/releases/download/2.5.2/boot.sh -o ~/bin/boot
+    - curl -L https://github.com/boot-clj/boot-bin/releases/download/2.7.2/boot.sh -o ~/bin/boot
     - chmod +x ~/bin/boot
   override:
-    - boot gh-pages
+    - boot build
   cache_directories:
     - "~/bin"
     - "~/.m2"
@@ -35,6 +35,6 @@ deployment:
   github:
     branch: master
     commands:
-      - git config --global user.email "thedavidmeister@gmail.com"
-      - git config --global user.name "Circle CI"
-      - . deploy.sh
+      - git config --global user.email $GIT_EMAIL
+      - git config --global user.name $GIT_NAME
+      - boot deploy
