@@ -15,15 +15,13 @@
 
 (def big-scale 1.3)
 
-(def n->px-rounded (comp u/n->px Math/round))
-
 (defn outer-wrapper
  [outer-radius open? button-hover? transition-length & children]
  (let [transition-length (/ transition-length 2)]
   (h/div
    :css (j/cell= {:position "fixed"
-                  :left (n->px-rounded outer-radius)
-                  :bottom (n->px-rounded outer-radius)
+                  :left (u/n->px outer-radius)
+                  :bottom (u/n->px outer-radius)
                   :overflow "visible"
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and button-hover? (not open?)) big-scale 1) ")")
@@ -45,17 +43,17 @@
                   ; when the circles are stacked in the z-axis.
                   :width (* radius 2)
                   :height (* radius 2)
-                  :border-radius (n->px-rounded radius)
+                  :border-radius (u/n->px radius)
                   :position "absolute"
-                  :left (n->px-rounded (- radius))
-                  :bottom (n->px-rounded (- radius))
+                  :left (u/n->px (- radius))
+                  :bottom (u/n->px (- radius))
                   :z-index 1
                   :cursor "pointer"
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
-   (let [width (j/cell= (* radius 0.5))
-         height (j/cell= (/ radius 12))
+   (let [width (j/cell= (Math/round (* radius 0.5)))
+         height (j/cell= (Math/round (/ radius 12)))
 
          left (j/cell= (+ radius (* width -0.5)))
          top (j/cell= (+ radius (* height -0.5)))
@@ -66,9 +64,9 @@
 
          color (j/cell= (last (colours.ui-gradients/stops)))
 
-         default-css (j/cell= {:width (n->px-rounded width)
-                               :height (n->px-rounded height)
-                               :left (n->px-rounded left)
+         default-css (j/cell= {:width (u/n->px width)
+                               :height (u/n->px height)
+                               :left (u/n->px left)
                                :background-color color
                                :position "absolute"
                                :transition (str "transform " transition-length "s ease, "
@@ -78,9 +76,9 @@
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (n->px-rounded (- top offset))
+                     {:top (u/n->px (- top offset))
                       :transform (str
-                                      "translate3d(0px, " (if open? (Math/round offset) 0) "px, 0px)"
+                                      "translate3d(0px, " (if open? offset 0) "px, 0px)"
                                       "rotate(" (if open? "45deg" "0deg") ") ")}
                      (when open? {:background-color "white"}))))
 
@@ -89,14 +87,14 @@
       :css (j/cell= (merge
                      default-css
                      {
-                      :top (n->px-rounded top)
+                      :top (u/n->px top)
                       :transform (str "scale(" (if open? 0 1) ")")})))
 
      ; bottom line
      (h/div
       :css (j/cell= (merge
                      default-css
-                     {:top (n->px-rounded (+ top (* 2 height)))
+                     {:top (u/n->px (+ top (* 2 height)))
                       :transform (str
                                       "translate3d(0px, -" (if open? offset 0) "px, 0px)"
                                       "rotate(" (if open? "-45deg" "0deg") ") ")}
@@ -174,9 +172,9 @@
                   true)
          :css (j/cell= {:transition (str "transform " (/ total-transition-length 2) "s " menu.config/easing)
                         :transform (str "scale(" (if interacting? big-scale 1) ")")
-                        :width (n->px-rounded (* 2 item-radius))
-                        :height (n->px-rounded (* 2 item-radius))
-                        :border-radius (n->px-rounded item-radius)
+                        :width (u/n->px (* 2 item-radius))
+                        :height (u/n->px (* 2 item-radius))
+                        :border-radius (u/n->px item-radius)
                         :border "4px solid"
                         :background-image (when url (str "url('" url "')"))
                         :background-size "contain"
@@ -185,8 +183,8 @@
                         :background-color "white"
                         :position "absolute"
                         :overflow "hidden"
-                        :left (n->px-rounded (- item-radius))
-                        :bottom (n->px-rounded (- item-radius))
+                        :left (u/n->px (- item-radius))
+                        :bottom (u/n->px (- item-radius))
                         :cursor "pointer"})
 
          (h/when-tpl text
