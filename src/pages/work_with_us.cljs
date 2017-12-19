@@ -6,7 +6,9 @@
   layout.spacer
   image.hoplon
   layout.body-text
-  wheel.link.hoplon))
+  wheel.link.hoplon
+  route.hoplon
+  our-services.hoplon))
 
 (defn link
  []
