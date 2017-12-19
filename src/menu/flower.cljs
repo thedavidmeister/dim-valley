@@ -52,7 +52,8 @@
                   :transition (str "transform " transition-length "s " menu.config/easing)
                   :transform (str "scale(" (if (and open? mouseover?) big-scale 1) ")")})
 
-   (let [width (j/cell= (Math/round (* radius 0.5)))
+   (let [; round the height and width to avoid rendering bugs
+         width (j/cell= (Math/round (* radius 0.5)))
          height (j/cell= (Math/round (/ radius 12)))
 
          left (j/cell= (+ radius (* width -0.5)))
