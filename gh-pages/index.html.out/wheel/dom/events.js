@@ -44,8 +44,8 @@ e.initEvent(name,true,true);
 return el.dispatchEvent(e);
 });
 wheel.dom.events.trigger_jq_BANG_ = (function wheel$dom$events$trigger_jq_BANG_(var_args){
-var G__21110 = arguments.length;
-switch (G__21110) {
+var G__20698 = arguments.length;
+switch (G__20698) {
 case 2:
 return wheel.dom.events.trigger_jq_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
