@@ -38,14 +38,14 @@
                {:text "legal" :f pages.legal/content :handler :legal}
                {:text "privacy" :f pages.privacy/content :handler :privacy}
                {:text "contact" :f pages.contact/content :handler :contact}
-               {:text "work with us" :f pages.work-with-us/content :handler :work-with-us}
+               {:text "rates" :f pages.work-with-us/content :handler :work-with-us}
                ; {:url "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/octocat.jpg" :f pages.github/content :handler :github}
                {:url "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave.png" :f pages.dave/content :handler :dave}
                {:url "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/milly.png" :f pages.milly/content :handler :milly}]]
    [
     (menu.flower/menu
      items
-     200)
+     150)
 
     (layout.middle-right/middle-right
      (menu.drawers/drawers
@@ -53,8 +53,6 @@
        (menu.drawers/drawer
         (j/cell= (= (wheel.route.core/path->bidi route.state/history route.config/routes route.config/fallback-handler)
                     (select-keys item [:handler])))
-        "calc(75vw + 4px)"
-
         (layout.content-block/content-outer
          (h/div
           (h/div (j/cell= ((:f item))))))))))])))

@@ -3,7 +3,7 @@
   [hoplon.core :as h]
   layout.config))
 
-(def content-percent 50)
+(def content-percent 60)
 (def spacer-percent (* 0.5 (- 100 content-percent)))
 
 (defn spacer

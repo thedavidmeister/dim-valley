@@ -12,14 +12,17 @@
         :position "relative"}
   children))
 
-(defn drawer [open? offset & children]
- (let [transition-length menu.config/transition-length]
+(defn drawer [open? & children]
+ (let [transition-length (* 1.5 menu.config/transition-length)]
   (j/with-let
    [el (h/div
         :css (j/cell=
               (merge
                {
-                :transition (str "all " transition-length "s " (:ease-out-quart animation.easings/easings) " " (if open? transition-length 0) "s")
+                :transition-property "all"
+                :transition-duration (str transition-length "s ")
+                :transition-timing-function (:ease-out-quart animation.easings/easings)
+                :transition-delay "0s"
                 :transform (str "translateX(90vw)")
                 :z-index 0
                 :position "absolute"
@@ -31,7 +34,8 @@
                 {:position "relative"
                  :z-index 1
                  :transform "translateX(0px)"
-                 :opacity 1})))
+                 :opacity 1
+                 :transition-delay (str transition-length "s")})))
         (h/div
          :class "clearfix"
          :position "relative"
