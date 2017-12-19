@@ -86,6 +86,7 @@ a {
  color: black;
  display: inline-block;
  text-decoration: underline;
+ cursor: pointer;
 }
 
 a:hover {
