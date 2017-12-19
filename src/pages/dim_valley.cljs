@@ -48,7 +48,7 @@
    (layout.body-text/p
     "We do just three things under the Dim Valley banner:"
     (h/ol
-     (h/li "build long-term " (h/em "mutually beneficial") " relationships with our clients")
+     (h/li "build sustainable and " (h/em "mutually beneficial") " relationships with our clients")
      (h/li "facilitate our own personal growth")
      (h/li "dedicate our time and code to better the industry.")))
 
