@@ -12,7 +12,8 @@
   wheel.address.hoplon
   layout.spacer
   wheel.phone.hoplon
-  contact.hoplon))
+  contact.hoplon
+  layout.body-text))
 
 (defn dv-marker [width]
 
@@ -61,6 +62,16 @@
   (dv-map)
   (layout.content-block/content-inner
    (h/h1 "Let's work together.")
-   (h/p "If you are interested in working with us, let's talk.")
+   (layout.body-text/p
+    "If you are interested in working with us, let's talk.")
+
+   (layout.body-text/p
+    "We prefer to meet in person before committing to anything new." (h/br)
+    "Both of us love to ride our bikes around Melbourne." (h/br)
+    "If you are within 10km of the CBD we will come to you!")
+
    (contact.hoplon/details)
+
+   (pages.work-with-us/link)
+
    (layout.spacer/vertical-spacer))))
