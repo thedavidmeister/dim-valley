@@ -46,31 +46,21 @@
     "We aim to keep Dim Valley small and focussed to suit our lifestyle and personal goals.")
 
    (layout.body-text/p
-    "We primarily do three things under the Dim Valley banner:"
+    "We do just three things under the Dim Valley banner:"
     (h/ol
-     (h/li "build long-term " (h/em "strategic") " relationships with our clients")
+     (h/li "build long-term " (h/em "mutually beneficial") " relationships with our clients")
      (h/li "facilitate our own personal growth")
      (h/li "dedicate our time and code to better the industry.")))
 
-   (h/h2 "Our expertise")
+   (layout.body-text/p
+    (route.hoplon/link
+     :handler :milly
+     "Read more about Milly's focus and expertise"))
 
    (layout.body-text/p
-    "Milly has"
-    (h/ul
-     (h/li "won awards for her writing, published several short stories and was offered a book deal")
-     (h/li "edited and written for several online publications")
-     (h/li "worked in a delivery role as a front-end engineer for several years")
-     (h/li "worked as lead UX researcher/advocate for several years")
-     (h/li "sat on and hosted many tech panels, given talks, run events and volunteered in the tech community")
-     (h/li "often advocated for women's equality in tech")))
-
-   (layout.body-text/p
-    "Dave has"
-    (h/ul
-     (h/li "owned and operated a digital agency for around 5 years with a dozen staff")
-     (h/li "acted as CTO and chief solutions architect for several years at a rapidly scaling startup")
-     (h/li "contributed hundreds of patches and code reviews to open source projects globally")
-     (h/li "built the tech stack for estimate-work.com (ongoing)")))
+    (route.hoplon/link
+     :handler :dave
+     "Read more about Dave's focus and expertise"))
 
    (h/h2 "Modern business services")
    (layout.body-text/p
@@ -89,16 +79,21 @@
      (h/li "Technical planning and documentation")
      (h/li "Product development strategy")))
 
-   (h/h2 "Wordplay")
+   (layout.body-text/p)
+   (route.hoplon/link
+    :handler :work-with-us
+    "Check our current rates and availability.")
+
+   (h/h2 "Some light wordplay")
    (layout.body-text/p
-    "Dim Valley is a tongue-in-cheek play on our names, Dave + Milly.")
+    "Dim Valley is a tongue-in-cheek play on our names.")
    (layout.body-text/p
-    "Other potentially great options included:"
-    (h/ul
-     (h/li "Evilly mad")
-     (h/li "All my dive")
-     (h/li "Lively dam")))
-   (layout.body-text/p
-    "But we've made our choice and are sticking with it! 😉")
+    "Other potentially great options include "
+    (h/em "evilly mad")
+    ", "
+    (h/em "all my dive")
+    ", and "
+    (h/em "lively dam")
+    " but we've made our choice and are sticking with it! 😉")
 
    (layout.spacer/vertical-spacer))))
