@@ -21,9 +21,9 @@ if(cljs.core.truth_(cuerdas.regexp.regexp_QMARK_(re))){
 throw (new Error("Assert failed: (regexp? re)"));
 }
 
-var G__23580 = re.source;
-var G__23581 = re.flags;
-return (cuerdas.regexp.xregexp.cljs$core$IFn$_invoke$arity$2 ? cuerdas.regexp.xregexp.cljs$core$IFn$_invoke$arity$2(G__23580,G__23581) : cuerdas.regexp.xregexp.call(null,G__23580,G__23581));
+var G__24118 = re.source;
+var G__24119 = re.flags;
+return (cuerdas.regexp.xregexp.cljs$core$IFn$_invoke$arity$2 ? cuerdas.regexp.xregexp.cljs$core$IFn$_invoke$arity$2(G__24118,G__24119) : cuerdas.regexp.xregexp.call(null,G__24118,G__24119));
 });
 /**
  * Escapes characters in the string that are not safe

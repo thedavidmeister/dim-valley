@@ -9,29 +9,29 @@ return elem.setAttributeNS(xlink,cljs.core.name(kw),val);
 }));
 hoplon.svg.mksvg = (function hoplon$svg$mksvg(tag){
 return (function() { 
-var G__24018__delegate = function (args){
-var vec__24015 = hoplon.core.parse_args(args);
-var attr = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24015,(0),null);
-var kids = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24015,(1),null);
+var G__20199__delegate = function (args){
+var vec__20196 = hoplon.core.parse_args(args);
+var attr = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20196,(0),null);
+var kids = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20196,(1),null);
 var xmlns = "http://www.w3.org/2000/svg";
 var elem = document.createElementNS(xmlns,tag);
 return (elem.cljs$core$IFn$_invoke$arity$2 ? elem.cljs$core$IFn$_invoke$arity$2(attr,kids) : elem.call(null,attr,kids));
 };
-var G__24018 = function (var_args){
+var G__20199 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__24019__i = 0, G__24019__a = new Array(arguments.length -  0);
-while (G__24019__i < G__24019__a.length) {G__24019__a[G__24019__i] = arguments[G__24019__i + 0]; ++G__24019__i;}
-  args = new cljs.core.IndexedSeq(G__24019__a,0,null);
+var G__20200__i = 0, G__20200__a = new Array(arguments.length -  0);
+while (G__20200__i < G__20200__a.length) {G__20200__a[G__20200__i] = arguments[G__20200__i + 0]; ++G__20200__i;}
+  args = new cljs.core.IndexedSeq(G__20200__a,0,null);
 } 
-return G__24018__delegate.call(this,args);};
-G__24018.cljs$lang$maxFixedArity = 0;
-G__24018.cljs$lang$applyTo = (function (arglist__24020){
-var args = cljs.core.seq(arglist__24020);
-return G__24018__delegate(args);
+return G__20199__delegate.call(this,args);};
+G__20199.cljs$lang$maxFixedArity = 0;
+G__20199.cljs$lang$applyTo = (function (arglist__20201){
+var args = cljs.core.seq(arglist__20201);
+return G__20199__delegate(args);
 });
-G__24018.cljs$core$IFn$_invoke$arity$variadic = G__24018__delegate;
-return G__24018;
+G__20199.cljs$core$IFn$_invoke$arity$variadic = G__20199__delegate;
+return G__20199;
 })()
 ;
 });
