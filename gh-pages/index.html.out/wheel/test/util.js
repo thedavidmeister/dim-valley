@@ -16,34 +16,34 @@ wheel.test.util.seen = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.Pe
  *   :size works as per clojure.test.check.generators/generate
  */
 wheel.test.util.fake = (function wheel$test$util$fake(var_args){
-var args__9526__auto__ = [];
-var len__9519__auto___20784 = arguments.length;
-var i__9520__auto___20785 = (0);
+var args__9524__auto__ = [];
+var len__9517__auto___20904 = arguments.length;
+var i__9518__auto___20905 = (0);
 while(true){
-if((i__9520__auto___20785 < len__9519__auto___20784)){
-args__9526__auto__.push((arguments[i__9520__auto___20785]));
+if((i__9518__auto___20905 < len__9517__auto___20904)){
+args__9524__auto__.push((arguments[i__9518__auto___20905]));
 
-var G__20786 = (i__9520__auto___20785 + (1));
-i__9520__auto___20785 = G__20786;
+var G__20906 = (i__9518__auto___20905 + (1));
+i__9518__auto___20905 = G__20906;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__9527__auto__ = ((((1) < args__9526__auto__.length))?(new cljs.core.IndexedSeq(args__9526__auto__.slice((1)),(0),null)):null);
-return wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__9527__auto__);
+var argseq__9525__auto__ = ((((1) < args__9524__auto__.length))?(new cljs.core.IndexedSeq(args__9524__auto__.slice((1)),(0),null)):null);
+return wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__9525__auto__);
 });
 
-wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic = (function (k,p__20780){
-var map__20781 = p__20780;
-var map__20781__$1 = ((((!((map__20781 == null)))?((((map__20781.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__20781.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__20781):map__20781);
-var merge = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20781__$1,cljs.core.cst$kw$merge);
-var unique_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20781__$1,cljs.core.cst$kw$unique_QMARK_);
-var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20781__$1,cljs.core.cst$kw$size);
-var size__$1 = (function (){var or__8242__auto__ = size;
-if(cljs.core.truth_(or__8242__auto__)){
-return or__8242__auto__;
+wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic = (function (k,p__20900){
+var map__20901 = p__20900;
+var map__20901__$1 = ((((!((map__20901 == null)))?((((map__20901.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__20901.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__20901):map__20901);
+var merge = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20901__$1,cljs.core.cst$kw$merge);
+var unique_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20901__$1,cljs.core.cst$kw$unique_QMARK_);
+var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20901__$1,cljs.core.cst$kw$size);
+var size__$1 = (function (){var or__8240__auto__ = size;
+if(cljs.core.truth_(or__8240__auto__)){
+return or__8240__auto__;
 } else {
 return (50);
 }
@@ -51,16 +51,16 @@ return (50);
 var v = clojure.test.check.generators.generate.cljs$core$IFn$_invoke$arity$2((cljs.core.truth_(clojure.test.check.generators.generator_QMARK_(k))?k:cljs.spec.alpha.gen.cljs$core$IFn$_invoke$arity$1(k)),size__$1);
 var ret = (cljs.core.truth_(merge)?cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([v,merge], 0)):v);
 var unique_QMARK___$1 = (((unique_QMARK_ == null))?true:unique_QMARK_);
-var seen_QMARK_ = (function (){var fexpr__20783 = cljs.core.deref(wheel.test.util.seen);
-return (fexpr__20783.cljs$core$IFn$_invoke$arity$1 ? fexpr__20783.cljs$core$IFn$_invoke$arity$1(ret) : fexpr__20783.call(null,ret));
+var seen_QMARK_ = (function (){var fexpr__20903 = cljs.core.deref(wheel.test.util.seen);
+return (fexpr__20903.cljs$core$IFn$_invoke$arity$1 ? fexpr__20903.cljs$core$IFn$_invoke$arity$1(ret) : fexpr__20903.call(null,ret));
 })();
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(wheel.test.util.seen,cljs.core.conj,ret);
 
-if(cljs.core.truth_((function (){var and__8230__auto__ = seen_QMARK_;
-if(cljs.core.truth_(and__8230__auto__)){
+if(cljs.core.truth_((function (){var and__8228__auto__ = seen_QMARK_;
+if(cljs.core.truth_(and__8228__auto__)){
 return unique_QMARK___$1;
 } else {
-return and__8230__auto__;
+return and__8228__auto__;
 }
 })())){
 return wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic(k,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.cst$kw$merge,merge,cljs.core.cst$kw$unique_QMARK_,unique_QMARK___$1], 0));
@@ -71,9 +71,9 @@ return ret;
 
 wheel.test.util.fake.cljs$lang$maxFixedArity = (1);
 
-wheel.test.util.fake.cljs$lang$applyTo = (function (seq20778){
-var G__20779 = cljs.core.first(seq20778);
-var seq20778__$1 = cljs.core.next(seq20778);
-return wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic(G__20779,seq20778__$1);
+wheel.test.util.fake.cljs$lang$applyTo = (function (seq20898){
+var G__20899 = cljs.core.first(seq20898);
+var seq20898__$1 = cljs.core.next(seq20898);
+return wheel.test.util.fake.cljs$core$IFn$_invoke$arity$variadic(G__20899,seq20898__$1);
 });
 

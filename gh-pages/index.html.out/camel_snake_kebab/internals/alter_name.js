@@ -15,14 +15,14 @@ camel_snake_kebab.internals.alter_name.alter_name = (function camel_snake_kebab$
 if((!((this$ == null))) && (!((this$.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2 == null)))){
 return this$.camel_snake_kebab$internals$alter_name$AlterName$alter_name$arity$2(this$,f);
 } else {
-var x__8975__auto__ = (((this$ == null))?null:this$);
-var m__8976__auto__ = (camel_snake_kebab.internals.alter_name.alter_name[goog.typeOf(x__8975__auto__)]);
-if(!((m__8976__auto__ == null))){
-return (m__8976__auto__.cljs$core$IFn$_invoke$arity$2 ? m__8976__auto__.cljs$core$IFn$_invoke$arity$2(this$,f) : m__8976__auto__.call(null,this$,f));
+var x__8973__auto__ = (((this$ == null))?null:this$);
+var m__8974__auto__ = (camel_snake_kebab.internals.alter_name.alter_name[goog.typeOf(x__8973__auto__)]);
+if(!((m__8974__auto__ == null))){
+return (m__8974__auto__.cljs$core$IFn$_invoke$arity$2 ? m__8974__auto__.cljs$core$IFn$_invoke$arity$2(this$,f) : m__8974__auto__.call(null,this$,f));
 } else {
-var m__8976__auto____$1 = (camel_snake_kebab.internals.alter_name.alter_name["_"]);
-if(!((m__8976__auto____$1 == null))){
-return (m__8976__auto____$1.cljs$core$IFn$_invoke$arity$2 ? m__8976__auto____$1.cljs$core$IFn$_invoke$arity$2(this$,f) : m__8976__auto____$1.call(null,this$,f));
+var m__8974__auto____$1 = (camel_snake_kebab.internals.alter_name.alter_name["_"]);
+if(!((m__8974__auto____$1 == null))){
+return (m__8974__auto____$1.cljs$core$IFn$_invoke$arity$2 ? m__8974__auto____$1.cljs$core$IFn$_invoke$arity$2(this$,f) : m__8974__auto____$1.call(null,this$,f));
 } else {
 throw cljs.core.missing_protocol("AlterName.alter-name",this$);
 }
@@ -32,14 +32,14 @@ throw cljs.core.missing_protocol("AlterName.alter-name",this$);
 
 goog.object.set(camel_snake_kebab.internals.alter_name.AlterName,"string",true);
 
-var G__24190_24195 = camel_snake_kebab.internals.alter_name.alter_name;
-var G__24191_24196 = "string";
-var G__24192_24197 = ((function (G__24190_24195,G__24191_24196){
+var G__24208_24213 = camel_snake_kebab.internals.alter_name.alter_name;
+var G__24209_24214 = "string";
+var G__24210_24215 = ((function (G__24208_24213,G__24209_24214){
 return (function (this$,f){
 return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(this$) : f.call(null,this$));
-});})(G__24190_24195,G__24191_24196))
+});})(G__24208_24213,G__24209_24214))
 ;
-goog.object.set(G__24190_24195,G__24191_24196,G__24192_24197);
+goog.object.set(G__24208_24213,G__24209_24214,G__24210_24215);
 
 cljs.core.Keyword.prototype.camel_snake_kebab$internals$alter_name$AlterName$ = cljs.core.PROTOCOL_SENTINEL;
 
@@ -48,8 +48,8 @@ var this$__$1 = this;
 if(cljs.core.truth_(cljs.core.namespace(this$__$1))){
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Namespaced keywords are not supported",new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$input,this$__$1], null));
 } else {
-return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__24193 = cljs.core.name(this$__$1);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24193) : f.call(null,G__24193));
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__24211 = cljs.core.name(this$__$1);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24211) : f.call(null,G__24211));
 })());
 }
 });
@@ -61,8 +61,8 @@ var this$__$1 = this;
 if(cljs.core.truth_(cljs.core.namespace(this$__$1))){
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Namespaced symbols are not supported",new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$input,this$__$1], null));
 } else {
-return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1((function (){var G__24194 = cljs.core.name(this$__$1);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24194) : f.call(null,G__24194));
+return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1((function (){var G__24212 = cljs.core.name(this$__$1);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24212) : f.call(null,G__24212));
 })());
 }
 });
