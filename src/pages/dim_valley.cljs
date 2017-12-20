@@ -86,6 +86,4 @@
     (h/em "all my dive")
     ", and "
     (h/em "lively dam")
-    " but we've made our choice and are sticking with it! 😉")
-
-   (layout.spacer/vertical-spacer))))
+    " but we've made our choice and are sticking with it! 😉"))))

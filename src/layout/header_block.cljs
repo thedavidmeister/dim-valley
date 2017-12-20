@@ -5,7 +5,7 @@
   wheel.font.core))
 
 (defn header [heading tagline]
- (layout.content-block/content-inner
+ (layout.body-text/p
   (h/div
    :css (merge
          {:padding "2.67rem 0"}

@@ -22,5 +22,4 @@
      wheel.email.hoplon/email
      :address (:email contact.data/milly)
      :subject "Unsubscribe from email marketing"
-     :body "Hi, as per the Dim Valley privacy policy, I would like to unsubscribe from future email marketing."))
-   (layout.spacer/vertical-spacer))))
+     :body "Hi, as per the Dim Valley privacy policy, I would like to unsubscribe from future email marketing.")))))

@@ -15,18 +15,16 @@
    :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/C8DGQUCVYAABgc-.jpg")
 
   (layout.content-block/content-inner
-   (layout.spacer/vertical-spacer)
    (social.hoplon/icon-links
     :linkedin "https://www.linkedin.com/in/ameliaschmidt/"
     :github "https://github.com/meelijane/"
     :medium "https://medium.com/@meeli/"
-    :twitter "https://twitter.com/meelijane/"))
+    :twitter "https://twitter.com/meelijane/")
 
-  (layout.header-block/header
-   "Amelia Schmidt (Milly)"
-   "Owner and consultant at Dim Valley Pty. Ltd. and owner and CPO at Nice Feature Pty. Ltd.")
+   (layout.header-block/header
+    "Amelia Schmidt (Milly)"
+    "Owner and consultant at Dim Valley Pty. Ltd. and owner and CPO at Nice Feature Pty. Ltd.")
 
-  (layout.content-block/content-inner
    (h/h2 "I believe...")
    (layout.body-text/p "Modern businesses should consciously develop and evolve their unique model in a way that, over time, the needs of the business and customer naturally become one and the same.")
    (h/h2 "What I do")
@@ -77,5 +75,4 @@
      (h/li "Panel moderation or participation")
      (h/li "Seminars, webinars, keynotes or talks")
      (h/li "Mentoring")
-     (h/li "Design leadership and advice")))
-   (layout.spacer/vertical-spacer))))
+     (h/li "Design leadership and advice"))))))

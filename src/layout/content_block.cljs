@@ -15,4 +15,6 @@
         :padding-right layout.config/spacer-width
         :background-color "white"}
   :class "clearfix"
-  children))
+  (layout.spacer/vertical-spacer)
+  children
+  (layout.spacer/vertical-spacer)))
