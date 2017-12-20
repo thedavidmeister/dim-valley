@@ -3,7 +3,8 @@
   [hoplon.core :as h]
   layout.config
   colours.ui-gradients
-  layout.rounded-corners))
+  layout.rounded-corners
+  layout.spacer))
 
 (defn content-outer [& children]
  (layout.rounded-corners/wrapper
