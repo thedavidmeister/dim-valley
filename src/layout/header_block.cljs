@@ -2,6 +2,7 @@
  (:require
   [hoplon.core :as h]
   layout.content-block
+  layout.body-text
   wheel.font.core))
 
 (defn header [heading tagline]
