@@ -77,5 +77,5 @@
      (h/li "Panel moderation or participation")
      (h/li "Seminars, webinars, keynotes or talks")
      (h/li "Mentoring")
-     (h/li "Design leadership and advice"))
-    (layout.spacer/vertical-spacer)))))
+     (h/li "Design leadership and advice")))
+   (layout.spacer/vertical-spacer))))

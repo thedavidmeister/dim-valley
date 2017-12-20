@@ -82,5 +82,5 @@
       (h/li (wheel.link.hoplon/external "https://www.rethinkdb.com/" "RethinkDB") " as a back-end data persistence layer")
       (h/li (wheel.link.hoplon/external "https://auth0.com/" "Auth0") " for authentiation/SSO")
       (h/li (wheel.link.hoplon/external "https://stripe.com/au" "Stripe") " as payment gateway")
-      (h/li (wheel.link.hoplon/external "https://github.com/ptaoussanis/sente" "AJAX + WebSockets") " for client/server communication")))
-    (layout.spacer/vertical-spacer)))))
+      (h/li (wheel.link.hoplon/external "https://github.com/ptaoussanis/sente" "AJAX + WebSockets") " for client/server communication"))))
+   (layout.spacer/vertical-spacer))))

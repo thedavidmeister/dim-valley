@@ -5,4 +5,5 @@
 
 (defn content []
  (layout.content-block/content-inner
-  (h/h1 "github")))
+  (h/h1 "github")
+  (layout.spacer/vertical-spacer)))
