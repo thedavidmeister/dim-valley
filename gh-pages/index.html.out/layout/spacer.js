@@ -5,8 +5,8 @@ goog.require('cljs.core.constants');
 goog.require('layout.config');
 goog.require('hoplon.core');
 layout.spacer.vertical_spacer = (function layout$spacer$vertical_spacer(var_args){
-var G__24761 = arguments.length;
-switch (G__24761) {
+var G__24139 = arguments.length;
+switch (G__24139) {
 case 0:
 return layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
 
@@ -33,9 +33,9 @@ return or__8242__auto__;
 return layout.config.spacer_height;
 }
 })();
-var G__24762 = cljs.core.cst$kw$css;
-var G__24763 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$height,height__$1], null);
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__24762,G__24763) : hoplon.core.div.call(null,G__24762,G__24763));
+var G__24140 = cljs.core.cst$kw$css;
+var G__24141 = new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$height,height__$1], null);
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$2 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$2(G__24140,G__24141) : hoplon.core.div.call(null,G__24140,G__24141));
 });
 
 layout.spacer.vertical_spacer.cljs$lang$maxFixedArity = 1;
