@@ -40,24 +40,24 @@ wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian = (function wheel$math$geo
 return cljs.test.test_var(wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian.cljs$lang$var);
 });
 wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian.cljs$lang$test = (function (){
-var angle_24959 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1(((2) * wheel.math.number.pi));
-var radius_24960 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1((10));
-try{var values__17363__auto___24961 = (function (){var x__9194__auto__ = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(radius_24960 * wheel.math.geometry.cos(angle_24959)),(radius_24960 * wheel.math.geometry.sin(angle_24959))], null);
-return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.math.geometry.polar__GT_cartesian(radius_24960,angle_24959);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
-})(),x__9194__auto__);
+var angle_24898 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1(((2) * wheel.math.number.pi));
+var radius_24899 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1((10));
+try{var values__17365__auto___24900 = (function (){var x__9196__auto__ = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(radius_24899 * wheel.math.geometry.cos(angle_24898)),(radius_24899 * wheel.math.geometry.sin(angle_24898))], null);
+return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.math.geometry.polar__GT_cartesian(radius_24899,angle_24898);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
+})(),x__9196__auto__);
 })();
-var result__17364__auto___24962 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17363__auto___24961);
-if(cljs.core.truth_(result__17364__auto___24962)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$cos,cljs.core.cst$sym$angle)),cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$sin,cljs.core.cst$sym$angle))], null),cljs.core.list(cljs.core.cst$sym$polar_DASH__GT_cartesian,cljs.core.cst$sym$radius,cljs.core.cst$sym$angle)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17363__auto___24961),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24901 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__17365__auto___24900);
+if(cljs.core.truth_(result__17366__auto___24901)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$cos,cljs.core.cst$sym$angle)),cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$sin,cljs.core.cst$sym$angle))], null),cljs.core.list(cljs.core.cst$sym$polar_DASH__GT_cartesian,cljs.core.cst$sym$radius,cljs.core.cst$sym$angle)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__17365__auto___24900),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$cos,cljs.core.cst$sym$angle)),cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$sin,cljs.core.cst$sym$angle))], null),cljs.core.list(cljs.core.cst$sym$polar_DASH__GT_cartesian,cljs.core.cst$sym$radius,cljs.core.cst$sym$angle)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17363__auto___24961);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$cos,cljs.core.cst$sym$angle)),cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$sin,cljs.core.cst$sym$angle))], null),cljs.core.list(cljs.core.cst$sym$polar_DASH__GT_cartesian,cljs.core.cst$sym$radius,cljs.core.cst$sym$angle)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__17365__auto___24900);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24932){var t__17408__auto___24963 = e24932;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$cos,cljs.core.cst$sym$angle)),cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$sin,cljs.core.cst$sym$angle))], null),cljs.core.list(cljs.core.cst$sym$polar_DASH__GT_cartesian,cljs.core.cst$sym$radius,cljs.core.cst$sym$angle)),cljs.core.cst$kw$actual,t__17408__auto___24963,cljs.core.cst$kw$message,null], null));
+}catch (e24871){var t__17410__auto___24902 = e24871;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$cos,cljs.core.cst$sym$angle)),cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$radius,cljs.core.list(cljs.core.cst$sym$sin,cljs.core.cst$sym$angle))], null),cljs.core.list(cljs.core.cst$sym$polar_DASH__GT_cartesian,cljs.core.cst$sym$radius,cljs.core.cst$sym$angle)),cljs.core.cst$kw$actual,t__17410__auto___24902,cljs.core.cst$kw$message,null], null));
 }
 var pi = wheel.math.number.pi;
 var within_tolerance_QMARK_ = ((function (pi){
@@ -66,121 +66,121 @@ return (wheel.math.geometry.abs(n) < 1.0E-15);
 });})(pi))
 ;
 var ins = new cljs.core.PersistentVector(null, 24, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),cljs.core.rand.cljs$core$IFn$_invoke$arity$1(((2) * pi))], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),(0.25 * pi)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [0.7071067811865476,0.7071067811865476], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),(0.5 * pi)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(1)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),pi], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(-1),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(1),(1.5 * pi)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(-1)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(2),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(2),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(2),(0.25 * pi)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [1.4142135623730951,1.4142135623730951], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(2),(0.5 * pi)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(2)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(2),pi], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(-2),(0)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(2),(1.5 * pi)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),(-2)], null)], null);
-var seq__24933 = cljs.core.seq(cljs.core.partition.cljs$core$IFn$_invoke$arity$2((2),ins));
-var chunk__24934 = null;
-var count__24935 = (0);
-var i__24936 = (0);
+var seq__24872 = cljs.core.seq(cljs.core.partition.cljs$core$IFn$_invoke$arity$2((2),ins));
+var chunk__24873 = null;
+var count__24874 = (0);
+var i__24875 = (0);
 while(true){
-if((i__24936 < count__24935)){
-var vec__24937 = chunk__24934.cljs$core$IIndexed$_nth$arity$2(null,i__24936);
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24937,(0),null);
-var vec__24940 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24937,(1),null);
-var xo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24940,(0),null);
-var yo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24940,(1),null);
-var vec__24943_24964 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.math.geometry.polar__GT_cartesian,i);
-var x_24965 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24943_24964,(0),null);
-var y_24966 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24943_24964,(1),null);
-try{var values__17363__auto___24967 = (function (){var x__9194__auto__ = (xo - x_24965);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+if((i__24875 < count__24874)){
+var vec__24876 = chunk__24873.cljs$core$IIndexed$_nth$arity$2(null,i__24875);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24876,(0),null);
+var vec__24879 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24876,(1),null);
+var xo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24879,(0),null);
+var yo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24879,(1),null);
+var vec__24882_24903 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.math.geometry.polar__GT_cartesian,i);
+var x_24904 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24882_24903,(0),null);
+var y_24905 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24882_24903,(1),null);
+try{var values__17365__auto___24906 = (function (){var x__9196__auto__ = (xo - x_24904);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })();
-var result__17364__auto___24968 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17363__auto___24967);
-if(cljs.core.truth_(result__17364__auto___24968)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17363__auto___24967),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24965)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
+var result__17366__auto___24907 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17365__auto___24906);
+if(cljs.core.truth_(result__17366__auto___24907)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17365__auto___24906),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24904)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17363__auto___24967);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
-})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24965)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17365__auto___24906);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24904)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
 }
 
-}catch (e24946){var t__17408__auto___24969 = e24946;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,t__17408__auto___24969,cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24965)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
+}catch (e24885){var t__17410__auto___24908 = e24885;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,t__17410__auto___24908,cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24904)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
 }
-try{var values__17363__auto___24970 = (function (){var x__9194__auto__ = (yo - y_24966);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24909 = (function (){var x__9196__auto__ = (yo - y_24905);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })();
-var result__17364__auto___24971 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17363__auto___24970);
-if(cljs.core.truth_(result__17364__auto___24971)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17363__auto___24970),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24910 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17365__auto___24909);
+if(cljs.core.truth_(result__17366__auto___24910)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17365__auto___24909),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17363__auto___24970);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17365__auto___24909);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24947){var t__17408__auto___24972 = e24947;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,t__17408__auto___24972,cljs.core.cst$kw$message,null], null));
+}catch (e24886){var t__17410__auto___24911 = e24886;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,t__17410__auto___24911,cljs.core.cst$kw$message,null], null));
 }
-var G__24973 = seq__24933;
-var G__24974 = chunk__24934;
-var G__24975 = count__24935;
-var G__24976 = (i__24936 + (1));
-seq__24933 = G__24973;
-chunk__24934 = G__24974;
-count__24935 = G__24975;
-i__24936 = G__24976;
+var G__24912 = seq__24872;
+var G__24913 = chunk__24873;
+var G__24914 = count__24874;
+var G__24915 = (i__24875 + (1));
+seq__24872 = G__24912;
+chunk__24873 = G__24913;
+count__24874 = G__24914;
+i__24875 = G__24915;
 continue;
 } else {
-var temp__5290__auto__ = cljs.core.seq(seq__24933);
+var temp__5290__auto__ = cljs.core.seq(seq__24872);
 if(temp__5290__auto__){
-var seq__24933__$1 = temp__5290__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__24933__$1)){
-var c__9171__auto__ = cljs.core.chunk_first(seq__24933__$1);
-var G__24977 = cljs.core.chunk_rest(seq__24933__$1);
-var G__24978 = c__9171__auto__;
-var G__24979 = cljs.core.count(c__9171__auto__);
-var G__24980 = (0);
-seq__24933 = G__24977;
-chunk__24934 = G__24978;
-count__24935 = G__24979;
-i__24936 = G__24980;
+var seq__24872__$1 = temp__5290__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__24872__$1)){
+var c__9173__auto__ = cljs.core.chunk_first(seq__24872__$1);
+var G__24916 = cljs.core.chunk_rest(seq__24872__$1);
+var G__24917 = c__9173__auto__;
+var G__24918 = cljs.core.count(c__9173__auto__);
+var G__24919 = (0);
+seq__24872 = G__24916;
+chunk__24873 = G__24917;
+count__24874 = G__24918;
+i__24875 = G__24919;
 continue;
 } else {
-var vec__24948 = cljs.core.first(seq__24933__$1);
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24948,(0),null);
-var vec__24951 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24948,(1),null);
-var xo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24951,(0),null);
-var yo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24951,(1),null);
-var vec__24954_24981 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.math.geometry.polar__GT_cartesian,i);
-var x_24982 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24954_24981,(0),null);
-var y_24983 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24954_24981,(1),null);
-try{var values__17363__auto___24984 = (function (){var x__9194__auto__ = (xo - x_24982);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+var vec__24887 = cljs.core.first(seq__24872__$1);
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24887,(0),null);
+var vec__24890 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24887,(1),null);
+var xo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24890,(0),null);
+var yo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24890,(1),null);
+var vec__24893_24920 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.math.geometry.polar__GT_cartesian,i);
+var x_24921 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24893_24920,(0),null);
+var y_24922 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24893_24920,(1),null);
+try{var values__17365__auto___24923 = (function (){var x__9196__auto__ = (xo - x_24921);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })();
-var result__17364__auto___24985 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17363__auto___24984);
-if(cljs.core.truth_(result__17364__auto___24985)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17363__auto___24984),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24982)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
+var result__17366__auto___24924 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17365__auto___24923);
+if(cljs.core.truth_(result__17366__auto___24924)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17365__auto___24923),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24921)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17363__auto___24984);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
-})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24982)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17365__auto___24923);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24921)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
 }
 
-}catch (e24957){var t__17408__auto___24986 = e24957;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,t__17408__auto___24986,cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24982)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
+}catch (e24896){var t__17410__auto___24925 = e24896;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$xo,cljs.core.cst$sym$x)),cljs.core.cst$kw$actual,t__17410__auto___24925,cljs.core.cst$kw$message,["xo and x not within tolerance. xo:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(xo)," x:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(x_24921)," i:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(i)].join('')], null));
 }
-try{var values__17363__auto___24987 = (function (){var x__9194__auto__ = (yo - y_24983);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24926 = (function (){var x__9196__auto__ = (yo - y_24922);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })();
-var result__17364__auto___24988 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17363__auto___24987);
-if(cljs.core.truth_(result__17364__auto___24988)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17363__auto___24987),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24927 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(within_tolerance_QMARK_,values__17365__auto___24926);
+if(cljs.core.truth_(result__17366__auto___24927)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core.cons(within_tolerance_QMARK_,values__17365__auto___24926),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17363__auto___24987);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,values__17365__auto___24926);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24958){var t__17408__auto___24989 = e24958;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,t__17408__auto___24989,cljs.core.cst$kw$message,null], null));
+}catch (e24897){var t__17410__auto___24928 = e24897;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$within_DASH_tolerance_QMARK_,cljs.core.list(cljs.core.cst$sym$_DASH_,cljs.core.cst$sym$yo,cljs.core.cst$sym$y)),cljs.core.cst$kw$actual,t__17410__auto___24928,cljs.core.cst$kw$message,null], null));
 }
-var G__24990 = cljs.core.next(seq__24933__$1);
-var G__24991 = null;
-var G__24992 = (0);
-var G__24993 = (0);
-seq__24933 = G__24990;
-chunk__24934 = G__24991;
-count__24935 = G__24992;
-i__24936 = G__24993;
+var G__24929 = cljs.core.next(seq__24872__$1);
+var G__24930 = null;
+var G__24931 = (0);
+var G__24932 = (0);
+seq__24872 = G__24929;
+chunk__24873 = G__24930;
+count__24874 = G__24931;
+i__24875 = G__24932;
 continue;
 }
 } else {
@@ -191,212 +191,212 @@ break;
 }
 });
 
-wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian.cljs$lang$var = new cljs.core.Var(function(){return wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian;},cljs.core.cst$sym$wheel$math$geometry_SLASH__QMARK__QMARK_polar_DASH__GT_cartesian,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$math$geometry,cljs.core.cst$sym$_QMARK__QMARK_polar_DASH__GT_cartesian,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/tsf/ari3q5/index.html.out/wheel/math/geometry.cljc",28,1,39,39,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian)?wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian.cljs$lang$test:null)]));
+wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian.cljs$lang$var = new cljs.core.Var(function(){return wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian;},cljs.core.cst$sym$wheel$math$geometry_SLASH__QMARK__QMARK_polar_DASH__GT_cartesian,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$math$geometry,cljs.core.cst$sym$_QMARK__QMARK_polar_DASH__GT_cartesian,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/esm/i688ot/index.html.out/wheel/math/geometry.cljc",28,1,39,39,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian)?wheel.math.geometry._QMARK__QMARK_polar__GT_cartesian.cljs$lang$test:null)]));
 wheel.math.geometry._QMARK__QMARK_degrees__GT_radians = (function wheel$math$geometry$_QMARK__QMARK_degrees__GT_radians(){
 return cljs.test.test_var(wheel.math.geometry._QMARK__QMARK_degrees__GT_radians.cljs$lang$var);
 });
 wheel.math.geometry._QMARK__QMARK_degrees__GT_radians.cljs$lang$test = (function (){
-var degrees_25000 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1((360));
-try{var values__17363__auto___25001 = (function (){var x__9194__auto__ = wheel.math.geometry.degrees__GT_radians(degrees_25000);
-return cljs.core._conj((function (){var x__9194__auto____$1 = ((degrees_25000 * wheel.math.number.pi) / (180));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
-})(),x__9194__auto__);
+var degrees_24939 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1((360));
+try{var values__17365__auto___24940 = (function (){var x__9196__auto__ = wheel.math.geometry.degrees__GT_radians(degrees_24939);
+return cljs.core._conj((function (){var x__9196__auto____$1 = ((degrees_24939 * wheel.math.number.pi) / (180));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
+})(),x__9196__auto__);
 })();
-var result__17364__auto___25002 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25001);
-if(cljs.core.truth_(result__17364__auto___25002)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,cljs.core.cst$sym$degrees),cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$degrees,cljs.core.cst$sym$wheel$math$number_SLASH_pi),(180))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25001),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24941 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24940);
+if(cljs.core.truth_(result__17366__auto___24941)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,cljs.core.cst$sym$degrees),cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$degrees,cljs.core.cst$sym$wheel$math$number_SLASH_pi),(180))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24940),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,cljs.core.cst$sym$degrees),cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$degrees,cljs.core.cst$sym$wheel$math$number_SLASH_pi),(180))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25001);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,cljs.core.cst$sym$degrees),cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$degrees,cljs.core.cst$sym$wheel$math$number_SLASH_pi),(180))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24940);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24994){var t__17408__auto___25003 = e24994;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,cljs.core.cst$sym$degrees),cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$degrees,cljs.core.cst$sym$wheel$math$number_SLASH_pi),(180))),cljs.core.cst$kw$actual,t__17408__auto___25003,cljs.core.cst$kw$message,null], null));
+}catch (e24933){var t__17410__auto___24942 = e24933;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,cljs.core.cst$sym$degrees),cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$degrees,cljs.core.cst$sym$wheel$math$number_SLASH_pi),(180))),cljs.core.cst$kw$actual,t__17410__auto___24942,cljs.core.cst$kw$message,null], null));
 }
 var pi = wheel.math.number.pi;
-try{var values__17363__auto___25004 = cljs.core._conj((function (){var x__9194__auto__ = wheel.math.geometry.degrees__GT_radians((0));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24943 = cljs.core._conj((function (){var x__9196__auto__ = wheel.math.geometry.degrees__GT_radians((0));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),(0));
-var result__17364__auto___25005 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25004);
-if(cljs.core.truth_(result__17364__auto___25005)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(0))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25004),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24944 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24943);
+if(cljs.core.truth_(result__17366__auto___24944)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(0))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24943),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(0))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25004);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(0))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24943);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24995){var t__17408__auto___25006 = e24995;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(0))),cljs.core.cst$kw$actual,t__17408__auto___25006,cljs.core.cst$kw$message,null], null));
+}catch (e24934){var t__17410__auto___24945 = e24934;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(0))),cljs.core.cst$kw$actual,t__17410__auto___24945,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto___25007 = (function (){var x__9194__auto__ = (pi / (4));
-return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.math.geometry.degrees__GT_radians((45));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
-})(),x__9194__auto__);
+try{var values__17365__auto___24946 = (function (){var x__9196__auto__ = (pi / (4));
+return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.math.geometry.degrees__GT_radians((45));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
+})(),x__9196__auto__);
 })();
-var result__17364__auto___25008 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25007);
-if(cljs.core.truth_(result__17364__auto___25008)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(45))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25007),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24947 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24946);
+if(cljs.core.truth_(result__17366__auto___24947)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(45))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24946),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(45))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25007);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(45))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24946);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24996){var t__17408__auto___25009 = e24996;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(45))),cljs.core.cst$kw$actual,t__17408__auto___25009,cljs.core.cst$kw$message,null], null));
+}catch (e24935){var t__17410__auto___24948 = e24935;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(45))),cljs.core.cst$kw$actual,t__17410__auto___24948,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto___25010 = (function (){var x__9194__auto__ = (pi / (2));
-return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.math.geometry.degrees__GT_radians((90));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
-})(),x__9194__auto__);
+try{var values__17365__auto___24949 = (function (){var x__9196__auto__ = (pi / (2));
+return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.math.geometry.degrees__GT_radians((90));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
+})(),x__9196__auto__);
 })();
-var result__17364__auto___25011 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25010);
-if(cljs.core.truth_(result__17364__auto___25011)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(90))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25010),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24950 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24949);
+if(cljs.core.truth_(result__17366__auto___24950)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(90))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24949),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(90))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25010);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(90))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24949);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24997){var t__17408__auto___25012 = e24997;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(90))),cljs.core.cst$kw$actual,t__17408__auto___25012,cljs.core.cst$kw$message,null], null));
+}catch (e24936){var t__17410__auto___24951 = e24936;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(90))),cljs.core.cst$kw$actual,t__17410__auto___24951,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto___25013 = (function (){var x__9194__auto__ = pi;
-return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.math.geometry.degrees__GT_radians((180));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
-})(),x__9194__auto__);
+try{var values__17365__auto___24952 = (function (){var x__9196__auto__ = pi;
+return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.math.geometry.degrees__GT_radians((180));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
+})(),x__9196__auto__);
 })();
-var result__17364__auto___25014 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25013);
-if(cljs.core.truth_(result__17364__auto___25014)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.cst$sym$pi,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(180))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25013),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24953 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24952);
+if(cljs.core.truth_(result__17366__auto___24953)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.cst$sym$pi,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(180))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24952),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.cst$sym$pi,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(180))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25013);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.cst$sym$pi,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(180))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24952);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24998){var t__17408__auto___25015 = e24998;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.cst$sym$pi,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(180))),cljs.core.cst$kw$actual,t__17408__auto___25015,cljs.core.cst$kw$message,null], null));
+}catch (e24937){var t__17410__auto___24954 = e24937;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.cst$sym$pi,cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(180))),cljs.core.cst$kw$actual,t__17410__auto___24954,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto__ = (function (){var x__9194__auto__ = (pi * (2));
-return cljs.core._conj((function (){var x__9194__auto____$1 = wheel.math.geometry.degrees__GT_radians((360));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto____$1);
-})(),x__9194__auto__);
+try{var values__17365__auto__ = (function (){var x__9196__auto__ = (pi * (2));
+return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.math.geometry.degrees__GT_radians((360));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
+})(),x__9196__auto__);
 })();
-var result__17364__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto__);
-if(cljs.core.truth_(result__17364__auto__)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(360))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto__),cljs.core.cst$kw$message,null], null));
+var result__17366__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto__);
+if(cljs.core.truth_(result__17366__auto__)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(360))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto__),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(360))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto__);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(360))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto__);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-return result__17364__auto__;
-}catch (e24999){var t__17408__auto__ = e24999;
-return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(360))),cljs.core.cst$kw$actual,t__17408__auto__,cljs.core.cst$kw$message,null], null));
+return result__17366__auto__;
+}catch (e24938){var t__17410__auto__ = e24938;
+return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$_STAR_,cljs.core.cst$sym$pi,(2)),cljs.core.list(cljs.core.cst$sym$degrees_DASH__GT_radians,(360))),cljs.core.cst$kw$actual,t__17410__auto__,cljs.core.cst$kw$message,null], null));
 }});
 
-wheel.math.geometry._QMARK__QMARK_degrees__GT_radians.cljs$lang$var = new cljs.core.Var(function(){return wheel.math.geometry._QMARK__QMARK_degrees__GT_radians;},cljs.core.cst$sym$wheel$math$geometry_SLASH__QMARK__QMARK_degrees_DASH__GT_radians,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$math$geometry,cljs.core.cst$sym$_QMARK__QMARK_degrees_DASH__GT_radians,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/tsf/ari3q5/index.html.out/wheel/math/geometry.cljc",28,1,72,72,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.math.geometry._QMARK__QMARK_degrees__GT_radians)?wheel.math.geometry._QMARK__QMARK_degrees__GT_radians.cljs$lang$test:null)]));
+wheel.math.geometry._QMARK__QMARK_degrees__GT_radians.cljs$lang$var = new cljs.core.Var(function(){return wheel.math.geometry._QMARK__QMARK_degrees__GT_radians;},cljs.core.cst$sym$wheel$math$geometry_SLASH__QMARK__QMARK_degrees_DASH__GT_radians,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$math$geometry,cljs.core.cst$sym$_QMARK__QMARK_degrees_DASH__GT_radians,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/esm/i688ot/index.html.out/wheel/math/geometry.cljc",28,1,72,72,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.math.geometry._QMARK__QMARK_degrees__GT_radians)?wheel.math.geometry._QMARK__QMARK_degrees__GT_radians.cljs$lang$test:null)]));
 wheel.math.geometry._QMARK__QMARK_radians__GT_degrees = (function wheel$math$geometry$_QMARK__QMARK_radians__GT_degrees(){
 return cljs.test.test_var(wheel.math.geometry._QMARK__QMARK_radians__GT_degrees.cljs$lang$var);
 });
 wheel.math.geometry._QMARK__QMARK_radians__GT_degrees.cljs$lang$test = (function (){
-var radians_25022 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1(((2) * wheel.math.number.pi));
-try{var values__17363__auto___25023 = (function (){var x__9194__auto__ = wheel.math.geometry.radians__GT_degrees(radians_25022);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+var radians_24961 = cljs.core.rand.cljs$core$IFn$_invoke$arity$1(((2) * wheel.math.number.pi));
+try{var values__17365__auto___24962 = (function (){var x__9196__auto__ = wheel.math.geometry.radians__GT_degrees(radians_24961);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })();
-var result__17364__auto___25024 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25023);
-if(cljs.core.truth_(result__17364__auto___25024)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$radians)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25023),cljs.core.cst$kw$message,((radians_25022 * (180)) / wheel.math.number.pi)], null));
+var result__17366__auto___24963 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24962);
+if(cljs.core.truth_(result__17366__auto___24963)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$radians)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24962),cljs.core.cst$kw$message,((radians_24961 * (180)) / wheel.math.number.pi)], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$radians)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25023);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
-})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,((radians_25022 * (180)) / wheel.math.number.pi)], null));
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$radians)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24962);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
+})(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,((radians_24961 * (180)) / wheel.math.number.pi)], null));
 }
 
-}catch (e25016){var t__17408__auto___25025 = e25016;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$radians)),cljs.core.cst$kw$actual,t__17408__auto___25025,cljs.core.cst$kw$message,((radians_25022 * (180)) / wheel.math.number.pi)], null));
+}catch (e24955){var t__17410__auto___24964 = e24955;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$radians)),cljs.core.cst$kw$actual,t__17410__auto___24964,cljs.core.cst$kw$message,((radians_24961 * (180)) / wheel.math.number.pi)], null));
 }
 var pi = wheel.math.number.pi;
-try{var values__17363__auto___25026 = cljs.core._conj((function (){var x__9194__auto__ = wheel.math.geometry.radians__GT_degrees((0));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24965 = cljs.core._conj((function (){var x__9196__auto__ = wheel.math.geometry.radians__GT_degrees((0));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),(0));
-var result__17364__auto___25027 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25026);
-if(cljs.core.truth_(result__17364__auto___25027)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,(0))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25026),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24966 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24965);
+if(cljs.core.truth_(result__17366__auto___24966)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,(0))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24965),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,(0))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25026);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,(0))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24965);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25017){var t__17408__auto___25028 = e25017;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,(0))),cljs.core.cst$kw$actual,t__17408__auto___25028,cljs.core.cst$kw$message,null], null));
+}catch (e24956){var t__17410__auto___24967 = e24956;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(0),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,(0))),cljs.core.cst$kw$actual,t__17410__auto___24967,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto___25029 = cljs.core._conj((function (){var x__9194__auto__ = wheel.math.geometry.radians__GT_degrees((pi / (4)));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24968 = cljs.core._conj((function (){var x__9196__auto__ = wheel.math.geometry.radians__GT_degrees((pi / (4)));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),(45));
-var result__17364__auto___25030 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25029);
-if(cljs.core.truth_(result__17364__auto___25030)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(45),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25029),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24969 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24968);
+if(cljs.core.truth_(result__17366__auto___24969)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(45),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24968),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(45),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25029);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(45),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24968);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25018){var t__17408__auto___25031 = e25018;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(45),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)))),cljs.core.cst$kw$actual,t__17408__auto___25031,cljs.core.cst$kw$message,null], null));
+}catch (e24957){var t__17410__auto___24970 = e24957;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(45),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(4)))),cljs.core.cst$kw$actual,t__17410__auto___24970,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto___25032 = cljs.core._conj((function (){var x__9194__auto__ = wheel.math.geometry.radians__GT_degrees((pi / (2)));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24971 = cljs.core._conj((function (){var x__9196__auto__ = wheel.math.geometry.radians__GT_degrees((pi / (2)));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),(90));
-var result__17364__auto___25033 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25032);
-if(cljs.core.truth_(result__17364__auto___25033)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(90),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25032),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24972 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24971);
+if(cljs.core.truth_(result__17366__auto___24972)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(90),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24971),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(90),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25032);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(90),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24971);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25019){var t__17408__auto___25034 = e25019;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(90),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)))),cljs.core.cst$kw$actual,t__17408__auto___25034,cljs.core.cst$kw$message,null], null));
+}catch (e24958){var t__17410__auto___24973 = e24958;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(90),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_SLASH_,cljs.core.cst$sym$pi,(2)))),cljs.core.cst$kw$actual,t__17410__auto___24973,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto___25035 = cljs.core._conj((function (){var x__9194__auto__ = wheel.math.geometry.radians__GT_degrees(pi);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto___24974 = cljs.core._conj((function (){var x__9196__auto__ = wheel.math.geometry.radians__GT_degrees(pi);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),(180));
-var result__17364__auto___25036 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto___25035);
-if(cljs.core.truth_(result__17364__auto___25036)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(180),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$pi)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto___25035),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___24975 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto___24974);
+if(cljs.core.truth_(result__17366__auto___24975)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(180),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$pi)),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto___24974),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(180),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$pi)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto___25035);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(180),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$pi)),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto___24974);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e25020){var t__17408__auto___25037 = e25020;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(180),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$pi)),cljs.core.cst$kw$actual,t__17408__auto___25037,cljs.core.cst$kw$message,null], null));
+}catch (e24959){var t__17410__auto___24976 = e24959;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(180),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.cst$sym$pi)),cljs.core.cst$kw$actual,t__17410__auto___24976,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17363__auto__ = cljs.core._conj((function (){var x__9194__auto__ = wheel.math.geometry.radians__GT_degrees(((2) * pi));
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+try{var values__17365__auto__ = cljs.core._conj((function (){var x__9196__auto__ = wheel.math.geometry.radians__GT_degrees(((2) * pi));
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),(360));
-var result__17364__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17363__auto__);
-if(cljs.core.truth_(result__17364__auto__)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(360),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_STAR_,(2),cljs.core.cst$sym$pi))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17363__auto__),cljs.core.cst$kw$message,null], null));
+var result__17366__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ__EQ_,values__17365__auto__);
+if(cljs.core.truth_(result__17366__auto__)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(360),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_STAR_,(2),cljs.core.cst$sym$pi))),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ__EQ_,values__17365__auto__),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(360),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_STAR_,(2),cljs.core.cst$sym$pi))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9194__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17363__auto__);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9194__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(360),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_STAR_,(2),cljs.core.cst$sym$pi))),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ__EQ_,values__17365__auto__);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-return result__17364__auto__;
-}catch (e25021){var t__17408__auto__ = e25021;
-return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(360),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_STAR_,(2),cljs.core.cst$sym$pi))),cljs.core.cst$kw$actual,t__17408__auto__,cljs.core.cst$kw$message,null], null));
+return result__17366__auto__;
+}catch (e24960){var t__17410__auto__ = e24960;
+return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ__EQ_,(360),cljs.core.list(cljs.core.cst$sym$radians_DASH__GT_degrees,cljs.core.list(cljs.core.cst$sym$_STAR_,(2),cljs.core.cst$sym$pi))),cljs.core.cst$kw$actual,t__17410__auto__,cljs.core.cst$kw$message,null], null));
 }});
 
-wheel.math.geometry._QMARK__QMARK_radians__GT_degrees.cljs$lang$var = new cljs.core.Var(function(){return wheel.math.geometry._QMARK__QMARK_radians__GT_degrees;},cljs.core.cst$sym$wheel$math$geometry_SLASH__QMARK__QMARK_radians_DASH__GT_degrees,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$math$geometry,cljs.core.cst$sym$_QMARK__QMARK_radians_DASH__GT_degrees,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/dim-valley/tsf/ari3q5/index.html.out/wheel/math/geometry.cljc",28,1,88,88,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.math.geometry._QMARK__QMARK_radians__GT_degrees)?wheel.math.geometry._QMARK__QMARK_radians__GT_degrees.cljs$lang$test:null)]));
+wheel.math.geometry._QMARK__QMARK_radians__GT_degrees.cljs$lang$var = new cljs.core.Var(function(){return wheel.math.geometry._QMARK__QMARK_radians__GT_degrees;},cljs.core.cst$sym$wheel$math$geometry_SLASH__QMARK__QMARK_radians_DASH__GT_degrees,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$math$geometry,cljs.core.cst$sym$_QMARK__QMARK_radians_DASH__GT_degrees,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/esm/i688ot/index.html.out/wheel/math/geometry.cljc",28,1,88,88,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.math.geometry._QMARK__QMARK_radians__GT_degrees)?wheel.math.geometry._QMARK__QMARK_radians__GT_degrees.cljs$lang$test:null)]));
