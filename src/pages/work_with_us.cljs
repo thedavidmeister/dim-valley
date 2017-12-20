@@ -36,13 +36,10 @@
    (layout.body-text/p
     "We typically take on commercial engagements ranging from several days to 3-6 months.")
 
-   (our-services.hoplon/service-list))
+   (our-services.hoplon/service-list)
 
-  (layout.content-block/content-inner
    (h/h2 "Rates")
    (layout.body-text/p
     (h/strong "Our hourly rate:") " $AUD 120 + GST"
     (h/br)
-    (h/strong "Our day rate (prebooked):") " $AUD 800 + GST")
-
-   (layout.spacer/vertical-spacer))))
+    (h/strong "Our day rate (prebooked):") " $AUD 800 + GST"))))

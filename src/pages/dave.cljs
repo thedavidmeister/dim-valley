@@ -15,25 +15,22 @@
    :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave-photo.jpg")
 
   (layout.content-block/content-inner
-   (layout.spacer/vertical-spacer)
    (social.hoplon/icon-links
     :linkedin "https://www.linkedin.com/in/dmeister/"
     :github "https://github.com/thedavidmeister"
     :medium "https://medium.com/@thedavidmeister"
-    :twitter "https://twitter.com/thedavidmeister"))
+    :twitter "https://twitter.com/thedavidmeister")
 
-  (layout.header-block/header
-   "David Meister (Dave)"
-   "Owner and consultant at Dim Valley Pty. Ltd. and owner and CTO at Nice Feature Pty. Ltd.")
+   (layout.header-block/header
+    "David Meister (Dave)"
+    "Owner and consultant at Dim Valley Pty. Ltd. and owner and CTO at Nice Feature Pty. Ltd.")
 
-  (layout.content-block/content-inner
    (h/h2 "I believe...")
    (layout.body-text/p "Simple beats complex.")
    (layout.body-text/p "Quality is a process.")
    (layout.body-text/p "Machines are better machines than humans.")
-   (layout.body-text/p "Effective systems are composed from effective parts."))
+   (layout.body-text/p "Effective systems are composed from effective parts.")
 
-  (layout.content-block/content-inner
    (h/h2 "Experience")
    (h/h3 "Commercial")
    (layout.body-text/p
@@ -62,9 +59,8 @@
       ", contributing to development, support and documentation.")
      (h/li
       (h/strong (wheel.link.hoplon/external "https://github.com/thedavidmeister/dim-valley" "This website"))
-      " built in " (wheel.link.hoplon/external "https://hoplon.io/" "Hoplon") ", leveraging a ton of " (wheel.link.hoplon/external "https://github.com/thedavidmeister/wheel" "my own intellectual property") "."))))
+      " built in " (wheel.link.hoplon/external "https://hoplon.io/" "Hoplon") ", leveraging a ton of " (wheel.link.hoplon/external "https://github.com/thedavidmeister/wheel" "my own intellectual property") ".")))
 
-  (layout.content-block/content-inner
    (h/h2 "Case studies")
    (h/h3 "Estimate Work")
    (layout.body-text/p
@@ -82,5 +78,4 @@
       (h/li (wheel.link.hoplon/external "https://www.rethinkdb.com/" "RethinkDB") " as a back-end data persistence layer")
       (h/li (wheel.link.hoplon/external "https://auth0.com/" "Auth0") " for authentiation/SSO")
       (h/li (wheel.link.hoplon/external "https://stripe.com/au" "Stripe") " as payment gateway")
-      (h/li (wheel.link.hoplon/external "https://github.com/ptaoussanis/sente" "AJAX + WebSockets") " for client/server communication")))
-    (layout.spacer/vertical-spacer)))))
+      (h/li (wheel.link.hoplon/external "https://github.com/ptaoussanis/sente" "AJAX + WebSockets") " for client/server communication")))))))

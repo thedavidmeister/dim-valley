@@ -72,6 +72,4 @@
 
    (contact.hoplon/details)
 
-   (pages.work-with-us/link)
-
-   (layout.spacer/vertical-spacer))))
+   (pages.work-with-us/link))))
