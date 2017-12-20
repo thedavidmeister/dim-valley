@@ -67,7 +67,10 @@
 
          default-css (j/cell= {:width (u/n->px width)
                                :height (u/n->px height)
-                               :left (u/n->px left)
+                               ; round to avoid a bug where the circle moves off
+                               ; centre during scaling animation
+                               ; https://github.com/thedavidmeister/dim-valley/issues/114
+                               :left (u/n->px (Math/round left))
                                :background-color color
                                :position "absolute"
                                :transition (str "transform " transition-length "s ease, "
