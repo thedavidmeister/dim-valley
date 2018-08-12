@@ -16,8 +16,8 @@ return (mapboxgl["accessToken"] = token);
  * Returns a mapbox LngLat object from given co-ordinates
  */
 mapbox.api.lng_lat = (function mapbox$api$lng_lat(var_args){
-var G__25300 = arguments.length;
-switch (G__25300) {
+var G__25237 = arguments.length;
+switch (G__25237) {
 case 1:
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -32,10 +32,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__25301){
-var vec__25302 = p__25301;
-var lng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25302,(0),null);
-var lat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25302,(1),null);
+mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$1 = (function (p__25238){
+var vec__25239 = p__25238;
+var lng = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25239,(0),null);
+var lat = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25239,(1),null);
 return mapbox.api.lng_lat.cljs$core$IFn$_invoke$arity$2(lng,lat);
 });
 
@@ -66,12 +66,12 @@ return jQuery.data(el,mapbox.api.mapbox_key,m);
  */
 mapbox.api.with_marker_BANG_ = (function mapbox$api$with_marker_BANG_(map_el,marker_el,ll,marker_options){
 return hoplon.core.when_dom(map_el,(function (){
-var G__25306 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js(marker_options)));
-G__25306.setLngLat(ll);
+var G__25243 = (new mapboxgl.Marker(marker_el,cljs.core.clj__GT_js(marker_options)));
+G__25243.setLngLat(ll);
 
-G__25306.addTo(mapbox.api.map_el__GT_map(map_el));
+G__25243.addTo(mapbox.api.map_el__GT_map(map_el));
 
-return G__25306;
+return G__25243;
 }));
 });
 /**
