@@ -9,14 +9,14 @@ goog.require('layout.rounded_corners');
 goog.require('layout.spacer');
 layout.content_block.content_outer = (function layout$content_block$content_outer(var_args){
 var args__9526__auto__ = [];
-var len__9519__auto___24482 = arguments.length;
-var i__9520__auto___24483 = (0);
+var len__9519__auto___24584 = arguments.length;
+var i__9520__auto___24585 = (0);
 while(true){
-if((i__9520__auto___24483 < len__9519__auto___24482)){
-args__9526__auto__.push((arguments[i__9520__auto___24483]));
+if((i__9520__auto___24585 < len__9519__auto___24584)){
+args__9526__auto__.push((arguments[i__9520__auto___24585]));
 
-var G__24484 = (i__9520__auto___24483 + (1));
-i__9520__auto___24483 = G__24484;
+var G__24586 = (i__9520__auto___24585 + (1));
+i__9520__auto___24585 = G__24586;
 continue;
 } else {
 }
@@ -33,20 +33,20 @@ return layout.rounded_corners.wrapper.cljs$core$IFn$_invoke$arity$variadic(cljs.
 
 layout.content_block.content_outer.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_outer.cljs$lang$applyTo = (function (seq24481){
-return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24481));
+layout.content_block.content_outer.cljs$lang$applyTo = (function (seq24583){
+return layout.content_block.content_outer.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24583));
 });
 
 layout.content_block.content_inner = (function layout$content_block$content_inner(var_args){
 var args__9526__auto__ = [];
-var len__9519__auto___24493 = arguments.length;
-var i__9520__auto___24494 = (0);
+var len__9519__auto___24595 = arguments.length;
+var i__9520__auto___24596 = (0);
 while(true){
-if((i__9520__auto___24494 < len__9519__auto___24493)){
-args__9526__auto__.push((arguments[i__9520__auto___24494]));
+if((i__9520__auto___24596 < len__9519__auto___24595)){
+args__9526__auto__.push((arguments[i__9520__auto___24596]));
 
-var G__24495 = (i__9520__auto___24494 + (1));
-i__9520__auto___24494 = G__24495;
+var G__24597 = (i__9520__auto___24596 + (1));
+i__9520__auto___24596 = G__24597;
 continue;
 } else {
 }
@@ -58,19 +58,19 @@ return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(a
 });
 
 layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic = (function (children){
-var G__24486 = cljs.core.cst$kw$css;
-var G__24487 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
-var G__24488 = cljs.core.cst$kw$class;
-var G__24489 = "clearfix";
-var G__24490 = layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
-var G__24491 = children;
-var G__24492 = layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
-return (hoplon.core.div.cljs$core$IFn$_invoke$arity$7 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$7(G__24486,G__24487,G__24488,G__24489,G__24490,G__24491,G__24492) : hoplon.core.div.call(null,G__24486,G__24487,G__24488,G__24489,G__24490,G__24491,G__24492));
+var G__24588 = cljs.core.cst$kw$css;
+var G__24589 = new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$padding_DASH_left,layout.config.spacer_width,cljs.core.cst$kw$padding_DASH_right,layout.config.spacer_width,cljs.core.cst$kw$background_DASH_color,"white"], null);
+var G__24590 = cljs.core.cst$kw$class;
+var G__24591 = "clearfix";
+var G__24592 = layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
+var G__24593 = children;
+var G__24594 = layout.spacer.vertical_spacer.cljs$core$IFn$_invoke$arity$0();
+return (hoplon.core.div.cljs$core$IFn$_invoke$arity$7 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$7(G__24588,G__24589,G__24590,G__24591,G__24592,G__24593,G__24594) : hoplon.core.div.call(null,G__24588,G__24589,G__24590,G__24591,G__24592,G__24593,G__24594));
 });
 
 layout.content_block.content_inner.cljs$lang$maxFixedArity = (0);
 
-layout.content_block.content_inner.cljs$lang$applyTo = (function (seq24485){
-return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24485));
+layout.content_block.content_inner.cljs$lang$applyTo = (function (seq24587){
+return layout.content_block.content_inner.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq24587));
 });
 
