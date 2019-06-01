@@ -6,7 +6,7 @@ jobs:
    - image: nixorg/nix:circleci
   steps:
    - checkout
-   - run: nix-shell --run 'boot deploy'
+   - run: nix-shell --run 'git config --global user.email $GIT_EMAIL && git config --global user.name $GIT_NAME && boot deploy'
 
 workflows:
  version: 2
