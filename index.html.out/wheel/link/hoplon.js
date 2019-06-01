@@ -6,8 +6,8 @@ goog.require('hoplon.core');
 goog.require('wheel.dom.traversal');
 goog.require('cljs.test');
 wheel.link.hoplon.external = (function wheel$link$hoplon$external(var_args){
-var G__24603 = arguments.length;
-switch (G__24603) {
+var G__20779 = arguments.length;
+switch (G__20779) {
 case 1:
 return wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -32,63 +32,63 @@ if(typeof href === 'string'){
 throw (new Error("Assert failed: (string? href)"));
 }
 
-var G__24604 = cljs.core.cst$kw$href;
-var G__24605 = href;
-var G__24606 = cljs.core.cst$kw$target;
-var G__24607 = "_blank";
-var G__24608 = text;
-return (hoplon.core.a.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.a.cljs$core$IFn$_invoke$arity$5(G__24604,G__24605,G__24606,G__24607,G__24608) : hoplon.core.a.call(null,G__24604,G__24605,G__24606,G__24607,G__24608));
+var G__20780 = cljs.core.cst$kw$href;
+var G__20781 = href;
+var G__20782 = cljs.core.cst$kw$target;
+var G__20783 = "_blank";
+var G__20784 = text;
+return (hoplon.core.a.cljs$core$IFn$_invoke$arity$5 ? hoplon.core.a.cljs$core$IFn$_invoke$arity$5(G__20780,G__20781,G__20782,G__20783,G__20784) : hoplon.core.a.call(null,G__20780,G__20781,G__20782,G__20783,G__20784));
 });
 
 wheel.link.hoplon.external.cljs$lang$maxFixedArity = 2;
 
 wheel.link.hoplon.external_QMARK_ = (function wheel$link$hoplon$external_QMARK_(l,a,t){
-try{var values__17365__auto___24614 = (function (){var x__9196__auto__ = l;
+try{var values__17365__auto___20790 = (function (){var x__9196__auto__ = l;
 return cljs.core._conj(cljs.core._conj(cljs.core.List.EMPTY,"a"),x__9196__auto__);
 })();
-var result__17366__auto___24615 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.dom.traversal.is_QMARK_,values__17365__auto___24614);
-if(cljs.core.truth_(result__17366__auto___24615)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"a"),cljs.core.cst$kw$actual,cljs.core.cons(wheel.dom.traversal.is_QMARK_,values__17365__auto___24614),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___20791 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.dom.traversal.is_QMARK_,values__17365__auto___20790);
+if(cljs.core.truth_(result__17366__auto___20791)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"a"),cljs.core.cst$kw$actual,cljs.core.cons(wheel.dom.traversal.is_QMARK_,values__17365__auto___20790),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"a"),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$dt_SLASH_is_QMARK_,values__17365__auto___24614);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"a"),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$dt_SLASH_is_QMARK_,values__17365__auto___20790);
 return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24610){var t__17410__auto___24616 = e24610;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"a"),cljs.core.cst$kw$actual,t__17410__auto___24616,cljs.core.cst$kw$message,null], null));
+}catch (e20786){var t__17410__auto___20792 = e20786;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"a"),cljs.core.cst$kw$actual,t__17410__auto___20792,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17365__auto___24617 = (function (){var x__9196__auto__ = l;
+try{var values__17365__auto___20793 = (function (){var x__9196__auto__ = l;
 return cljs.core._conj(cljs.core._conj(cljs.core.List.EMPTY,"[target=\"_blank\"]"),x__9196__auto__);
 })();
-var result__17366__auto___24618 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.dom.traversal.is_QMARK_,values__17365__auto___24617);
-if(cljs.core.truth_(result__17366__auto___24618)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"[target=\"_blank\"]"),cljs.core.cst$kw$actual,cljs.core.cons(wheel.dom.traversal.is_QMARK_,values__17365__auto___24617),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___20794 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.dom.traversal.is_QMARK_,values__17365__auto___20793);
+if(cljs.core.truth_(result__17366__auto___20794)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"[target=\"_blank\"]"),cljs.core.cst$kw$actual,cljs.core.cons(wheel.dom.traversal.is_QMARK_,values__17365__auto___20793),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"[target=\"_blank\"]"),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$dt_SLASH_is_QMARK_,values__17365__auto___24617);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"[target=\"_blank\"]"),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$dt_SLASH_is_QMARK_,values__17365__auto___20793);
 return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24611){var t__17410__auto___24619 = e24611;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"[target=\"_blank\"]"),cljs.core.cst$kw$actual,t__17410__auto___24619,cljs.core.cst$kw$message,null], null));
+}catch (e20787){var t__17410__auto___20795 = e20787;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,"[target=\"_blank\"]"),cljs.core.cst$kw$actual,t__17410__auto___20795,cljs.core.cst$kw$message,null], null));
 }
-try{var values__17365__auto___24620 = (function (){var x__9196__auto__ = l;
+try{var values__17365__auto___20796 = (function (){var x__9196__auto__ = l;
 return cljs.core._conj((function (){var x__9196__auto____$1 = ["[href=\"",cljs.core.str.cljs$core$IFn$_invoke$arity$1(a),"\"]"].join('');
 return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto____$1);
 })(),x__9196__auto__);
 })();
-var result__17366__auto___24621 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.dom.traversal.is_QMARK_,values__17365__auto___24620);
-if(cljs.core.truth_(result__17366__auto___24621)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,cljs.core.list(cljs.core.cst$sym$str,"[href=\"",cljs.core.cst$sym$a,"\"]")),cljs.core.cst$kw$actual,cljs.core.cons(wheel.dom.traversal.is_QMARK_,values__17365__auto___24620),cljs.core.cst$kw$message,null], null));
+var result__17366__auto___20797 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(wheel.dom.traversal.is_QMARK_,values__17365__auto___20796);
+if(cljs.core.truth_(result__17366__auto___20797)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,cljs.core.list(cljs.core.cst$sym$str,"[href=\"",cljs.core.cst$sym$a,"\"]")),cljs.core.cst$kw$actual,cljs.core.cons(wheel.dom.traversal.is_QMARK_,values__17365__auto___20796),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,cljs.core.list(cljs.core.cst$sym$str,"[href=\"",cljs.core.cst$sym$a,"\"]")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$dt_SLASH_is_QMARK_,values__17365__auto___24620);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,cljs.core.list(cljs.core.cst$sym$str,"[href=\"",cljs.core.cst$sym$a,"\"]")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9196__auto__ = cljs.core.cons(cljs.core.cst$sym$dt_SLASH_is_QMARK_,values__17365__auto___20796);
 return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24612){var t__17410__auto___24622 = e24612;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,cljs.core.list(cljs.core.cst$sym$str,"[href=\"",cljs.core.cst$sym$a,"\"]")),cljs.core.cst$kw$actual,t__17410__auto___24622,cljs.core.cst$kw$message,null], null));
+}catch (e20788){var t__17410__auto___20798 = e20788;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$dt_SLASH_is_QMARK_,cljs.core.cst$sym$l,cljs.core.list(cljs.core.cst$sym$str,"[href=\"",cljs.core.cst$sym$a,"\"]")),cljs.core.cst$kw$actual,t__17410__auto___20798,cljs.core.cst$kw$message,null], null));
 }
 try{var values__17365__auto__ = (function (){var x__9196__auto__ = t;
 return cljs.core._conj((function (){var x__9196__auto____$1 = wheel.dom.traversal.text(l);
@@ -105,7 +105,7 @@ return cljs.core._conj(cljs.core.List.EMPTY,x__9196__auto__);
 }
 
 return result__17366__auto__;
-}catch (e24613){var t__17410__auto__ = e24613;
+}catch (e20789){var t__17410__auto__ = e20789;
 return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,cljs.core.cst$sym$t,cljs.core.list(cljs.core.cst$sym$dt_SLASH_text,cljs.core.cst$sym$l)),cljs.core.cst$kw$actual,t__17410__auto__,cljs.core.cst$kw$message,null], null));
 }});
 wheel.link.hoplon._QMARK__QMARK_external = (function wheel$link$hoplon$_QMARK__QMARK_external(){
@@ -113,61 +113,61 @@ return cljs.test.test_var(wheel.link.hoplon._QMARK__QMARK_external.cljs$lang$var
 });
 wheel.link.hoplon._QMARK__QMARK_external.cljs$lang$test = (function (){
 var es = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["foos","bars","bars"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["foos",(hoplon.core.div.cljs$core$IFn$_invoke$arity$1 ? hoplon.core.div.cljs$core$IFn$_invoke$arity$1("bars") : hoplon.core.div.call(null,"bars")),"bars"], null)], null);
-var seq__24623 = cljs.core.seq(es);
-var chunk__24624 = null;
-var count__24625 = (0);
-var i__24626 = (0);
+var seq__20799 = cljs.core.seq(es);
+var chunk__20800 = null;
+var count__20801 = (0);
+var i__20802 = (0);
 while(true){
-if((i__24626 < count__24625)){
-var vec__24627 = chunk__24624.cljs$core$IIndexed$_nth$arity$2(null,i__24626);
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24627,(0),null);
-var t = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24627,(1),null);
-var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24627,(2),null);
+if((i__20802 < count__20801)){
+var vec__20803 = chunk__20800.cljs$core$IIndexed$_nth$arity$2(null,i__20802);
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20803,(0),null);
+var t = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20803,(1),null);
+var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20803,(2),null);
 wheel.link.hoplon.external_QMARK_(wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$1(a),a,a);
 
 wheel.link.hoplon.external_QMARK_(wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$2(a,t),a,e);
 
-var G__24633 = seq__24623;
-var G__24634 = chunk__24624;
-var G__24635 = count__24625;
-var G__24636 = (i__24626 + (1));
-seq__24623 = G__24633;
-chunk__24624 = G__24634;
-count__24625 = G__24635;
-i__24626 = G__24636;
+var G__20809 = seq__20799;
+var G__20810 = chunk__20800;
+var G__20811 = count__20801;
+var G__20812 = (i__20802 + (1));
+seq__20799 = G__20809;
+chunk__20800 = G__20810;
+count__20801 = G__20811;
+i__20802 = G__20812;
 continue;
 } else {
-var temp__5290__auto__ = cljs.core.seq(seq__24623);
+var temp__5290__auto__ = cljs.core.seq(seq__20799);
 if(temp__5290__auto__){
-var seq__24623__$1 = temp__5290__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__24623__$1)){
-var c__9173__auto__ = cljs.core.chunk_first(seq__24623__$1);
-var G__24637 = cljs.core.chunk_rest(seq__24623__$1);
-var G__24638 = c__9173__auto__;
-var G__24639 = cljs.core.count(c__9173__auto__);
-var G__24640 = (0);
-seq__24623 = G__24637;
-chunk__24624 = G__24638;
-count__24625 = G__24639;
-i__24626 = G__24640;
+var seq__20799__$1 = temp__5290__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__20799__$1)){
+var c__9173__auto__ = cljs.core.chunk_first(seq__20799__$1);
+var G__20813 = cljs.core.chunk_rest(seq__20799__$1);
+var G__20814 = c__9173__auto__;
+var G__20815 = cljs.core.count(c__9173__auto__);
+var G__20816 = (0);
+seq__20799 = G__20813;
+chunk__20800 = G__20814;
+count__20801 = G__20815;
+i__20802 = G__20816;
 continue;
 } else {
-var vec__24630 = cljs.core.first(seq__24623__$1);
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24630,(0),null);
-var t = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24630,(1),null);
-var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24630,(2),null);
+var vec__20806 = cljs.core.first(seq__20799__$1);
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20806,(0),null);
+var t = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20806,(1),null);
+var e = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20806,(2),null);
 wheel.link.hoplon.external_QMARK_(wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$1(a),a,a);
 
 wheel.link.hoplon.external_QMARK_(wheel.link.hoplon.external.cljs$core$IFn$_invoke$arity$2(a,t),a,e);
 
-var G__24641 = cljs.core.next(seq__24623__$1);
-var G__24642 = null;
-var G__24643 = (0);
-var G__24644 = (0);
-seq__24623 = G__24641;
-chunk__24624 = G__24642;
-count__24625 = G__24643;
-i__24626 = G__24644;
+var G__20817 = cljs.core.next(seq__20799__$1);
+var G__20818 = null;
+var G__20819 = (0);
+var G__20820 = (0);
+seq__20799 = G__20817;
+chunk__20800 = G__20818;
+count__20801 = G__20819;
+i__20802 = G__20820;
 continue;
 }
 } else {
@@ -178,4 +178,4 @@ break;
 }
 });
 
-wheel.link.hoplon._QMARK__QMARK_external.cljs$lang$var = new cljs.core.Var(function(){return wheel.link.hoplon._QMARK__QMARK_external;},cljs.core.cst$sym$wheel$link$hoplon_SLASH__QMARK__QMARK_external,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$link$hoplon,cljs.core.cst$sym$_QMARK__QMARK_external,"/home/ubuntu/.boot/cache/tmp/home/ubuntu/dim-valley/es0/i688ot/index.html.out/wheel/link/hoplon.cljs",20,1,24,24,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.link.hoplon._QMARK__QMARK_external)?wheel.link.hoplon._QMARK__QMARK_external.cljs$lang$test:null)]));
+wheel.link.hoplon._QMARK__QMARK_external.cljs$lang$var = new cljs.core.Var(function(){return wheel.link.hoplon._QMARK__QMARK_external;},cljs.core.cst$sym$wheel$link$hoplon_SLASH__QMARK__QMARK_external,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$link$hoplon,cljs.core.cst$sym$_QMARK__QMARK_external,"/root/.boot/cache/tmp/root/project/jl/i688ot/index.html.out/wheel/link/hoplon.cljs",20,1,24,24,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.link.hoplon._QMARK__QMARK_external)?wheel.link.hoplon._QMARK__QMARK_external.cljs$lang$test:null)]));
