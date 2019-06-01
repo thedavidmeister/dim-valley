@@ -1,5 +1,8 @@
 let
- pkgs = import <nixpkgs> {};
+ nixpkgs = builtins.fetchTarball{
+  url = https://github.com/NixOS/nixpkgs/archive/19.03.tar.gz;
+ };
+ pkgs = import nixpkgs {};
 in
 with pkgs;
 {
