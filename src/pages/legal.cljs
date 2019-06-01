@@ -66,4 +66,10 @@
     (h/br)
     "Public & Products Liability limit: " (h/strong "A$20,000,000")
     (h/br)
-    "Certificate of Currency (valid until 2019-08-08): " (wheel.link.hoplon/external "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/legal-docs/Certificate+of+Currency.pdf" "Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd.")))))
+    "Certificate of Currency (valid until 2019-08-08): " (wheel.link.hoplon/external "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/legal-docs/Certificate+of+Currency.pdf" "Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd."))
+
+   (h/h3 "WorkCover")
+   (layout.body-text/p
+    "Insurer: " (wheel.link.hoplon/external "https://www.allianz.com.au" "Allianz")
+    (h/br)
+    "Certificate of Currency (valid until 30/06/2019): " (wheel.link.hoplon/external "https://dim-valley-public.s3-ap-southeast-2.amazonaws.com/legal-docs/2019_workcover_insurance_certificate_of_currency.pdf" "Dim Valley Pty. Ltd.")))))
