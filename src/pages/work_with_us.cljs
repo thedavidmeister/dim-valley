@@ -40,6 +40,8 @@
 
    (h/h2 "Rates")
    (layout.body-text/p
-    (h/strong "Our hourly rate:") " $AUD 120 + GST"
-    (h/br)
-    (h/strong "Our day rate (prebooked):") " $AUD 800 + GST"))))
+    (h/strong "Our hourly rate:") " $USD 90 inc. GST")
+   (layout.body-text/p
+    "Rates are quoted in USD as much of our work is international.")
+   (layout.body-text/p
+    "We prefer to be paid on the blockchain in ETH at market rates or DAI."))))

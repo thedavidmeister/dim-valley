@@ -12,7 +12,7 @@
 (defn content []
  (h/div
   (image.hoplon/header
-   :src "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/dave-photo.jpg")
+   :src "https://dim-valley-public.s3-ap-southeast-2.amazonaws.com/2019-06-01-dave.png")
 
   (layout.content-block/content-inner
    (social.hoplon/icon-links
@@ -25,31 +25,37 @@
     "David Meister (Dave)"
     "Owner and consultant at Dim Valley Pty. Ltd. and owner and CTO at Nice Feature Pty. Ltd.")
 
-   (h/h2 "I believe...")
-   (layout.body-text/p "Simple beats complex.")
-   (layout.body-text/p "Quality is a process.")
-   (layout.body-text/p "Machines are better machines than humans.")
-   (layout.body-text/p "Effective systems are composed from effective parts.")
+   (h/h2 "Principles, roles & skills")
+   (layout.body-text/p
+    "I am " (h/strong "responsible and reliable") "."
+    (h/br)
+    "I implement " (h/strong "simple and repeatable") " systems."
+    (h/br)
+    "I design solutions, manage development teams and write code.")
 
    (h/h2 "Experience")
    (h/h3 "Commercial")
    (layout.body-text/p
     (h/ul
+     (h/li (h/strong "Started ") "small, making MySpace pages for local indie bands.")
      (h/li (h/strong "10+ years total") " professional web experience.")
-     (h/li (h/strong "Started out") " making cool MySpace pages for local indie bands.")
-     (h/li (h/strong "3 years building") " " (wheel.link.hoplon/external "http://furstmedia.com.au/" "Furst Media's") " publishing platform (10% MoM growth).")
-     (h/li (h/strong "5 years owning and operating") " my previous digital agency, " (wheel.link.hoplon/external (wheel.abn.core/abr-search-url "58147061121") "Godel") ".")
-     (h/li (h/strong "2 years as chief solutions architect") " at " (wheel.link.hoplon/external "http://equiem.com.au/" "Equiem") " " (wheel.link.hoplon/external "http://equiem.com.au/2016" "(100% YoY growth)") ".")
-     (h/li (h/strong "Current owner and CTO") " of Dim Valley and Nice Feature.")))
+     (h/li (h/strong "Current & recent clients") " include " (wheel.link.hoplon/external "https://holochain.org/" "Holochain") " and " (wheel.link.hoplon/external "https://www.worksafe.vic.gov.au/" "WorkSafe Victoria") ".")
+     (h/li (h/strong "Current owner and CTO") " of Dim Valley and Nice Feature.")
+     (h/li (h/strong "2 years chief solutions architect") " at " (wheel.link.hoplon/external "http://equiem.com.au/" "Equiem") " " (wheel.link.hoplon/external "http://equiem.com.au/2016" "(100% YoY growth)") ".")
+     (h/li (h/strong "5 years owned and operated") " my previous agency, " (wheel.link.hoplon/external (wheel.abn.core/abr-search-url "58147061121") "Godel") ".")
+     (h/li (h/strong "3 years building") " " (wheel.link.hoplon/external "http://furstmedia.com.au/" "Furst Media's") " publishing platform (10% MoM growth).")))
 
    (h/h3 "Open source")
    (layout.body-text/p
     (h/ul
      (h/li
+      (h/strong (wheel.link.hoplon/external "https://github.com/holochain/holochain-rust" "Holochain Core (Rust)"))
+      " including Rust code and leading the Continuous Integration, automation and cross platform support efforts.")
+     (h/li
       (h/strong (wheel.link.hoplon/external "http://drupalcores.com/countries.html" "6th in Australia"))
       " for contributions to " (wheel.link.hoplon/external "https://www.drupal.org/" "Drupal") " core.")
      (h/li
-      (h/strong "Fully automated " (wheel.link.hoplon/external "https://github.com/thedavidmeister/radiant-brook" "bitcoin trading bot"))
+      (h/strong "Automated " (wheel.link.hoplon/external "https://github.com/thedavidmeister/radiant-brook" "bitcoin trading bot"))
       " written in " (wheel.link.hoplon/external "https://symfony.com/" "PHP/Symfony") ".")
      (h/li
       (h/strong (wheel.link.hoplon/external "http://xoroshiro.di.unimi.it/" "Xoroshiro128+") " pseudorandom number generator")
