@@ -2,11 +2,9 @@ version: 2
 
 jobs:
  deploy:
-  machine: true
-  # docker:
-  #  - image: nixorg/nix:circleci
+  docker:
+   - image: nixorg/nix:circleci
   steps:
-   - run: curl https://nixos.org/nix/install | sh
    - checkout
    - run: nix-shell --run 'boot deploy'
 
