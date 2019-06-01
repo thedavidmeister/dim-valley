@@ -1,0 +1,19 @@
+version: 2
+
+jobs:
+ deploy:
+  docker:
+   - image: nixorg/nix:circleci
+  steps:
+   - checkout
+   - run: nix-shell --run 'boot deploy'
+
+workflows:
+ version: 2
+ deploy:
+  jobs:
+   - build:
+      filters:
+       branches:
+        only:
+         - master
