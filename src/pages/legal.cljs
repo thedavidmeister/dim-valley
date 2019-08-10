@@ -66,7 +66,7 @@
     (h/br)
     "Public & Products Liability limit: " (h/strong "A$20,000,000")
     (h/br)
-    "Certificate of Currency (valid until 2019-08-08): " (wheel.link.hoplon/external "https://s3-ap-southeast-2.amazonaws.com/dim-valley-public/legal-docs/Certificate+of+Currency.pdf" "Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd."))
+    "Certificate of Currency (valid until 2020-08-08): " (wheel.link.hoplon/external "https://dim-valley-public.s3-ap-southeast-2.amazonaws.com/legal-docs/2019-2020-dim-valley-certificate-of-currency.pdf" "Dim Valley Pty. Ltd. & Nice Feature Pty. Ltd."))
 
    (h/h3 "WorkCover")
    (layout.body-text/p
